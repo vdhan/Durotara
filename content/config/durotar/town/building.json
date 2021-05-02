@@ -1,500 +1,478 @@
 {
-	"horde" :
-	{
-		"town" :
-		{
-			"buildings" :
-			{
-				"mageGuild1" :
-				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 1",
-					"cost" :
-					{
-						"wood" : 5,
-						"ore" : 5,
-						"gold" : 2000
-					},
-					"id" : 0
-				},
-				"mageGuild2" :
-				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 2",
-					"cost" :
-					{
-						"wood" : 5,
-						"mercury" : 4,
-						"ore" : 5,
-						"sulfur" : 4,
-						"crystal" : 4,
-						"gems" : 4,
-						"gold" : 1000
-					},
-					"id" : 1,
-					"upgrades" : "mageGuild1"
-				},
-				"mageGuild3" :
-				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 3",
-					"cost" :
-					{
-						"wood" : 5,
-						"mercury" : 6,
-						"ore" : 5,
-						"sulfur" : 6,
-						"crystal" : 6,
-						"gems" : 6,
-						"gold" : 1000
-					},
-					"id" : 2,
-					"upgrades" : "mageGuild2"
-				},
-				"mageGuild4" : 
-				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 4",
-					"cost" :
-					{
-						"wood" : 5,
-						"mercury" : 8,
-						"ore" : 5,
-						"sulfur" : 8,
-						"crystal" : 8,
-						"gems" : 8,
-						"gold" : 1000
-					},
-					"id" : 3,
-					"upgrades" : "mageGuild3"
-				},
-				"mageGuild5" :
-				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 5",
-					"cost" :
-					{
-						"wood" : 5,
-						"mercury" : 10,
-						"ore" : 5,
-						"sulfur" : 10,
-						"crystal" : 10,
-						"gems" : 10,
-						"gold" : 1000
-					},
-					"id" : 4,
-					"upgrades" : "mageGuild4"
-				},
-				"tavern" :
-				{
-					"name" : "Tavern",
-					"description" : "The Tavern increases morale for troops defending the city.",
-					"cost" :
-					{
-						"wood" : 5,
-						"gold" : 500
-					},
-					"id" : 5
-				},
-				"fort" :
-				{
-					"name" : "Fort",
-					"description" : "The Fort provides your town with defensive walls.",
-					"cost" :
-					{
-						"wood" : 20,
-						"ore" : 20,
-						"gold" : 5000
-					},
-					"id" : 7
-				},
-				"citadel" :
-				{
-					"name" : "Citadel",
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"cost" :
-					{
-						"ore" : 5,
-						"gold" : 2500
-					},
-					"id" : 8,
-					"upgrades" : "fort"
-				},
-				"castle" :
-				{
-					"name" : "Castle",
-					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"cost" :
-					{
-						"wood" : 10,
-						"ore" : 10,
-						"gold" : 5000
-					},
-					"id" : 9,
-					"upgrades" : "citadel"
-				},
-				"villageHall" :
-				{
-					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id" : 10,
-					"mode" : "auto"
-				},
-				"townHall" :
-				{
-					"name" : "Town Hall",
-					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"cost" :
-					{
-						"gold" : 2500
-					},
-					"id" : 11,
-					"requires" : [ "tavern" ],
-					"upgrades" : "villageHall"
-				},
-				"cityHall" :
-				{
-					"name" : "City Hall",
-					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"cost" :
-					{
-						"gold" : 5000
-					},
-					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
-					"id" : 12,
-					"upgrades" : "townHall"
-				},
-				"capitol" :
-				{
-					"name" : "Capitol",
-					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"cost" :
-					{
-						"gold" : 10000
-					},
-					"id" : 13,
-					"requires" : [ "castle" ],
-					"upgrades" : "cityHall"
-				},
-				"marketplace" :
-				{
-					"name" : "Marketplace",
-					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"cost" :
-					{
-						"wood" : 5,
-						"gold" : 500
-					},
-					"id" : 14
-				},
-				"resourceSilo" :
-				{
-					"description" : "The Resourse Silo provides you with an additional +1 crystal each day.",
-					"name" : "Resource Silo",
-					"cost" :
-					{
-						"ore" : 5,
-						"gold" : 5000
-					},
-					"requires" : [ "marketplace" ],
-					"id" : 15
-				},
-				"blacksmith" :
-				{
-					"description" : "The Blacksmith provides your armies with Ballista.",
-					"name" : "Blacksmith",
-					"cost" :
-					{
-						"wood" : 5,
-						"gold" : 1000
-					},
-					"id" : 16
-				},
-				"special1" :
-				{
-					"description" : "Jerky Storehouse luck of any visiting hero for next battle by +1 (not working yet).",
-					"name" : "Jerky Storehouse",
-					"cost" : {
-						"gold" : 1000
-					},
-					"requires" : [ "resourceSilo" ],
-					"id" : 17
-				},
-                "special3" :
-				{
-					"name" : "Liana Bridge",
-					"description" : "The Liana Bridge does nothing yet (in future should work as Stables).",
-					"cost" :
-					{
-						"wood" : 20,
-						"gold" : 2000
-					},
-					"id" : 21
-				},
-                "horde1" :
-				{
-					"description" : "The Worgs' Taming increases weekly production of Worgs by 6 per week.",
-					"name" : "Worgs' Taming",
-					"requires" : [ "allOf", ["fort"], ["dwellingLvl3"] ],
-					"upgrades" : "dwellingLvl3",
-					"cost" :
-					{
-						"wood" : 20,
-						"gold" : 2000
-					},
-					"id" : 18			
-				},
-				"horde1Upg" :
-				{
-					"description" : "The Worgs' Taming increases weekly production of Harness Worgs by 6 per week.",
-					"name" : "Worgs' Taming",
-					"requires" : [ "horde1" ],
-					"upgrades" : "dwellingUpLvl3",
-					"mode" : "auto",
-					"id" : 19			
-				},
-				"horde1Upg2" :
-				{
-					"description" : "The Worgs' Taming increases weekly production of Martial Worgs by 6 per week.",
-					"name" : "Worgs' Taming",
-					"requires" : [ "horde1Upg" ],
-					"upgrades" : "dwellingUp2Lvl3",
-					"mode" : "auto",
-					"id" : 23			
-				},
-				"grail" :
-				{
-					"description" : "The Gisant increases weekly creature generation by 50 percent and adds 5000 gold per day.",
-					"name" : "Gisant",
-					"mode" : "grail",
-					"id" : 26
-				},
-				"extraCapitol":   
-				{ 
-					"id" : 29, 
-					"requires" : [ "capitol" ], 
-					"mode" : "auto" 
-				},
-				"dwellingLvl1" :
-				{
-					"description" : "The Fold allows to recruit Peons.",
-					"name" : "Fold",
-					"cost" : {
-						"gold" : 1000,
-						"ore" : 5,
-						"wood" : 5
-					},
-					"requires" : [ "fort" ],
-					"id" : 30
-				},
-				"dwellingLvl2" :
-				{
-					"description" : "The Casern allow to recruit Desert Trolls.",
-					"name" : "Casern",
-					"cost" : {
-						"gold" : 1500,
-						"ore" : 10
-					},
-					"requires" : [ "allOf", [ "fort" ], [ "blacksmith" ] ],
-					"id" : 31
-				},
-				"dwellingLvl3" :
-				{
-					"description" : "The Tannery allows to recruit Worgs.",
-					"name" : "Tannery",
-					"cost" : {
-						"gold" : 2000,
-						"ore" : 5,
-						"wood" : 5,
-						"mercury" : 5,
-						"gems" : 5
-					},
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "blacksmith" ] ],
-					"id" : 32
-				},
-				"dwellingLvl4" :
-				{
-					"description" : "The Stormy Naos allows to recruit Theurgists.",
-					"name" : "The Stormy Naos",
-					"cost" : {
-						"gold" : 2000,
-						"ore" : 5,
-						"mercury" : 3,
-						"wood" : 5,
-						"crystal" : 3,
-						"gems" : 3,
-						"sulfur" : 3
-						},
-					"requires" : [ "dwellingLvl3" ],
-					"id" : 33
-				},
-				"dwellingLvl5" :
-				{
-					"description" : "The Wyrmrest Sanctum allows to recruit Drakes.",
-					"name" : "Wyrmrest Sanctum",
-					"cost" : {
-						"gold" : 3000,
-						"ore" : 5,
-						"wood" : 5,
-						"mercury" : 5
-					},
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "dwellingLvl2" ] ],
-					"id" : 34
-				},
-				"dwellingLvl6" :
-				{
-					"description" : "The Boulder Abode allows to recruit Goliaths.",
-					"name" : "Boulder Abode",
-					"cost" : {
-						"gold" : 4000,
-						"ore" : 5,
-						"wood" : 5,
-						"sulfur" : 5,
-						"gems" : 5
-					},
-					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "dwellingLvl5" ] ],
-					"id" : 35
-				},
-				"dwellingLvl7" :
-				{
-					"description" : "The Ridge of the Damned allows to recruit Gronns.",
-					"name" : "Ridge of the Damned",
-					"cost" : {
-						"gold" : 10000,
-						"wood" : 10,
-						"mercury" : 10,
-						"ore" : 10,
-						"sulfur" : 10,
-						"crystal" : 10,
-						"gems" : 10
-					},
-					"requires" : [ "allOf", [ "dwellingLvl6" ], [ "mageGuild1" ] ],
-					"id" : 36
-				},
-				"dwellingUpLvl1" :
-				{
-					"description" : "The Fold allow to recruit Foremen.",
-					"name" : "Upg. Fold",
-					"cost" : {
-						"gold" : 1000,
-						"wood" : 5,
-						"ore" : 5
-					},
-					"id" : 37,
-					"upgrades" : "dwellingLvl1"
-				},
-				"dwellingUpLvl2" :
-				{
-					"description" : "The Casern allow to recruit Sandfury Trolls.",
-					"name" : "Upg. Casern",
-					"cost" : {
-						"gold" : 1500,
-						"ore" : 5,
-						"wood" : 5
-					},
-					"id" : 38,
-					"upgrades" : "dwellingLvl2"
-				},
-				"dwellingUpLvl3" :
-				{
-					"description" : "The Tannery allows to recruit Harness Worgs.",
-					"name" : "Adv. Tannery",
-					"cost" : {
-						"gold" : 1500,
-						"ore" : 10,
-						"wood" : 5
-					},
-					"id" : 39,
-					"requires" :   [ "allOf", ["fort"],["dwellingUpLvl1"] ],		
-					"upgrades" : "dwellingLvl3"
-				},
-				"dwellingUp2Lvl3" :
-				{
-					"description" : "The Tannery allows to recruit Martial Worgs.",
-					"name" : "Upg. Tannery",
-					"cost" : {
-						"gold" : 2000,
-						"ore" : 10,
-						"wood" : 10
-					},
-					"id" : 46,
-					"upgrades" : "dwellingUpLvl3"
-				},
-				"dwellingUpLvl4" :
-				{
-					"description" : "The Stormy Naos allows to recruit Regal Theurgists.",
-					"name" : "Upg. Stormy Naos",
-					"cost" : {
-						"mercury" : 5,
-						"ore" : 5,
-						"wood" : 5,
-						"gold" : 1500,
-						"crystal" : 5
-					},
-					"id" : 40,
-					"upgrades" : "dwellingLvl4"
-				},
-				"dwellingUpLvl5" :
-				{
-					"description" : "The Wyrmrest Sanctum allows to recruit Palatial Drakes.",
-					"name" : "Upg. Wyrmrest Sanctum",
-					"cost" : {
-						"ore" : 5,
-						"wood" : 5,
-						"gold" : 2000,
-						"crystal" : 10
-					},
-					"id" : 41,
-					//"requires" : [ "mageGuild1" ],
-					"upgrades" : "dwellingLvl5"
-				},
-				"dwellingUpLvl6" :
-				{
-					"description" : "The Boulder Abode allows to recruit Cerulean Goliaths.",
-					"name" : "Adv. Boulder Abode",
-					"cost" : {
-						"gold" : 3000,
-						"wood" : 5,
-						"mercury" : 6,
-						"ore" : 5,
-						"sulfur" : 6,
-						"crystal" : 6,
-						"gems" : 6
-					},
-					"id" : 42,
-					"upgrades" : "dwellingLvl6"
-				},
-				"dwellingUp2Lvl6" :
-				{
-					"description" : "The Boulder Abode allows to recruit Crimson Goliaths.",
-					"name" : "Upg. Boulder Abode",
-					"cost" : {
-						"gold" : 3000,
-						"wood" : 5,
-						"mercury" : 6,
-						"ore" : 5,
-						"sulfur" : 6,
-						"crystal" : 6,
-						"gems" : 6
-					},
-					"id" : 49,
-					"upgrades" : "dwellingUpLvl6"
-				},
-				"dwellingUpLvl7" :
-				{
-					"description" : "The Ridge of the Damned allows to recruit Elder Gronns.",
-					"name" : "Upg. Ridge of the Damned",
-					"cost" : {
-						"ore" : 10,
-						"gold" : 25000,
-						"wood" : 10,
-						"sulfur" : 30
-					},
-					"id" : 43,
-					"upgrades" : "dwellingLvl7"
-				}
-			}
-		}
-	}
-}
+    "durotar": {
+        "town": {
+            "buildings": {
+                "mageGuild1": {
+                    "id": 0,
+                    "name": "Mage Guild Level 1",
+                    "description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+                    "cost": {
+                        "gold": 2000,
+                        "wood": 5,
+                        "ore": 5
+                    }
+                },
 
+                "mageGuild2": {
+                    "id": 1,
+                    "name": "Mage Guild Level 2",
+                    "description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+                    "upgrades": "mageGuild1",
+                    "cost": {
+                        "gold": 1000,
+                        "wood": 5,
+                        "ore": 5,
+                        "mercury": 4,
+                        "sulfur": 4,
+                        "crystal": 4,
+                        "gems": 4
+                    }
+                },
+
+                "mageGuild3": {
+                    "id": 2,
+                    "name": "Mage Guild Level 3",
+                    "description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+                    "upgrades": "mageGuild2",
+                    "cost": {
+                        "gold": 1000,
+                        "wood": 5,
+                        "ore": 5,
+                        "mercury": 6,
+                        "sulfur": 6,
+                        "crystal": 6,
+                        "gems": 6
+                    }
+                },
+
+                "mageGuild4": {
+                    "id": 3,
+                    "name": "Mage Guild Level 4",
+                    "description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+                    "upgrades": "mageGuild3",
+                    "cost": {
+                        "gold": 1000,
+                        "wood": 5,
+                        "ore": 5,
+                        "mercury": 8,
+                        "sulfur": 8,
+                        "crystal": 8,
+                        "gems": 8
+                    }
+                },
+
+                "mageGuild5": {
+                    "id": 4,
+                    "name": "Mage Guild Level 5",
+                    "description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+                    "upgrades": "mageGuild4",
+                    "cost": {
+                        "gold": 1000,
+                        "wood": 5,
+                        "ore": 5,
+                        "mercury": 10,
+                        "sulfur": 10,
+                        "crystal": 10,
+                        "gems": 10
+                    }
+                },
+
+                "tavern": {
+                    "id": 5,
+                    "name": "Tavern",
+                    "description": "The Tavern increases morale for troops defending the city.",
+                    "cost": {
+                        "gold": 500,
+                        "wood": 5
+                    }
+                },
+
+                "fort": {
+                    "id": 7,
+                    "name": "Fort",
+                    "description": "The Fort provides your town with defensive walls.",
+                    "cost": {
+                        "gold": 5000,
+                        "wood": 20,
+                        "ore": 20
+                    }
+                },
+
+                "citadel": {
+                    "id": 8,
+                    "name": "Citadel",
+                    "description": "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+                    "upgrades": "fort",
+                    "cost": {
+                        "gold": 2500,
+                        "ore": 5
+                    }
+                },
+
+                "castle": {
+                    "id": 9,
+                    "name": "Castle",
+                    "description": "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+                    "upgrades": "citadel",
+                    "cost": {
+                        "gold": 5000,
+                        "wood": 10,
+                        "ore": 10
+                    }
+                },
+
+                "villageHall": {
+                    "id": 10,
+                    "name": "Village Hall",
+                    "description": "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+                    "mode": "auto",
+                    "produce": {
+                        "gold": 500
+                    }
+                },
+
+                "townHall": {
+                    "id": 11,
+                    "name": "Town Hall",
+                    "description": "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+                    "upgrades": "villageHall",
+                    "requires": ["tavern"],
+                    "cost": {
+                        "gold": 2500
+                    },
+                    "produce": {
+                        "gold": 1000
+                    }
+                },
+
+                "cityHall": {
+                    "id": 12,
+                    "name": "City Hall",
+                    "description": "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+                    "upgrades": "townHall",
+                    "requires": [
+                        "allOf",
+                        ["mageGuild1"],
+                        ["blacksmith"],
+                        ["marketplace"]
+                    ],
+                    "cost": {
+                        "gold": 5000
+                    },
+                    "produce": {
+                        "gold": 2000
+                    }
+                },
+
+                "capitol": {
+                    "id": 13,
+                    "name": "Capitol",
+                    "description": "The Capitol earns your kingdom 4000 gold per day.",
+                    "upgrades": "cityHall",
+                    "requires": ["castle"],
+                    "cost": {
+                        "gold": 10000
+                    },
+                    "produce": {
+                        "gold": 4000
+                    }
+                },
+
+                "marketplace": {
+                    "id": 14,
+                    "name": "Marketplace",
+                    "description": "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+                    "cost": {
+                        "gold": 500,
+                        "wood": 5
+                    }
+                },
+
+                "resourceSilo": {
+                    "id": 15,
+                    "name": "Resource Silo",
+                    "description": "The Resourse Silo provides you with an additional +1 wood and +1 ore each day.",
+                    "requires": ["marketplace"],
+                    "cost": {
+                        "gold": 5000,
+                        "ore": 5
+                    },
+                    "produce": {
+                        "wood": 1,
+                        "ore": 1
+                    }
+                },
+
+                "blacksmith": {
+                    "id": 16,
+                    "name": "Blacksmith",
+                    "description": "The Blacksmith provides your armies with Ballista.",
+                    "cost": {
+                        "gold": 1000,
+                        "wood": 5
+                    }
+                },
+
+                "special1": {
+                    "id": 17,
+                    "name": "Jerky Storehouse",
+                    "description": "Gives every visiting hero 1000 experience points once.",
+                    "type": "experienceVisitingBonus",
+                    "requires": [
+                        "allOf",
+                        ["fort"],
+                        ["townHall"]
+                    ],
+                    "cost": {
+                        "gold": 1000,
+                        "wood": 5,
+                        "ore": 5
+                    }
+                },
+
+                "horde1": {
+                    "id": 18,
+                    "name": "Wolf Cave",
+                    "description": "Increases weekly growth of Wolves.",
+                    "upgrades": "dwellingLvl1",
+                    "cost": {
+                        "gold": 1000
+                    }
+                },
+
+                "horde1Upg":
+                {
+                    "id": 19,
+                    "name": "Wolf Cave",
+                    "description": "Increases weekly growth of Frost Wolves.",
+                    "upgrades": "dwellingUpLvl1",
+                    "requires": ["horde1"],
+                    "mode": "auto"
+                },
+
+                "special3": {
+                    "id": 22,
+                    "name": "Liana Bridge",
+                    "description": "Earns your kingdom 2000 gold per day.",
+                    "cost": {
+                        "gold": 10000
+                    },
+                    "produce": {
+                        "gold": 2000
+                    }
+                },
+
+                "grail": {
+                    "id": 26,
+                    "name": "Gisant",
+                    "description": "The Gisant increases weekly creature generation by 50 percent, adds 5000 gold per day, increases the Attack and Defence of a garrison hero by +10 when defending against a siege.",
+                    "mode": "grail",
+                    "produce": {
+                        "gold": 5000
+                    },
+                    "bonus": [
+                        {
+                            "type": "PRIMARY_SKILL",
+                            "subtype": "primSkill.attack",
+                            "val": 10
+                        },
+                        {
+                            "type": "PRIMARY_SKILL",
+                            "subtype": "primSkill.defence",
+                            "val": 10
+                        }
+                    ]
+                },
+
+                "extraCapitol": {
+                    "id": 29,
+                    "requires": ["capitol"],
+                    "mode": "auto"
+                },
+
+                "dwellingLvl1": {
+                    "id": 30,
+                    "name": "Fold",
+                    "description": "The Fold allows to recruit Peons.",
+                    "requires": ["fort"],
+                    "cost": {
+                        "gold": 500,
+                        "wood": 5
+                    }
+                },
+
+                "dwellingLvl2": {
+                    "id": 31,
+                    "name": "Casern",
+                    "description": "The Casern allow to recruit Desert Trolls.",
+                    "requires": ["fort"],
+                    "cost": {
+                        "gold": 1000,
+                        "ore": 5
+                    }
+                },
+
+                "dwellingLvl3": {
+                    "id": 32,
+                    "name": "Tannery",
+                    "description": "The Tannery allows to recruit Worgs.",
+                    "requires": [
+                        "allOf",
+                        ["dwellingLvl1"],
+                        ["blacksmith"]
+                    ],
+                    "cost": {
+                        "gold": 1000,
+                        "wood": 5,
+                        "ore": 5
+                    }
+                },
+
+                "dwellingLvl4": {
+                    "id": 33,
+                    "name": "The Stormy Naos",
+                    "description": "The Stormy Naos allows to recruit Theurgists.",
+                    "requires": ["dwellingLvl2"],
+                    "cost": {
+                        "gold": 2000,
+                        "wood": 5,
+                        "ore": 5,
+                        "gems": 5
+                    }
+                },
+
+                "dwellingLvl5": {
+                    "id": 34,
+                    "name": "Wyrmrest Sanctum",
+                    "description": "The Wyrmrest Sanctum allows to recruit Drakes.",
+                    "requires": [
+                        "allOf",
+                        ["dwellingLvl3"],
+                        ["dwellingLvl4"]
+                    ],
+                    "cost": {
+                        "gold": 2500,
+                        "wood": 5,
+                        "ore": 5,
+                        "mercury": 5,
+                        "sulfur": 5,
+                        "crystal": 5
+                    }
+                },
+
+                "dwellingLvl6": {
+                    "id": 35,
+                    "name": "Boulder Abode",
+                    "description": "The Boulder Abode allows to recruit Goliaths.",
+                    "requires": ["dwellingLvl5"],
+                    "cost": {
+                        "gold": 3500,
+                        "wood": 10,
+                        "ore": 10
+                    }
+                },
+
+                "dwellingLvl7": {
+                    "id": 36,
+                    "name": "Ridge of the Damned",
+                    "description": "The Ridge of the Damned allows to recruit Gronns.",
+                    "requires": [
+                        "allOf",
+                        ["dwellingLvl6"],
+                        ["mageGuild1"]
+                    ],
+                    "cost": {
+                        "gold": 10000,
+                        "wood": 10,
+                        "ore": 10,
+                        "gems": 10
+                    }
+                },
+
+                "dwellingUpLvl1": {
+                    "id": 37,
+                    "name": "Upg. Fold",
+                    "description": "The Fold allow to recruit Foremen.",
+                    "upgrades": "dwellingLvl1",
+                    "cost": {
+                        "gold": 1000,
+                        "ore": 5
+                    }
+                },
+
+                "dwellingUpLvl2": {
+                    "id": 38,
+                    "name": "Upg. Casern",
+                    "description": "The Casern allow to recruit Sandfury Trolls.",
+                    "upgrades": "dwellingLvl2",
+                    "cost": {
+                        "gold": 1000,
+                        "wood": 5
+                    }
+                },
+
+                "dwellingUpLvl3": {
+                    "id": 39,
+                    "name": "Adv. Tannery",
+                    "description": "The Tannery allows to recruit Harness Worgs.",
+                    "upgrades": "dwellingLvl3",
+                    "cost": {
+                        "gold": 1500
+                    }
+                },
+
+                "dwellingUpLvl4": {
+                    "id": 40,
+                    "name": "Upg. Stormy Naos",
+                    "description": "The Stormy Naos allows to recruit Regal Theurgists.",
+                    "upgrades": "dwellingLvl4",
+                    "cost": {
+                        "gold": 1500,
+                        "wood": 10,
+                        "ore": 10
+                    }
+                },
+
+                "dwellingUpLvl5": {
+                    "id": 41,
+                    "name": "Upg. Wyrmrest Sanctum",
+                    "description": "The Wyrmrest Sanctum allows to recruit Palatial Drakes.",
+                    "upgrades": "dwellingLvl5",
+                    "cost": {
+                        "gold": 2000,
+                        "wood": 5,
+                        "ore": 5,
+                        "mercury": 5,
+                        "sulfur": 5,
+                        "crystal": 5
+                    }
+                },
+
+                "dwellingUpLvl6": {
+                    "id": 42,
+                    "name": "Adv. Boulder Abode",
+                    "description": "The Boulder Abode allows to recruit Cerulean Goliaths.",
+                    "upgrades": "dwellingLvl6",
+                    "cost": {
+                        "gold": 3000,
+                        "wood": 5,
+                        "ore": 5
+                    }
+                },
+
+                "dwellingUpLvl7": {
+                    "id": 43,
+                    "name": "Upg. Ridge of the Damned",
+                    "description": "The Ridge of the Damned allows to recruit Elder Gronns.",
+                    "upgrades": "dwellingLvl7",
+                    "cost": {
+                        "gold": 15000,
+                        "wood": 15,
+                        "ore": 15,
+                        "gems": 15
+                    }
+                }
+            }
+        }
+    }
+}
