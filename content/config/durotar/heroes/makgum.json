@@ -1,0 +1,72 @@
+{
+	"hMakgum" :
+	{
+		"class" : "hWarchief",
+		"female" : false,
+
+		"images" :
+		{
+			"specialtySmall" : "horde/heroes/makgum/spec-small.png",
+			"specialtyLarge" : "horde/heroes/makgum/spec-large.png",
+			"large" : "horde/heroes/makgum/portrait-large.png",
+			"small" : "horde/heroes/makgum/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "peon",
+				"max" : 26,
+				"min" : 16
+			},
+			{
+				"creature" : "troll1",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "worg1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			},
+			{
+				"level" : "basic",
+				"skill" : "navigation"
+			}
+		],
+		
+		"texts" :
+		{
+			"name" : "Makgum",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Wood & Ore}\r\n\r\nIncreases kingdom's wood and ore production by 1 per day.",
+				"tooltip" : "?",
+				"name" : "+1 Wood & Ore"
+			}
+		},
+		
+		"specialty" : {
+			"bonuses" : {
+				"wood" : {
+					"subtype" : "resource.wood",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				},
+				"ore" : {
+					"subtype" : "resource.ore",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"hOrloch" :
+	{
+		"class" : "hWarchief",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "horde/heroes/orloch/spec-small.png",
+			"specialtyLarge" : "horde/heroes/orloch/spec-large.png",
+			"large" : "horde/heroes/orloch/portrait-large.png",
+			"small" : "horde/heroes/orloch/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "troll1",
+				"max" : 12,
+				"min" : 6
+			},
+			{
+				"creature" : "troll1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "troll1",
+				"max" : 8,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "archery"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Orloch",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Desert Trolls and Sandfury Trolls}\r\n\r\nIncreases Speed of any Desert Trolls or Sandfury Trolls by 1 and their Attack and Defense skills by 5% for every two levels (rounded up).",
+				"name" : "Desert Trolls",
+				"tooltip" : "Creature Bonus: Desert Trolls"
+			}
+		},
+		
+		"specialty" : {
+			"creature" : "troll1"
+		}
+	}
+}
+

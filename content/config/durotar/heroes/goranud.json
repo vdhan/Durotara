@@ -1,0 +1,62 @@
+{
+	"hGoranud" :
+	{
+		"class" : "hWarchief",
+		"female" : false,
+
+		"images" :
+		{
+			"specialtySmall" : "horde/heroes/goranud/spec-small.png",
+			"specialtyLarge" : "horde/heroes/goranud/spec-large.png",
+			"large" : "horde/heroes/goranud/portrait-large.png",
+			"small" : "horde/heroes/goranud/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "peon",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "peon",
+				"max" : 20,
+				"min" : 15
+			},
+			{
+				"creature" : "peon",
+				"max" : 10,
+				"min" : 5
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			}
+		],
+		
+		"texts" :
+		{
+			"name" : "Goranud",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Peons and Foremen}\r\n\r\nIncreases Speed of any Peons or Foremen by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
+				"name" : "Peons",
+				"tooltip" : "Creature Bonus: Peons"
+			}
+		},
+		
+		"specialty" : {
+			"creature" : "peon"
+		}
+	}
+}

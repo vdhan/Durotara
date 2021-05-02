@@ -1,0 +1,74 @@
+{
+	"hKutala" :
+	{
+		"class" : "hClairvoyant",
+		"female" : true,
+
+		"images" :
+		{
+			
+			"specialtySmall" : "horde/heroes/kutala/spec-small.png",
+			"specialtyLarge" : "horde/heroes/kutala/spec-large.png",
+			"large" : "horde/heroes/kutala/portrait-large.png",
+			"small" : "horde/heroes/kutala/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"summonBoat"
+		],
+		"army" :
+		[
+			{
+				"creature" : "peon",
+				"max" : 28,
+				"min" : 18
+			},
+			{
+				"creature" : "troll1",
+				"max" : 12,
+				"min" : 6
+			},
+			{
+				"creature" : "worg1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "navigation"
+			}
+		],
+		
+		"texts" :
+		{
+			"name" : "Kutala",
+			"biography" : "",
+			"specialty" :
+			{
+				"name" : "Sulfur",
+				"description" : "{Sulfur}\r\n\r\nIncreases kingdom's sulfur production by 1 per day.",
+				"tooltip" : "Resource bonus:sulfur"
+			}
+		},
+		
+		"specialty" : {
+			"bonuses" : {
+				"sulfur" : {
+					"subtype" : "resource.sulfur",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,80 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"laboryard" : {
+				"name" : "Labor Yard",
+				"creatures" : [[ "peon" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "horde/adventure-map/dwelling-1.def",
+						"mask" : [ "VVV", "VVV", "VVA" ]
+					}
+				}
+			},
+			"ofBarracks" : {
+				"name" : "Troll Barracks",
+				"creatures" : [[ "troll1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "horde/adventure-map/dwelling-2.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+
+					}
+				}
+			},
+			"worgpen" : {
+				"name" : "Worg Pen",
+				"creatures" : [[ "worg1" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "horde/adventure-map/dwelling-3.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"ofAirstrip" : {
+				"name" : "Airstrip",
+				"creatures" : [[ "lock1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "horde/adventure-map/dwelling-4.def",
+						"mask" : [ "VVV", "VBB", "BAV" ]
+					}
+				}
+			},
+			"ofStingersPost" : {
+				"name" : "Stingers Post",
+				"creatures" : [[ "drake1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "horde/adventure-map/dwelling-5.def",
+						"mask" : [ "VVV", "VBB", "BBA" ]
+					}
+				}
+			},
+			"ofAncientRefinery" : {
+				"name" : "Shadow Council",
+				"creatures" : [[ "ogre1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "horde/adventure-map/dwelling-6.def",
+						"mask" : [ "VVV", "VBV", "VAB" ]
+					}
+				}
+			},
+			"ofGarage" : {
+				"name" : "Gronn Cave",
+				"creatures" : [[ "gronn1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "horde/adventure-map/dwelling-7.def",
+						"mask" : [ "VVV", "BBV", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

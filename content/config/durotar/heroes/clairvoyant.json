@@ -1,0 +1,84 @@
+{
+	"hClairvoyant" :
+	{
+		"name" : "Clairvoyant",
+		"animation" :
+		{
+			"battle" : 
+			{
+				"female" : "horde/OrcMageBatle",
+				"male"   : "horde/OrcMageBatle"
+			}
+		},		
+		"mapObject" : { "templates" : { "default" : { "animation" : "horde/mapOrcMage" }}},
+		"commander" : "hrdKobold",		
+		"faction" : "horde",
+		"affinity" : "magic",
+		"primarySkills" :
+		{
+			"attack"     : 2,
+			"defence"    : 0,
+			"spellpower" : 2,
+			"knowledge"  : 1
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 25,
+			"defence"    : 15,
+			"spellpower" : 40,
+			"knowledge"  : 20
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 15,
+			"defence"    : 25,
+			"spellpower" : 20,
+			"knowledge"  : 40
+		},
+		"secondarySkills" :
+		{
+			"pathfinding"  : 2,
+			"archery"      : 4,
+			"logistics"    : 6,
+			"scouting"     : 3,
+			"diplomacy"    : 6,
+			"navigation"   : 2,
+			"leadership"   : 4,
+			"wisdom"       : 8,
+			"mysticism"    : 5,
+			"luck"         : 5,
+			"ballistics"   : 3,
+			"eagleEye"     : 6,
+			"necromancy"   : 0,
+			"estates"      : 4,
+			"fireMagic"    : 6,
+			"airMagic"     : 5,
+			"waterMagic"   : 4,
+			"earthMagic"   : 9,
+			"scholar"      : 6,
+			"tactics"      : 2,
+			"artillery"    : 4,
+			"learning"     : 6,
+			"offence"      : 6,
+			"armorer"      : 4,
+			"intelligence" : 8,
+			"sorcery"      : 6,
+			"resistance"   : 7,
+			"firstAid"     : 7
+		},
+		"defaultTavern" : 5,
+		"tavern" :
+		{
+			"castle"     : 2,
+			"rampart"    : 5,
+			"tower"      : 6,
+			"inferno"    : 4,
+			"necropolis" : 1,
+			"dungeon"    : 6,
+			"stronghold" : 6,
+			"fortress"   : 6,
+			"conflux"    : 3,
+			"horde"      : 7
+		}
+	}
+}

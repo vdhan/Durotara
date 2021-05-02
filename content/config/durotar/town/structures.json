@@ -1,0 +1,52 @@
+{
+	"horde" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"extraAnimation":      { "animation" : "horde/town-screen/buildings/lake.def",		"x" : 0, "y" : 0, "z" : 0 },
+				"extraCapitol":     { "animation" : "horde/town-screen/buildings/wfall.def",	    "x" : 0, "y" : 0, "z" : 1 },
+				"mageGuild1" :     { "animation" : "horde/town-screen/buildings/mg1.def", 		"x" : 0, "y" : 0, "z" : 1, "border" : "horde/town-screen/buildings-border/mg1b.bmp",    	"area" : "horde/town-screen/buildings-area/mg1a.bmp" },
+				"mageGuild2" :     { "animation" : "horde/town-screen/buildings/mg2.def",  		"x" : 0, "y" : 0, "z" : 1, "border" : "horde/town-screen/buildings-border/mg2b.bmp",    	"area" : "horde/town-screen/buildings-area/mg2a.bmp" },
+				"mageGuild3" :     { "animation" : "horde/town-screen/buildings/mg3.def",		"x" : 0, "y" : 0, "z" : 1, "border" : "horde/town-screen/buildings-border/mg3b.bmp",    	"area" : "horde/town-screen/buildings-area/mg3a.bmp" },
+				"mageGuild4" :     { "animation" : "horde/town-screen/buildings/mg4.def",  		"x" : 0, "y" : 0, "z" : 1, "border" : "horde/town-screen/buildings-border/mg4b.bmp",    	"area" : "horde/town-screen/buildings-area/mg4a.bmp" },
+				"mageGuild5" :     { "animation" : "horde/town-screen/buildings/mg5.def",  		"x" : 0, "y" : 0, "z" : 1, "border" : "horde/town-screen/buildings-border/mg5b.bmp",    	"area" : "horde/town-screen/buildings-area/mg5a.bmp" },
+				"tavern" :         { "animation" : "horde/town-screen/buildings/tvern.def",     "x" : 0, "y" : 0, "z" : 5, "border" : "horde/town-screen/buildings-border/tvernb.bmp",  	"area" : "horde/town-screen/buildings-area/tverna.bmp" },
+				"fort" :           { "animation" : "horde/town-screen/buildings/cas2.def",      "x" : 0, "y" : 0, "z" : -2, "border" : "horde/town-screen/buildings-border/cast1b.bmp",  	"area" : "horde/town-screen/buildings-area/cast1a.bmp" },
+				"citadel" :        { "animation" : "horde/town-screen/buildings/cas4.def",      "x" : 0, "y" : 0, "z" : -2, "border" : "horde/town-screen/buildings-border/cast3b.bmp",  	"area" : "horde/town-screen/buildings-area/cast3a.bmp" },
+				"castle" :         { "animation" : "horde/town-screen/buildings/cas5.def",      "x" : 0, "y" : 0, "z" : -2, "border" : "horde/town-screen/buildings-border/cast5b.bmp",  	"area" : "horde/town-screen/buildings-area/cast5a.bmp" },
+				"villageHall" :    { "animation" : "horde/town-screen/buildings/hall1.def",     "x" : 0, "y" : 0, "z" : -1, "border" : "horde/town-screen/buildings-border/hall1b.bmp",  	"area" : "horde/town-screen/buildings-area/hall1a.bmp" },
+				"townHall" :       { "animation" : "horde/town-screen/buildings/hall2.def",     "x" : 0, "y" : 0, "z" : -1, "border" : "horde/town-screen/buildings-border/hall2b.bmp", 		"area" : "horde/town-screen/buildings-area/hall2a.bmp" },
+				"cityHall" :       { "animation" : "horde/town-screen/buildings/hall3.def",     "x" : 0, "y" : 0, "z" : -1, "border" : "horde/town-screen/buildings-border/hall3b.bmp",  	"area" : "horde/town-screen/buildings-area/hall3a.bmp" },
+				"capitol" :        { "animation" : "horde/town-screen/buildings/hall4.def",     "x" : 0, "y" : 0, "z" : -1, "border" : "horde/town-screen/buildings-border/hall4b.bmp",  	"area" : "horde/town-screen/buildings-area/hall4a.bmp" },
+				"marketplace" :    { "animation" : "horde/town-screen/buildings/market.def",    "x" : 0, "y" : 0, "z" : 9, "border" : "horde/town-screen/buildings-border/marketb.bmp", 	"area" : "horde/town-screen/buildings-area/marketa.bmp" },
+				"resourceSilo" :   { "animation" : "horde/town-screen/buildings/silo.def",      "x" : 0, "y" : 0, "z" : 10, "border" : "horde/town-screen/buildings-border/silob.bmp",   	"area" : "horde/town-screen/buildings-area/siloa.bmp" },
+				"blacksmith" :     { "animation" : "horde/town-screen/buildings/smith.def",     "x" : 0, "y" : 0, "z" : 8, "border" : "horde/town-screen/buildings-border/smithb.bmp",  	"area" : "horde/town-screen/buildings-area/smitha.bmp" },
+				"special1" :       { "animation" : "horde/town-screen/buildings/tguild.def",    "x" : 0, "y" : 0, "z" : 4, "border" : "horde/town-screen/buildings-border/tguildb.bmp", 	"area" : "horde/town-screen/buildings-area/tguilda.bmp" },
+				"special3":        { "animation" : "horde/town-screen/buildings/bridge.def",    "x" : 0, "y" : 0, "z" : 2, "border" : "horde/town-screen/buildings-border/bridge1.bmp", 	"area" : "horde/town-screen/buildings-area/bridge.bmp" },				
+	    	    "horde1":          { "animation" : "horde/town-screen/buildings/horde1.def",    "x" : 0, "y" : 0, "z" : 7, "border" : "horde/town-screen/buildings-border/horde1b.bmp", 	"area" : "horde/town-screen/buildings-area/horde1a.bmp", "hidden" : true },
+	    	    "horde1Upg":       { "animation" : "horde/town-screen/buildings/horde1Upg.def",    "x" : 0, "y" : 0, "z" : 7, "border" : "horde/town-screen/buildings-border/horde1Upgb.bmp", 	"area" : "horde/town-screen/buildings-area/horde1Upga.bmp", "hidden" : true, "builds" : "horde1" },
+				"horde1Upg2":      { "animation" : "horde/town-screen/buildings/horde1Upg2.def",    "x" : 0, "y" : 0, "z" : 7, "border" : "horde/town-screen/buildings-border/horde1Upg2b.bmp", 	"area" : "horde/town-screen/buildings-area/horde1Upg2a.bmp", "hidden" : true, "builds" : "horde1Upg" },
+				"grail" :          { "animation" : "horde/town-screen/buildings/col.def",  		"x" : 0, "y" : 0, "z" : 3, "border" : "horde/town-screen/buildings-border/colb.bmp",    	"area" : "horde/town-screen/buildings-area/cola.bmp" },
+				"dwellingLvl1" :   { "animation" : "horde/town-screen/buildings/dw1.def", 		"x" : 0, "y" : 0, "z" : 4, "border" : "horde/town-screen/buildings-border/dw1b.bmp",    	"area" : "horde/town-screen/buildings-area/dw1a.bmp" },
+				"dwellingLvl2" :   { "animation" : "horde/town-screen/buildings/dw2.def",		"x" : 0, "y" : 0, "z" : 1, "border" : "horde/town-screen/buildings-border/dw2b.bmp",    	"area" : "horde/town-screen/buildings-area/dw2a.bmp" },
+				"dwellingLvl3" :   { "animation" : "horde/town-screen/buildings/dw3.def",  		"x" : 0, "y" : 0, "z" : 0, "border" : "horde/town-screen/buildings-border/dw3b.bmp",    	"area" : "horde/town-screen/buildings-area/dw3a.bmp" },
+				"dwellingLvl4" :   { "animation" : "horde/town-screen/buildings/dw4.def", 		"x" : 0, "y" : 0, "z" : 4, "border" : "horde/town-screen/buildings-border/dw4b.bmp",        "area" : "horde/town-screen/buildings-area/dw4a.bmp" },
+				"dwellingLvl5" :   { "animation" : "horde/town-screen/buildings/dw5.def",  		"x" : 0, "y" : 0, "z" : 0, "border" : "horde/town-screen/buildings-border/dw5b.bmp",        "area" : "horde/town-screen/buildings-area/dw5a.bmp" },
+				"dwellingLvl6" :   { "animation" : "horde/town-screen/buildings/dw6.def",  		"x" : 0, "y" : 0, "z" : 0, "border" : "horde/town-screen/buildings-border/dw6b.bmp",   		"area" : "horde/town-screen/buildings-area/dw6a.bmp" },
+				"dwellingLvl7" :   { "animation" : "horde/town-screen/buildings/dw7.def",  		"x" : 0, "y" : 0, "z" : 0, "border" : "horde/town-screen/buildings-border/dw7b.bmp",    	"area" : "horde/town-screen/buildings-area/dw7a.bmp" },
+				"dwellingUpLvl1" : { "animation" : "horde/town-screen/buildings/dw1upg.def",  	"x" : 0, "y" : 0, "z" : 4, "border" : "horde/town-screen/buildings-border/dw1upgb.bmp", 	"area" : "horde/town-screen/buildings-area/dw1upga.bmp" },
+				"dwellingUpLvl2" : { "animation" : "horde/town-screen/buildings/dw2upg.def",  	"x" : 0, "y" : 0, "z" : 1, "border" : "horde/town-screen/buildings-border/dw2upgb.bmp", 	"area" : "horde/town-screen/buildings-area/dw2upga.bmp" },
+				"dwellingUpLvl3" : { "animation" : "horde/town-screen/buildings/dw3upg.def",  	"x" : 0, "y" : 0, "z" : 0, "border" : "horde/town-screen/buildings-border/dw3upgb.bmp", 	"area" : "horde/town-screen/buildings-area/dw3upga.bmp" },
+				"dwellingUp2Lvl3" : { "animation" : "horde/town-screen/buildings/dw3upg2.def",   "x" : 0, "y" : 0, "z" : 1, "border" : "horde/town-screen/buildings-border/dw3upg2b.bmp", 	"area" : "horde/town-screen/buildings-area/dw3upg2a.bmp" },
+				"dwellingUpLvl4" : { "animation" : "horde/town-screen/buildings/dw4upg.def",  	"x" : 0, "y" : 0, "z" : 4, "border" : "horde/town-screen/buildings-border/dw4upgb.bmp", 	"area" : "horde/town-screen/buildings-area/dw4upga.bmp" },
+				"dwellingUpLvl5" : { "animation" : "horde/town-screen/buildings/dw5upg.def",  	"x" : 0, "y" : 0, "z" : 0, "border" : "horde/town-screen/buildings-border/dw5upgb.bmp",    	"area" : "horde/town-screen/buildings-area/dw5upga.bmp" },
+				"dwellingUpLvl6" : { "animation" : "horde/town-screen/buildings/dw6upg.def",  	"x" : 0, "y" : 0, "z" : 0, "border" : "horde/town-screen/buildings-border/dw6b.bmp",        "area" : "horde/town-screen/buildings-area/dw6a.bmp" },
+				"dwellingUp2Lvl6" : { "animation" : "horde/town-screen/buildings/dw6_2upg.def", "x" : 0, "y" : 0, "z" : 0, "border" : "horde/town-screen/buildings-border/dw6b.bmp",        "area" : "horde/town-screen/buildings-area/dw6a.bmp" },
+				"dwellingUpLvl7" : { "animation" : "horde/town-screen/buildings/dw7upg.def",  	"x" : 0, "y" : 0, "z" : 0, "border" : "horde/town-screen/buildings-border/dw7upgb.bmp",     "area" : "horde/town-screen/buildings-area/dw7upga.bmp" },
+			}
+		}
+	}
+}
+

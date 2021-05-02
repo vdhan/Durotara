@@ -1,0 +1,71 @@
+{
+	"hForang" :
+	{
+		"class" : "hClairvoyant",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "horde/heroes/forang/spec-small.png",
+			"specialtyLarge" : "horde/heroes/forang/spec-large.png",
+			"large" : "horde/heroes/forang/portrait-large.png",
+			"small" : "horde/heroes/forang/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"dispel"
+		],
+		"army" :
+		[
+			{
+				"creature" : "peon",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "troll1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "worg1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "scholar"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Forang",
+			"biography" : "",
+			"specialty" :
+			{
+				"name" : "Earth Dumper",
+				"description" : "{Earth Dumper}\r\n\r\nIncrease cost of enemy's earth spells by 20%.",
+				"tooltip" : "Spell bonus:Earth Dumper"
+			}
+		},
+		
+		"specialty": {
+			"bonuses" : {
+				"earthMagic" :	{
+						"type": "CHANGES_SPELL_COST_FOR_ENEMY",
+						"subtype": "skill.earthMagic",
+						"val": 20,
+						"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}

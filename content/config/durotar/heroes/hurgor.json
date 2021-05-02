@@ -1,0 +1,74 @@
+{
+	"hHurgor" : 
+	{
+		"class" : "hClairvoyant",
+		"female" : false,
+
+		"images" :
+		{
+			"specialtySmall" : "horde/heroes/hurgor/spec-small.png",
+			"specialtyLarge" : "horde/heroes/hurgor/spec-large.png",
+			"large" : "horde/heroes/hurgor/portrait-large.png",
+			"small" : "horde/heroes/hurgor/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"protectEarth"
+		],
+		"army" :
+		[
+			{
+				"creature" : "peon",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "troll1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "worg1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			}
+		],
+		
+		"texts" :
+		{
+			"name" : "Hurgor",
+			"biography" : "",
+			"specialty" :
+			{
+				"name" : "Protection from Earth",
+				"description" : "{Protection from Earth}\r\n\r\nCasts Protection from Earth with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"tooltip" : "Spell bonus:Protection from Earth"
+			}
+		},
+		
+		"specialty" : {
+			"bonuses" : {
+				"protectEarth" : {
+					"subtype" : "spell.protectEarth",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 4
+				}
+			}
+		}
+	}
+}
+
+

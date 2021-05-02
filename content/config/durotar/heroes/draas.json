@@ -1,0 +1,67 @@
+{
+	"hDraas" :
+	{
+		"class" : "hWarchief",
+		"female" : false,
+
+		"images" :
+		{
+			"specialtySmall" : "horde/heroes/draas/spec-small.png",
+			"specialtyLarge" : "horde/heroes/draas/spec-large.png",
+			"large" : "horde/heroes/draas/portrait-large.png",
+			"small" : "horde/heroes/draas/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "peon",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "troll1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "worg1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "eagleEye"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Dra'as",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Offence}\r\n\r\nReceives a 7% per level bonus to Offense skill(rounded up).",
+				"name" : "Offence",
+				"tooltip" : "Secondary Skill Bonus: Offence"
+			}
+		},
+		
+		"specialty" : {
+			"bonuses" : {
+				"offence" : {
+					"subtype" : "skill.offence",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 7,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}

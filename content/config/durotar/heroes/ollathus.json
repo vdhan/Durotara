@@ -1,0 +1,75 @@
+{
+	"hOllathus" :
+	{
+		"class" : "hClairvoyant",
+		"female" : false,
+
+		"images" :
+		{
+			
+			"specialtySmall" : "horde/heroes/ollathus/spec-small.png",
+			"specialtyLarge" : "horde/heroes/ollathus/spec-large.png",
+			"large" : "horde/heroes/ollathus/portrait-large.png",
+			"small" : "horde/heroes/ollathus/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"weakness"
+		],
+
+
+		"army" :
+		[
+			{
+				"creature" : "worg1",
+				"max" : 6,
+				"min" : 5
+			},
+			{
+				"creature" : "worg1",
+				"max" : 5,
+				"min" : 4
+			},
+			{
+				"creature" : "worg1",
+				"max" : 4,
+				"min" : 3
+			},
+		],
+
+		"skills" : 
+		[
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"texts" :
+		{
+			"name" : "Ollathus",
+			"biography" : "",
+			"specialty" :
+			{
+				"name" : "Weakness",
+				"description" : "{Weakness}\r\n\r\nCasts Weakness with effect increased by 3% for every n hero levels (n - target creature level)..",
+				"tooltip" : "Spell bonus:Weakness"
+			}
+		},
+		
+		"specialty" : {
+			"bonuses" : {
+				"prayer" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"worg3":
+	{
+		"name" :
+		{
+			"plural" : "Martial Worgs",
+			"singular" : "Martial Worg"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 12
+		},
+		"faction" : "horde",
+		"aiValue" : 322,
+		"attack" : 7,
+		"hasDoubleWeek" : true,
+         "cost" :
+		{
+			"gold" : 270
+		},
+		"damage" :
+		{
+			 "max" : 6,
+			 "min" : 3
+		},
+		"defense" : 9,
+		"fightValue" : 317,
+		"horde" : 6,
+		"graphics" :
+		{
+			"animation" : "horde/battle/worg3.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "horde/map/worg3mini.def",
+			"iconSmall" : "horde/iconsSmall/worg3s.bmp",
+			"iconLarge" : "horde/iconsBig/worg3l.bmp",
+			"timeBetweenFidgets" : 1,
+		},
+		"doubleWide" : true,
+		"growth" : 9,
+		"hitPoints" : 24,
+        "level" : 3,
+		"sound" :
+		{
+			"attack" : "horde/worgatk.wav",
+			"defend" : "horde/worgblk.wav",
+			"killed" : "horde/worgdie.wav",
+			"move": "HGWRMOVE.wav",
+			"wince" : "horde/worgblk.wav",
+		},
+		"speed" : 8
+	}
+}

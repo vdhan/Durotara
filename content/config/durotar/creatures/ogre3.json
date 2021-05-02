@@ -1,0 +1,66 @@
+{
+	"ogre3":
+	{
+		"name" :
+		{
+			"plural" : "Crimson Goliaths",
+			"singular" : "Crimson Goliath"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "horde",
+		"aiValue" : 1923,
+		"attack" : 17,
+		"hasDoubleWeek" : true,
+                "cost" :
+		{
+			"gold" : 1200
+		},
+		"damage" :
+		{
+			 "max" : 23,
+			 "min" : 21
+		},
+		"defense" : 15,
+		"fightValue" : 1635,
+		"graphics" :
+		{
+			"animation" : "horde/battle/ogre3.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "horde/map/mapogre3.def",
+			"iconSmall" : "horde/iconsSmall/ogre3s.bmp",
+			"iconLarge" : "horde/iconsBig/ogre3l.bmp",
+			"timeBetweenFidgets" : 1
+        },
+		"growth" : 2,
+		"hitPoints" : 105,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack" : "horde/ogreatk.wav",
+			"defend" : "horde/ogreblk.wav",
+			"killed" : "horde/ogredie.wav",
+			"move": "OGREMOVE.wav",
+			"wince" : "horde/ogrehit.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		 {
+		"spellimmunityslow" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.slow"
+			},
+		"spellimmunityquick" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.quicksand"
+			}
+
+		}
+	}
+}

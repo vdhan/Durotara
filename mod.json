@@ -1,0 +1,65 @@
+{
+	"name": "Durotar",
+	"description": "Durotar town.",
+	"modType": "Town",
+	"version": "1.0.0",
+	"author": "Vũ Đắc Hoàng Ân",
+	"contact": "https://github.com/vdhan/Celestial",
+    "licenseName": "Creative Commons Attribution-NonCommercial-ShareAlike",
+    "licenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+
+	"factions": [
+		"config/durotar/town/buildings",
+		"config/durotar/town/faction",
+		"config/durotar/town/siege",
+		"config/durotar/town/spells",
+		"config/durotar/town/structures",
+		"config/durotar/town/puzzle"
+	],
+
+	"heroClasses": [
+		"config/durotar/heroes/warchief",
+		"config/durotar/heroes/clairvoyant"
+	],
+
+	"heroes": [
+		"config/durotar/heroes/boang",
+		"config/durotar/heroes/draas",
+		"config/durotar/heroes/forang",
+		"config/durotar/heroes/fullika",
+		"config/durotar/heroes/gadira",
+		"config/durotar/heroes/goranud",
+		"config/durotar/heroes/hurgor",
+		"config/durotar/heroes/jargura",
+		"config/durotar/heroes/kutala",
+		"config/durotar/heroes/makgum",
+		"config/durotar/heroes/ollathus",
+		"config/durotar/heroes/orloch",
+		"config/durotar/heroes/roeda",
+		"config/durotar/heroes/soragg",
+		"config/durotar/heroes/thurnokk",
+		"config/durotar/heroes/yreima"
+	],
+
+	"creatures": [
+		"config/durotar/creatures/peon",
+		"config/durotar/creatures/foreman",
+		"config/durotar/creatures/troll1",
+		"config/durotar/creatures/troll2",
+        "config/durotar/creatures/worg1",
+		"config/durotar/creatures/worg2",
+		"config/durotar/creatures/worg3",
+		"config/durotar/creatures/ogre1",
+		"config/durotar/creatures/ogre2",
+		"config/durotar/creatures/ogre3",
+		"config/durotar/creatures/drake1",
+		"config/durotar/creatures/drake2",
+		"config/durotar/creatures/lock1",
+		"config/durotar/creatures/lock2",
+		"config/durotar/creatures/gronn1",
+		"config/durotar/creatures/gronn2",
+		"config/durotar/creatures/kobold"
+	],
+
+	"objects": ["config/durotar/dwellings"]
+}

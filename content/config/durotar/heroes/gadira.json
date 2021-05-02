@@ -1,0 +1,75 @@
+{
+	"hGadira" :
+	{
+		"class" : "hClairvoyant",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "horde/heroes/gadira/spec-small.png",
+			"specialtyLarge" : "horde/heroes/gadira/spec-large.png",
+			"large" : "horde/heroes/gadira/portrait-large.png",
+			"small" : "horde/heroes/gadira/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+		       "disguise"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "peon",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "troll1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "troll1",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "earthMagic"
+			}
+		],
+		
+		"texts" :
+		{
+			"name" : "Gadira",
+			"biography" : "",
+			"specialty" :
+			{
+				"name" : "Slow Immunity",
+				"description" : "{Slow Immunity}\r\n\r\nAll creatures in hero's army are immune to slow.",
+				"tooltip" : "Spell bonus:Slow Immunity"
+			}
+		},
+		
+		"specialty": {
+			"bonuses": {
+				"slow": {
+						"type": "SPELL_IMMUNITY",
+						"subtype": "spell.slow",
+						"val": 0,
+						"valueType" : "BASE_NUMBER"
+                }
+			}
+		}
+	}
+}
+

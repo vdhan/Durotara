@@ -1,0 +1,124 @@
+{
+	"horde" : {
+		"alignment" : "evil",
+		"creatureBackground" : { "120px" : "horde/120orc", "130px" : "horde/130orc" },
+		"name" : "Horde",
+		"nativeTerrain" : "sand",
+		"town" :
+		{
+			"musicTheme" : "music/horde/orcTown",
+			"defaultTavern" : 5,
+			"tavernVideo" : "TAVERN.BIK",
+			"guildBackground" : "TPMAGE.bmp",
+			"townBackground": "horde/town-screen/background",
+			"guildWindow": "horde/town-screen/mage-guild",
+			"hallBackground": "TPTHBKCS",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special1"] ],
+				[ ["special3" ], [ "horde1", "horde1Upg", "horde1Upg2" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3", "dwellingUp2Lvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6", "dwellingUp2Lvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ],  ]
+			],
+			"creatures" :
+			[
+				[ "peon", "foreman" ],
+				[ "troll1", "troll2" ],
+				[ "worg1", "worg2", "worg3" ],
+				[ "lock1", "lock2" ],
+				[ "drake1", "drake2" ],
+				[ "ogre1", "ogre2", "ogre3" ],
+				[ "gronn1", "gronn2" ]
+			],
+			"moatDamage" : 100,
+			"horde" : [ 2, 3 ],
+			"mageGuild" : 5,
+			"primaryResource" : "crystal",
+			"warMachine" : "ballista",
+			"buildingsIcons" : "horde/town-hall.def",
+			"icons" :
+			{
+				"village" : {
+					"normal" : {
+						"small" : "horde/icons/hall-small.bmp",
+						"large" : "horde/icons/hall-big.bmp"
+					},
+					"built" : {
+						"small" : "horde/icons/hall-builded-small.bmp",
+						"large" : "horde/icons/hall-builded-big.bmp"
+					}
+				},
+				"fort" : {
+					"normal" : {
+						"small" : "horde/icons/fort-small.bmp",
+						"large" : "horde/icons/fort-big.bmp"
+					},
+					"built" : {
+						"small" : "horde/icons/fort-builded-small.bmp",
+						"large" : "horde/icons/fort-builded-big.bmp"
+					}
+				}
+			},
+
+			"mapObject" : {
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"capitol" : { "animation" : "horde/adventure-map/town-capitol.def" },
+					"castle" : { "animation" : "horde/adventure-map/town-castle.def" },
+					"citadel" : { "animation" : "horde/adventure-map/town-citadel.def" },
+					"fort" : { "animation" : "horde/adventure-map/town-fort.def" },
+					"village" : { "animation" : "horde/adventure-map/town-village.def" }
+				}
+			},
+			"names" :
+			[
+				"Tarren Mill",
+				"Apothecary Camp",
+				"Warsong Hold",
+				"Brill",
+				"Razor Hill",
+				"Stonard",
+				"Izgil",
+				"Khu Zrugnag",
+				"Dhedza",
+				"Grim Ulang",
+				"Blood Well",
+				"Skull-cairn",
+				"Tyar",
+				"Hrak",
+				"Rust Cliff",
+				"Knogler",
+				"Log Abrid",
+				"Sunreaver"
+			],
+			"tavern" :
+			{
+				"knight"       : 4,
+				"cleric"       : 3,
+				"ranger"       : 3,
+				"druid"        : 2,
+				"alchemist"    : 3,
+				"wizard"       : 2,
+				"demoniac"     : 4,
+				"heretic"      : 4,
+				"deathknight"  : 3,
+				"necromancer"  : 2,
+				"warlock"      : 4,
+				"overlord"     : 4,
+				"barbarian"    : 5,
+				"battlemage"   : 5,
+				"beastmaster"  : 5,
+				"witch"        : 4,
+				"planeswalker" : 4,
+				"elementalist" : 3,
+				"hWarchief"    : 6,
+				"hClairvoyant" : 6
+			}
+		}
+	}
+}

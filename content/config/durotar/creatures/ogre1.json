@@ -1,0 +1,69 @@
+{
+	"ogre1":
+	{
+		"name" :
+		{
+			"plural" : "Goliaths",
+			"singular" : "Goliath"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 5
+		},
+		"faction" : "horde",
+		"aiValue" : 1468,
+		"attack" : 17,
+		"hasDoubleWeek" : true,
+                "cost" :
+		{
+			"gold" : 900
+		},
+		"damage" :
+		{
+			 "max" : 19,
+			 "min" : 15
+		},
+		"defense" : 12,
+		"fightValue" : 1274,
+		"graphics" :
+		{
+			"animation" : "horde/battle/ogre1.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "horde/map/mapogre1.def",
+			"iconSmall" : "horde/iconsSmall/ogre1s.bmp",
+			"iconLarge" : "horde/iconsBig/ogre1l.bmp",
+			"timeBetweenFidgets" : 1
+        },
+		"growth" : 2,
+		"hitPoints" : 85,
+		"level" : 6,
+		"upgrades":
+		[
+			"ogre2"
+		],
+		"sound" :
+		{
+			"attack" : "horde/ogreatk.wav",
+			"defend" : "horde/ogreblk.wav",
+			"killed" : "horde/ogredie.wav",
+			"move": "OGREMOVE.wav",
+			"wince" : "horde/ogrehit.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		 {
+		"spellimmunityslow" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.slow"
+			},
+		"spellimmunityquick" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.quicksand"
+			}
+
+		}
+	}
+}

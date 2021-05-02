@@ -1,0 +1,84 @@
+{
+	"hWarchief" : 
+	{
+		"name" : "Warchief",
+		"animation" :
+		{
+			"battle" : 
+			{
+				"female" : "horde/OrcWariorBatle",
+				"male"   : "horde/OrcWariorBatle"
+			}
+		},	
+		"mapObject" : { "templates" : { "default" : { "animation" : "horde/mapOrcWarior" }}},
+		"commander" : "hrdKobold",
+		"faction" : "horde",
+		"affinity" : "might",
+		"primarySkills" :
+		{
+			"attack"     : 3,
+			"defence"    : 1,
+			"spellpower" : 1,
+			"knowledge"  : 1
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 50,
+			"defence"    : 40,
+			"spellpower" : 5,
+			"knowledge"  : 5
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 45,
+			"defence"    : 35,
+			"spellpower" : 10,
+			"knowledge"  : 10
+		},
+		"secondarySkills" :
+		{
+			"pathfinding"  : 6,
+			"archery"      : 7,
+			"logistics"    : 7,
+			"scouting"     : 8,
+			"diplomacy"    : 1,
+			"navigation"   : 2,
+			"leadership"   : 4,
+			"wisdom"       : 2,
+			"mysticism"    : 2,
+			"luck"         : 4,
+			"ballistics"   : 6,
+			"eagleEye"     : 6,
+			"necromancy"   : 0,
+			"estates"      : 3,
+			"fireMagic"    : 2,
+			"airMagic"     : 1,
+			"waterMagic"   : 0,
+			"earthMagic"   : 4,
+			"scholar"      : 1,
+			"tactics"      : 5,
+			"artillery"    : 5,
+			"learning"     : 4,
+			"offence"      : 9,
+			"armorer"      : 8,
+			"intelligence" : 1,
+			"sorcery"      : 1,
+			"resistance"   : 10,
+			"firstAid"     : 4
+		},
+		"defaultTavern" : 5,
+		"tavern" :
+		{
+			"castle"     : 3,
+			"rampart"    : 4,
+			"tower"      : 4,
+			"inferno"    : 4,
+			"necropolis" : 2,
+			"dungeon"    : 5,
+			"stronghold" : 6,
+			"fortress"   : 6,
+			"conflux"    : 4,
+			"horde"      : 7                  
+		}
+	}
+}
