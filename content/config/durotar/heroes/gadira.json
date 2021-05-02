@@ -1,7 +1,7 @@
 {
 	"hGadira" :
 	{
-		"class" : "hClairvoyant",
+		"class" : "dtShaman",
 		"female" : true,
 
 		"images" :
@@ -47,7 +47,7 @@
 				"skill" : "earthMagic"
 			}
 		],
-		
+
 		"texts" :
 		{
 			"name" : "Gadira",
@@ -59,7 +59,7 @@
 				"tooltip" : "Spell bonus:Slow Immunity"
 			}
 		},
-		
+
 		"specialty": {
 			"bonuses": {
 				"slow": {

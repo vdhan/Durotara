@@ -1,7 +1,7 @@
 {
 	"hGoranud" :
 	{
-		"class" : "hWarchief",
+		"class" : "dtChieftain",
 		"female" : false,
 
 		"images" :
@@ -42,7 +42,7 @@
 				"skill" : "diplomacy"
 			}
 		],
-		
+
 		"texts" :
 		{
 			"name" : "Goranud",
@@ -54,7 +54,7 @@
 				"tooltip" : "Creature Bonus: Peons"
 			}
 		},
-		
+
 		"specialty" : {
 			"creature" : "peon"
 		}

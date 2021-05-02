@@ -1,17 +1,17 @@
 {
-	"hClairvoyant" :
+	"dtShaman" :
 	{
 		"name" : "Clairvoyant",
 		"animation" :
 		{
-			"battle" : 
+			"battle" :
 			{
 				"female" : "horde/OrcMageBatle",
 				"male"   : "horde/OrcMageBatle"
 			}
-		},		
+		},
 		"mapObject" : { "templates" : { "default" : { "animation" : "horde/mapOrcMage" }}},
-		"commander" : "hrdKobold",		
+		"commander" : "hrdKobold",
 		"faction" : "horde",
 		"affinity" : "magic",
 		"primarySkills" :

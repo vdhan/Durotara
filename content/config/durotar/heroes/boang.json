@@ -1,7 +1,7 @@
 {
 	"hBoang" :
 	{
-		"class" : "hWarchief",
+		"class" : "dtChieftain",
 		"female" : false,
 
 		"images" :
@@ -51,7 +51,7 @@
 				"tooltip" : "Secondary Skill Bonus: Estates"
 			}
 		},
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"estates" : {

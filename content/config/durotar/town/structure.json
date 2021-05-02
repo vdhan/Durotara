@@ -1,0 +1,339 @@
+{
+    "durotar": {
+        "town": {
+            "structures": {
+                "mageGuild1": {
+                    "animation": "durotar/town-screen/buildings/mg1",
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "border": "durotar/town-screen/buildings-border/mg1b",
+                    "area": "durotar/town-screen/buildings-area/mg1a"
+                },
+
+                "mageGuild2": {
+                    "animation": "durotar/town-screen/buildings/mg2",
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "border": "durotar/town-screen/buildings-border/mg2b",
+                    "area": "durotar/town-screen/buildings-area/mg2a"
+                },
+
+                "mageGuild3": {
+                    "animation": "durotar/town-screen/buildings/mg3",
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "border": "durotar/town-screen/buildings-border/mg3b",
+                    "area": "durotar/town-screen/buildings-area/mg3a"
+                },
+
+                "mageGuild4": {
+                    "animation": "durotar/town-screen/buildings/mg4",
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "border": "durotar/town-screen/buildings-border/mg4b",
+                    "area": "durotar/town-screen/buildings-area/mg4a"
+                },
+
+                "mageGuild5": {
+                    "animation": "durotar/town-screen/buildings/mg5",
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "border": "durotar/town-screen/buildings-border/mg5b",
+                    "area": "durotar/town-screen/buildings-area/mg5a"
+                },
+
+                "tavern": {
+                    "animation": "durotar/town-screen/buildings/tavern",
+                    "x": 0,
+                    "y": 0,
+                    "z": 5,
+                    "border": "durotar/town-screen/buildings-border/tavern",
+                    "area": "durotar/town-screen/buildings-area/tavern"
+                },
+
+                "fort": {
+                    "animation": "durotar/town-screen/buildings/cas1",
+                    "x": 0,
+                    "y": 0,
+                    "z": -2,
+                    "border": "durotar/town-screen/buildings-border/cast1b",
+                    "area": "durotar/town-screen/buildings-area/cast1a"
+                },
+
+                "citadel": {
+                    "animation": "durotar/town-screen/buildings/cas2",
+                    "x": 0,
+                    "y": 0,
+                    "z": -2,
+                    "border": "durotar/town-screen/buildings-border/cast2b",
+                    "area": "durotar/town-screen/buildings-area/cast2a"
+                },
+
+                "castle": {
+                    "animation": "durotar/town-screen/buildings/cas3",
+                    "x": 0,
+                    "y": 0,
+                    "z": -2,
+                    "border": "durotar/town-screen/buildings-border/cast3b",
+                    "area": "durotar/town-screen/buildings-area/cast3a"
+                },
+
+                "villageHall": {
+                    "animation": "durotar/town-screen/buildings/hall1",
+                    "x": 0,
+                    "y": 0,
+                    "z": -1,
+                    "border": "durotar/town-screen/buildings-border/hall1b",
+                    "area": "durotar/town-screen/buildings-area/hall1a"
+                },
+
+                "townHall": {
+                    "animation": "durotar/town-screen/buildings/hall2",
+                    "x": 0,
+                    "y": 0,
+                    "z": -1,
+                    "border": "durotar/town-screen/buildings-border/hall2b",
+                    "area": "durotar/town-screen/buildings-area/hall2a"
+                },
+
+                "cityHall": {
+                    "animation": "durotar/town-screen/buildings/hall3",
+                    "x": 0,
+                    "y": 0,
+                    "z": -1,
+                    "border": "durotar/town-screen/buildings-border/hall3b",
+                    "area": "durotar/town-screen/buildings-area/hall3a"
+                },
+
+                "capitol": {
+                    "animation": "durotar/town-screen/buildings/hall4",
+                    "x": 0,
+                    "y": 0,
+                    "z": -1,
+                    "border": "durotar/town-screen/buildings-border/hall4b",
+                    "area": "durotar/town-screen/buildings-area/hall4a"
+                },
+
+                "marketplace": {
+                    "animation": "durotar/town-screen/buildings/market",
+                    "x": 0,
+                    "y": 0,
+                    "z": 9,
+                    "border": "durotar/town-screen/buildings-border/marketb",
+                    "area": "durotar/town-screen/buildings-area/marketa"
+                },
+
+                "resourceSilo": {
+                    "animation": "durotar/town-screen/buildings/silo",
+                    "x": 0,
+                    "y": 0,
+                    "z": 10,
+                    "border": "durotar/town-screen/buildings-border/silob",
+                    "area": "durotar/town-screen/buildings-area/siloa"
+                },
+
+                "blacksmith": {
+                    "animation": "durotar/town-screen/buildings/smith",
+                    "x": 0,
+                    "y": 0,
+                    "z": 8,
+                    "border": "durotar/town-screen/buildings-border/smithb",
+                    "area": "durotar/town-screen/buildings-area/smitha"
+                },
+
+                "horde1": {
+                    "animation": "durotar/town-screen/buildings/horde1",
+                    "x": 0,
+                    "y": 0,
+                    "z": 7,
+                    "border": "durotar/town-screen/buildings-border/horde1b",
+                    "area": "durotar/town-screen/buildings-area/horde1a",
+                    "hidden": true
+                },
+
+                "horde1Upg": {
+                    "animation": "durotar/town-screen/buildings/horde1Upg",
+                    "x": 0,
+                    "y": 0,
+                    "z": 7,
+                    "border": "durotar/town-screen/buildings-border/horde1Upgb",
+                    "area": "durotar/town-screen/buildings-area/horde1Upga",
+                    "hidden": true,
+                    "builds": "horde1"
+                },
+
+                "special1": {
+                    "animation": "durotar/town-screen/buildings/tguild",
+                    "x": 0,
+                    "y": 0,
+                    "z": 4,
+                    "border": "durotar/town-screen/buildings-border/tguildb",
+                    "area": "durotar/town-screen/buildings-area/tguilda"
+                },
+
+                "special3": {
+                    "animation": "durotar/town-screen/buildings/bridge",
+                    "x": 0,
+                    "y": 0,
+                    "z": 2,
+                    "border": "durotar/town-screen/buildings-border/bridge",
+                    "area": "durotar/town-screen/buildings-area/bridge"
+                },
+
+                "grail": {
+                    "animation": "durotar/town-screen/buildings/grail",
+                    "x": 0,
+                    "y": 0,
+                    "z": 3,
+                    "border": "durotar/town-screen/buildings-border/grail",
+                    "area": "durotar/town-screen/buildings-area/grail"
+                },
+
+                "dwellingLvl1": {
+                    "animation": "durotar/town-screen/buildings/dw1",
+                    "x": 0,
+                    "y": 0,
+                    "z": 4,
+                    "border": "durotar/town-screen/buildings-border/dw1b",
+                    "area": "durotar/town-screen/buildings-area/dw1a"
+                },
+
+                "dwellingLvl2": {
+                    "animation": "durotar/town-screen/buildings/dw2",
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "border": "durotar/town-screen/buildings-border/dw2b",
+                    "area": "durotar/town-screen/buildings-area/dw2a"
+                },
+
+                "dwellingLvl3": {
+                    "animation": "durotar/town-screen/buildings/dw3",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "border": "durotar/town-screen/buildings-border/dw3b",
+                    "area": "durotar/town-screen/buildings-area/dw3a"
+                },
+
+                "dwellingLvl4": {
+                    "animation": "durotar/town-screen/buildings/dw4",
+                    "x": 0,
+                    "y": 0,
+                    "z": 4,
+                    "border": "durotar/town-screen/buildings-border/dw4b",
+                    "area": "durotar/town-screen/buildings-area/dw4a"
+                },
+
+                "dwellingLvl5": {
+                    "animation": "durotar/town-screen/buildings/dw5",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "border": "durotar/town-screen/buildings-border/dw5b",
+                    "area": "durotar/town-screen/buildings-area/dw5a"
+                },
+
+                "dwellingLvl6": {
+                    "animation": "durotar/town-screen/buildings/dw6",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "border": "durotar/town-screen/buildings-border/dw6b",
+                    "area": "durotar/town-screen/buildings-area/dw6a"
+                },
+
+                "dwellingLvl7": {
+                    "animation": "durotar/town-screen/buildings/dw7",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "border": "durotar/town-screen/buildings-border/dw7b",
+                    "area": "durotar/town-screen/buildings-area/dw7a"
+                },
+
+                "dwellingUpLvl1": {
+                    "animation": "durotar/town-screen/buildings/dw1upg",
+                    "x": 0,
+                    "y": 0,
+                    "z": 4,
+                    "border": "durotar/town-screen/buildings-border/dw1upgb",
+                    "area": "durotar/town-screen/buildings-area/dw1upga"
+                },
+
+                "dwellingUpLvl2": {
+                    "animation": "durotar/town-screen/buildings/dw2upg",
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "border": "durotar/town-screen/buildings-border/dw2upgb",
+                    "area": "durotar/town-screen/buildings-area/dw2upga"
+                },
+
+                "dwellingUpLvl3": {
+                    "animation": "durotar/town-screen/buildings/dw3upg",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "border": "durotar/town-screen/buildings-border/dw3upgb",
+                    "area": "durotar/town-screen/buildings-area/dw3upga"
+                },
+
+                "dwellingUpLvl4": {
+                    "animation": "durotar/town-screen/buildings/dw4upg",
+                    "x": 0,
+                    "y": 0,
+                    "z": 4,
+                    "border": "durotar/town-screen/buildings-border/dw4upgb",
+                    "area": "durotar/town-screen/buildings-area/dw4upga"
+                },
+
+                "dwellingUpLvl5": {
+                    "animation": "durotar/town-screen/buildings/dw5upg",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "border": "durotar/town-screen/buildings-border/dw5upgb",
+                    "area": "durotar/town-screen/buildings-area/dw5upga"
+                },
+
+                "dwellingUpLvl6": {
+                    "animation": "durotar/town-screen/buildings/dw6upg",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "border": "durotar/town-screen/buildings-border/dw6b",
+                    "area": "durotar/town-screen/buildings-area/dw6a"
+                },
+
+                "dwellingUpLvl7": {
+                    "animation": "durotar/town-screen/buildings/dw7upg",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "border": "durotar/town-screen/buildings-border/dw7upgb",
+                    "area": "durotar/town-screen/buildings-area/dw7upga"
+                },
+
+                "extraCapitol": {
+                    "animation": "durotar/town-screen/buildings/wfall",
+                    "x": 0,
+                    "y": 0,
+                    "z": 1
+                },
+
+                "extraAnimation": {
+                    "animation": "durotar/town-screen/buildings/lake",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        }
+    }
+}

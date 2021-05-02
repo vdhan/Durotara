@@ -9,17 +9,17 @@
     "licenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
 
 	"factions": [
-		"config/durotar/town/buildings",
+		"config/durotar/town/building",
 		"config/durotar/town/faction",
 		"config/durotar/town/siege",
-		"config/durotar/town/spells",
-		"config/durotar/town/structures",
+		"config/durotar/town/spell",
+		"config/durotar/town/structure",
 		"config/durotar/town/puzzle"
 	],
 
 	"heroClasses": [
-		"config/durotar/heroes/warchief",
-		"config/durotar/heroes/clairvoyant"
+		"config/durotar/classes/might",
+		"config/durotar/classes/magic"
 	],
 
 	"heroes": [
@@ -58,8 +58,8 @@
 		"config/durotar/creatures/lock2",
 		"config/durotar/creatures/gronn1",
 		"config/durotar/creatures/gronn2",
-		"config/durotar/creatures/kobold"
+		"config/durotar/commander"
 	],
 
-	"objects": ["config/durotar/dwellings"]
+	"objects": ["config/durotar/dwelling"]
 }

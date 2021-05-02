@@ -1,7 +1,7 @@
 {
 	"hDraas" :
 	{
-		"class" : "hWarchief",
+		"class" : "dtChieftain",
 		"female" : false,
 
 		"images" :
@@ -51,7 +51,7 @@
 				"tooltip" : "Secondary Skill Bonus: Offence"
 			}
 		},
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"offence" : {

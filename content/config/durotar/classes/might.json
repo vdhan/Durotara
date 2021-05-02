@@ -1,15 +1,15 @@
 {
-	"hWarchief" : 
+	"dtChieftain" :
 	{
 		"name" : "Warchief",
 		"animation" :
 		{
-			"battle" : 
+			"battle" :
 			{
 				"female" : "horde/OrcWariorBatle",
 				"male"   : "horde/OrcWariorBatle"
 			}
-		},	
+		},
 		"mapObject" : { "templates" : { "default" : { "animation" : "horde/mapOrcWarior" }}},
 		"commander" : "hrdKobold",
 		"faction" : "horde",
@@ -78,7 +78,7 @@
 			"stronghold" : 6,
 			"fortress"   : 6,
 			"conflux"    : 4,
-			"horde"      : 7                  
+			"horde"      : 7
 		}
 	}
 }

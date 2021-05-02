@@ -1,7 +1,7 @@
 {
 	"hJargura" :
 	{
-		"class" : "hClairvoyant",
+		"class" : "dtShaman",
 		"female" : true,
 
 		"images" :
@@ -46,7 +46,7 @@
 				"skill" : "fireMagic"
 			}
 		],
-		
+
 		"texts" :
 		{
 			"name" : "Jargura",
@@ -58,7 +58,7 @@
 				"tooltip" : "Bonus spell:Slayer"
 			}
 		},
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"slayer" : {

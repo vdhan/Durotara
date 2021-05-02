@@ -1,7 +1,7 @@
 {
-	"hHurgor" : 
+	"hHurgor" :
 	{
-		"class" : "hClairvoyant",
+		"class" : "dtShaman",
 		"female" : false,
 
 		"images" :
@@ -45,7 +45,7 @@
 				"skill" : "mysticism"
 			}
 		],
-		
+
 		"texts" :
 		{
 			"name" : "Hurgor",
@@ -57,7 +57,7 @@
 				"tooltip" : "Spell bonus:Protection from Earth"
 			}
 		},
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"protectEarth" : {
