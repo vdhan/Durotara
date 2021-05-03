@@ -1,7 +1,7 @@
 {
 	"hRoeda" :
 	{
-		"class" : "hClairvoyant",
+		"class" : "dtShaman",
 		"female" : true,
 		"images" :
 		{
@@ -56,7 +56,7 @@
 				"tooltip" : "Spell bonus:Disrupting Ray"
 			}
 		},
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"disruptingRay" : {

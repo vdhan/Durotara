@@ -1,12 +1,12 @@
 {
 	"hOllathus" :
 	{
-		"class" : "hClairvoyant",
+		"class" : "dtShaman",
 		"female" : false,
 
 		"images" :
 		{
-			
+
 			"specialtySmall" : "horde/heroes/ollathus/spec-small.png",
 			"specialtyLarge" : "horde/heroes/ollathus/spec-large.png",
 			"large" : "horde/heroes/ollathus/portrait-large.png",
@@ -38,7 +38,7 @@
 			},
 		],
 
-		"skills" : 
+		"skills" :
 		[
 			{
 				"level" : "basic",
@@ -49,7 +49,7 @@
 				"skill" : "wisdom"
 			}
 		],
-		
+
 		"texts" :
 		{
 			"name" : "Ollathus",
@@ -61,7 +61,7 @@
 				"tooltip" : "Spell bonus:Weakness"
 			}
 		},
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"prayer" : {

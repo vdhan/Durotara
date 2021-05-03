@@ -1,12 +1,12 @@
 {
 	"hYreima" :
 	{
-		"class" : "hWarchief",
+		"class" : "dtChieftain",
 		"female" : true,
 
 		"images" :
 		{
-			
+
 			"specialtySmall" : "horde/heroes/yreima/spec-small.png",
 			"specialtyLarge" : "horde/heroes/yreima/spec-large.png",
 			"large" : "horde/heroes/yreima/portrait-large.png",
@@ -32,7 +32,7 @@
 			}
 		],
 
-		"skills" : 
+		"skills" :
 		[
 			{
 				"level" : "basic",

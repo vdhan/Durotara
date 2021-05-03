@@ -1,0 +1,82 @@
+{
+    "dtWarchief": {
+        "name": {
+            "singular": "Warchief",
+            "plural": "Warchiefs"
+        },
+        "faction": "durotar",
+        "special": true,
+        "level": 0,
+        "aiValue": 1070,
+        "fightValue": 961,
+        "growth": 1,
+
+        "attack": 5,
+        "defense": 5,
+        "damage": {
+            "min": 7,
+             "max": 15
+        },
+        "hitPoints": 60,
+        "speed": 5,
+        "shots": 24,
+        "doubleWide": false,
+
+        "abilities": {
+            "magicResistance": {
+                "type": "MAGIC_RESISTANCE",
+                "val": 5
+            },
+            "cast": {
+                "type": "SPELLCASTER",
+                "subtype": "spell.cure",
+                "val": 2
+            },
+            "castTimes": {
+                "type": "CASTS",
+                "val": 1
+            },
+            "spellPower": {
+                "type": "CREATURE_SPELL_POWER",
+                "val": 100
+            }
+        },
+
+        "graphics": {
+            "animation": "durotar/battle/kobold",
+            "iconSmall": "durotar/iconSmall/kobolds",
+            "iconLarge": "durotar/iconLarge/koboldl",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 1,
+                "walk": 1,
+                "flight": 1,
+                "idle": 10
+            },
+
+            "missile": {
+                "projectile": "PORCHX",
+                "attackClimaxFrame": 6,
+                "offset": {
+                    "lowerX": 62,
+                    "lowerY": -93,
+                    "middleX": 62,
+                    "middleY": -93,
+                    "upperX": 62,
+                    "upperY": -93
+                },
+                "frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+
+            }
+        },
+
+        "sound": {
+            "attack": "OORCATTK",
+            "defend": "OORCDFND",
+            "killed": "OORCKILL",
+            "move": "OORCMOVE",
+            "shoot": "OORCSHOT",
+            "wince": "OORCWNCE"
+        }
+    }
+}

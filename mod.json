@@ -48,17 +48,15 @@
 		"config/durotar/creatures/troll2",
         "config/durotar/creatures/worg1",
 		"config/durotar/creatures/worg2",
-		"config/durotar/creatures/worg3",
 		"config/durotar/creatures/ogre1",
 		"config/durotar/creatures/ogre2",
-		"config/durotar/creatures/ogre3",
 		"config/durotar/creatures/drake1",
 		"config/durotar/creatures/drake2",
 		"config/durotar/creatures/lock1",
 		"config/durotar/creatures/lock2",
 		"config/durotar/creatures/gronn1",
 		"config/durotar/creatures/gronn2",
-		"config/durotar/commander"
+		"config/durotar/commander/warchief"
 	],
 
 	"objects": ["config/durotar/dwelling"]

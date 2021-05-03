@@ -1,7 +1,7 @@
 {
 	"hOrloch" :
 	{
-		"class" : "hWarchief",
+		"class" : "dtChieftain",
 		"female" : false,
 		"images" :
 		{
@@ -48,7 +48,7 @@
 				"tooltip" : "Creature Bonus: Desert Trolls"
 			}
 		},
-		
+
 		"specialty" : {
 			"creature" : "troll1"
 		}

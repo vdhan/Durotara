@@ -1,11 +1,11 @@
 {
 	"hThurnokk" :
 	{
-		"class" : "hWarchief",
+		"class" : "dtChieftain",
 		"female" : false,
 		"images" :
 		{
-			
+
 			"specialtySmall" : "horde/heroes/thurnokk/spec-small.png",
 			"specialtyLarge" : "horde/heroes/thurnokk/spec-large.png",
 			"large" : "horde/heroes/thurnokk/portrait-large.png",
@@ -29,7 +29,7 @@
 				"min" : 3
 			}
 		],
-		
+
 		"skills" :
 		[
 			{
@@ -52,7 +52,7 @@
 				"tooltip" : "Spell Bonus: Decrease Luck"
 			}
 		},
-		
+
 		"specialty": {
 			"bonuses" : {
 				"luck" : {

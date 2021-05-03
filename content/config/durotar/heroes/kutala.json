@@ -1,12 +1,12 @@
 {
 	"hKutala" :
 	{
-		"class" : "hClairvoyant",
+		"class" : "dtShaman",
 		"female" : true,
 
 		"images" :
 		{
-			
+
 			"specialtySmall" : "horde/heroes/kutala/spec-small.png",
 			"specialtyLarge" : "horde/heroes/kutala/spec-large.png",
 			"large" : "horde/heroes/kutala/portrait-large.png",
@@ -47,7 +47,7 @@
 				"skill" : "navigation"
 			}
 		],
-		
+
 		"texts" :
 		{
 			"name" : "Kutala",
@@ -59,7 +59,7 @@
 				"tooltip" : "Resource bonus:sulfur"
 			}
 		},
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"sulfur" : {

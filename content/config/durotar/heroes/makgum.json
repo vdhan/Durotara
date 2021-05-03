@@ -1,7 +1,7 @@
 {
 	"hMakgum" :
 	{
-		"class" : "hWarchief",
+		"class" : "dtChieftain",
 		"female" : false,
 
 		"images" :
@@ -41,7 +41,7 @@
 				"skill" : "navigation"
 			}
 		],
-		
+
 		"texts" :
 		{
 			"name" : "Makgum",
@@ -53,7 +53,7 @@
 				"name" : "+1 Wood & Ore"
 			}
 		},
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"wood" : {
