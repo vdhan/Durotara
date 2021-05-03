@@ -7,7 +7,6 @@
         "faction": "durotar",
         "special": false,
         "level": 3,
-        "upgrades": ["worg3"],
         "aiValue": 303,
         "fightValue": 301,
         "growth": 9,

@@ -1,68 +1,76 @@
 {
-	"ogre2":
-	{
-		"name" :
-		{
-			"plural" : "Cerulean Goliaths",
-			"singular" : "Cerulean Goliath"
-		},
-		"advMapAmount" :
-		{
-			 "max" : 12,
-			 "min" : 5
-		},
-		"faction" : "horde",
-		"aiValue" : 1672,
-		"attack" : 17,
-		"hasDoubleWeek" : true,
-                "cost" :
-		{
-			"gold" : 1050
-		},
-		"damage" :
-		{
-			 "max" : 21,
-			 "min" : 17
-		},
-		"defense" : 13,
-		"fightValue" : 1435,
-		"graphics" :
-		{
-			"animation" : "horde/battle/ogre2.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
-			"map" : "horde/map/mapogre2.def",
-			"iconSmall" : "horde/iconsSmall/ogre2s.bmp",
-			"iconLarge" : "horde/iconsBig/ogre2l.bmp",
-			"timeBetweenFidgets" : 1
+    "ogre2": {
+        "name": {
+            "singular": "Cerulean Goliath",
+            "plural": "Cerulean Goliaths"
         },
-		"growth" : 2,
-		"hitPoints" : 95,
-		"level" : 6,
-		"upgrades":
-		[
-			"ogre3"
-		],
-		"sound" :
-		{
-			"attack" : "horde/ogreatk.wav",
-			"defend" : "horde/ogreblk.wav",
-			"killed" : "horde/ogredie.wav",
-			"move": "OGREMOVE.wav",
-			"wince" : "horde/ogrehit.wav"
-		},
-		"speed" : 8,
-		"abilities" :
-		 {
-		"spellimmunityslow" :
-			{
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.slow"
-			},
-		"spellimmunityquick" :
-			{
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.quicksand"
-			}
-		}
-	}
+        "faction": "durotar",
+        "special": false,
+        "level": 6,
+        "aiValue": 1672,
+        "fightValue": 1435,
+        "growth": 2,
+
+        "attack": 17,
+        "defense": 13,
+        "damage": {
+            "max": 21,
+            "min": 17
+        },
+        "hitPoints": 95,
+        "speed": 8,
+        "doubleWide": false,
+        "hasDoubleWeek": true,
+        "cost": {
+            "gold": 1050
+        },
+
+        "abilities": {
+            "spellimmunityslow": {
+                "type": "SPELL_IMMUNITY",
+                "subtype": "spell.slow"
+            },
+            "spellimmunityquick": {
+                "type": "SPELL_IMMUNITY",
+                "subtype": "spell.quicksand"
+            }
+        },
+
+        "stackExperience": [
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED",
+                    "valueType": "BASE_NUMBER"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            }
+        ],
+
+        "advMapAmount": {
+            "max": 12,
+            "min": 5
+        },
+
+        "graphics": {
+            "animation": "durotar/battle/ogre2",
+            "map": "durotar/map/ogre2m",
+            "iconSmall": "durotar/iconSmall/ogre2s",
+            "iconLarge": "durotar/iconLarge/ogre2l",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 1,
+                "walk": 1,
+                "flight": 1,
+                "idle": 10
+            }
+        },
+
+        "sound": {
+            "attack": "durotar/ogreatk",
+            "defend": "durotar/ogreblk",
+            "killed": "durotar/ogredie",
+            "move": "OGREMOVE",
+            "wince": "durotar/ogrehit"
+        }
+    }
 }

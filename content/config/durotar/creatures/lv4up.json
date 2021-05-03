@@ -1,74 +1,88 @@
 {
-	"lock2":
-	{
-		"name" :
-		{
-			"plural" : "Regal Theurgists",
-			"singular" : "Regal Theurgist"
-		},
-		"advMapAmount" :
-		{
-			 "max" : 16,
-			 "min" : 10
-		},
-		"faction" : "horde",
-		"aiValue" : 739,
-		"attack" : 9,
-		"cost" :
-		{
-			"gold" : 425
-		},
-		"damage" :
-		{
-			 "max" : 10,
-			 "min" : 7
-		},
-		"defense" : 13,
-		"fightValue" : 683,
-		"graphics" :
-		{
-			"animation" : "horde/battle/lock2.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
-			"map" : "horde/map/lock2mini.def",
-			"iconSmall" : "horde/iconsSmall/lock2s.bmp",
-			"iconLarge" : "horde/iconsBig/lock2l.bmp",
-			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
-				"projectile" : "plich.def",
-			    "attackClimaxFrame" : 8,
-				"offset" :
-				{
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
-				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-			},
-		},
-		"growth" : 4,
-		"hitPoints" : 45,
-		"level" : 4,
-		"shots" : 18,		
-		"sound" :
-		{
-			"attack" : "horde/orcatk.wav",
-			"defend" : "horde/orchit.wav",
-			"killed" : "horde/orcdie.wav",
-			"move": "OORCMOVE.wav",
-			"wince" : "horde/orchit.wav",
-			"shoot": "MONKSHOT.wav"                      
-		},
-		"speed" : 10,
-		"abilities" :
-		{
-            "canshoot" :
-			{
-				"type" : "SHOOTER"
-			}
-		}
-	}
+    "lock2": {
+        "name": {
+            "singular": "Regal Theurgist",
+            "plural": "Regal Theurgists"
+        },
+        "faction": "durotar",
+        "special": false,
+        "level": 4,
+        "aiValue": 739,
+        "fightValue": 683,
+        "growth": 4,
+        "horde": 3,
+
+        "attack": 9,
+        "defense": 13,
+        "damage": {
+            "max": 10,
+            "min": 7
+        },
+        "hitPoints": 45,
+        "speed": 10,
+        "shots": 24,
+        "doubleWide": false,
+        "hasDoubleWeek": true,
+        "cost": {
+            "gold": 425
+        },
+
+        "abilities":{
+            "shoot": {
+                "type": "SHOOTER"
+            }
+        },
+
+        "stackExperience": [
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED",
+                    "valueType": "BASE_NUMBER"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            }
+        ],
+
+        "advMapAmount": {
+            "max": 20,
+            "min": 10
+        },
+
+        "graphics": {
+            "animation": "durotar/battle/lock2",
+            "map": "durotar/map/lock2m",
+            "iconSmall": "durotar/iconSmall/lock2s",
+            "iconLarge": "durotar/iconLarge/lock2l",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 1,
+                "walk": 1,
+                "flight": 1,
+                "idle": 10
+            },
+
+            "missile": {
+                "projectile": "PLICH",
+                "attackClimaxFrame": 8,
+                "offset": {
+                    "upperX": 41,
+                    "upperY": -92,
+                    "middleX": 58,
+                    "middleY": -79,
+                    "lowerX": 29,
+                    "lowerY": -14
+                },
+                "frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+            }
+        },
+
+        "sound":{
+            "attack": "durotar/orcatk",
+            "defend": "durotar/orchit",
+            "killed": "durotar/orcdie",
+            "move": "OORCMOVE",
+            "wince": "durotar/orchit",
+            "shoot": "MONKSHOT"
+        }
+    }
 }

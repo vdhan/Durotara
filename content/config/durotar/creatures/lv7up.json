@@ -1,72 +1,75 @@
 {
-	"gronn2":
-	{
-		"name" :
-		{
-			"plural" : "Elder Gronns",
-			"singular" : "Elder Gronn"
-		},
-		"advMapAmount" :
-		{
-			"max" : 8,
-			"min" : 3
-		},
-		"faction" : "horde",
-		"aiValue" : 4000,
-		"attack" : 28,
-		"cost" :
-		{
-			"gold" : 4750,
-			"ore" : 2
-		},
-		"damage" :
-		{
-			"max" : 55,
-			"min" : 45
-		},
-		"defense" : 22,
-		"fightValue" : 4635,
-		"graphics" :
-		{
-			"animation" : "horde/battle/gronn2.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
-			"map" : "horde/map/gronn2mini.def",
-			"iconSmall" : "horde/iconsSmall/gronn2s.bmp",
-			"iconLarge" : "horde/iconsBig/gronn2l.bmp",
-			"timeBetweenFidgets" : 1
-		},
-		"doubleWide" : true,
-		"growth" : 1,
-		"hitPoints" : 280,
-		"level" : 7,
-		"sound" :
-		{
-			"attack" : "horde/gronnatk.wav",
-			"defend" : "horde/gronnhit.wav",
-			"killed" : "horde/gronndie.wav",
-			"move" : "horde/gronnwlk.wav",
-			"wince" : "horde/gronnhit.wav"                     
-		},
-		"speed" : 13,
-		"abilities" :
-		{
+    "gronn2": {
+        "name": {
+            "singular": "Elder Gronn",
+            "plural": "Elder Gronns"
+        },
+        "faction": "durotar",
+        "special": false,
+        "level": 7,
+        "aiValue": 4000,
+        "fightValue": 4635,
+        "growth": 1,
 
+        "attack": 28,
+        "defense": 22,
+        "damage": {
+            "max": 55,
+            "min": 45
+        },
+        "hitPoints": 280,
+        "speed": 13,
+        "doubleWide": true,
+        "hasDoubleWeek": false,
+        "cost": {
+            "gold": 4750,
+            "ore": 2
+        },
 
-			"nomorale" :
-			{
-				"type" : "NO_MORALE"
-			},
+        "abilities": {
+            "nomorale": {
+                "type": "NO_MORALE"
+            },
+            "fearless": {
+                "type": "FEARLESS"
+            }
+        },
 
-			"fearless" :
-                        {
-				"type" : "FEARLESS",
-			},
-			"HPregenerate" : 
-			{
-				"type" : "HP_REGENERATION",
-				"subtype" : 1,
-				"val" : 45
-			}
-		}
-	}
+        "stackExperience": [
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED",
+                    "valueType": "BASE_NUMBER"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            }
+        ],
+
+        "advMapAmount": {
+            "max": 10,
+            "min": 4
+        },
+
+        "graphics": {
+            "animation": "durotar/battle/gronn2",
+            "map": "durotar/map/gronn2m",
+            "iconSmall": "durotar/iconSmall/gronn2s",
+            "iconLarge": "durotar/iconLarge/gronn2l",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 1,
+                "walk": 1,
+                "flight": 1,
+                "idle": 10
+            }
+        },
+
+        "sound": {
+            "attack": "durotar/gronnatk",
+            "defend": "durotar/gronnhit",
+            "killed": "durotar/gronndie",
+            "move": "durotar/gronnwlk",
+            "wince": "durotar/gronnhit"
+        }
+    }
 }

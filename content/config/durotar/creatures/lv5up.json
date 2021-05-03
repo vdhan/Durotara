@@ -1,58 +1,72 @@
 {
-	"drake2":
-	{
-		"name" :
-		{
-			"plural" : "Palatial Drakes",
-			"singular" : "Palatial Drake"
-		},
-		"advMapAmount" :
-		{
-			"max" : 12,
-			"min" : 8
-		},
-		"faction" : "horde",
-		"aiValue" : 728,
-		"attack" : 11,
-		"hasDoubleWeek" : true,
-        "cost" : 
-		{
-			"gold" : 575
-		},
-		"damage" :
-		{
-			"max" : 18,
-			"min" : 13
-		},
-		"defense" : 11,
-		"fightValue" : 1091,
-		"graphics" :
-		{
-			"animation" : "horde/battle/drake2.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
-			"map" : "horde/map/mapdrake2.def",
-			"iconSmall" : "horde/iconsSmall/drake2s.bmp",
-			"iconLarge" : "horde/iconsBig/drake2l.bmp",
-			"timeBetweenFidgets" : 1,
-		},
-		"growth" : 3,
-		"hitPoints" : 70,
-		"level" : 5,
-		"sound" :
-		{
-			"attack" : "horde/drakeatk.wav",
-			"defend" : "horde/drakeblk.wav",
-			"killed" : "horde/drakedie.wav",
-			"move" : "horde/drakefly.wav",
-			"wince" : "horde/drakehit.wav",   
-		},
-		"speed" : 9,
-		"abilities" :
-		{
-			"canFly" : 
-			{
-			    "type" : "FLYING"
-			}
-		}
-	}
+    "drake2": {
+        "name": {
+            "singular": "Palatial Drake",
+            "plural": "Palatial Drakes"
+        },
+        "faction": "durotar",
+        "special": false,
+        "level": 5,
+        "aiValue": 728,
+        "fightValue": 1091,
+        "growth": 3,
+        "horde": 2,
+
+        "attack": 11,
+        "defense": 11,
+        "damage": {
+            "max": 18,
+            "min": 13
+        },
+        "hitPoints": 70,
+        "speed": 9,
+        "doubleWide": true,
+        "hasDoubleWeek": true,
+        "cost": {
+            "gold": 575
+        },
+
+        "abilities": {
+            "fly": {
+                "type": "FLYING"
+            }
+        },
+
+        "stackExperience": [
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED",
+                    "valueType": "BASE_NUMBER"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            }
+        ],
+
+        "advMapAmount": {
+            "max": 16,
+            "min": 8
+        },
+
+        "graphics": {
+            "animation": "durotar/battle/drake2",
+            "map": "durotar/map/drake2m",
+            "iconSmall": "durotar/iconSmall/drake2s",
+            "iconLarge": "durotar/iconLarge/drake2l",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 1,
+                "walk": 1,
+                "flight": 1,
+                "idle": 10
+            }
+        },
+
+        "sound": {
+            "attack": "durotar/drakeatk",
+            "defend": "durotar/drakeblk",
+            "killed": "durotar/drakedie",
+            "move": "durotar/drakefly",
+            "wince": "durotar/drakehit"
+        }
+    }
 }
