@@ -1,0 +1,72 @@
+{
+    "foreman": {
+        "name": {
+            "singular": "Foreman",
+            "plural": "Foremen"
+        },
+        "faction": "durotar",
+        "special": false,
+        "level": 1,
+        "aiValue": 115,
+        "fightValue": 130,
+        "growth": 14,
+        "horde": 7,
+
+        "attack": 6,
+        "defense": 3,
+        "damage": {
+            "max": 3,
+            "min": 3
+        },
+        "hitPoints": 9,
+        "speed": 7,
+        "doubleWide": false,
+        "hasDoubleWeek": true,
+        "cost": {
+            "gold": 80
+        },
+
+        "abilities": {
+            "firstStrike": {
+                "type": "FIRST_STRIKE"
+            }
+        },
+
+        "stackExperience": [
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED",
+                    "valueType": "BASE_NUMBER"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            }
+        ],
+
+        "advMapAmount": {
+            "max": 30,
+            "min": 20
+        },
+
+        "graphics": {
+            "animation": "durotar/battle/foreman",
+            "map": "durotar/map/foremanm",
+            "iconSmall": "durotar/iconSmall/foremans",
+            "iconLarge": "durotar/iconLarge/foremanl",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 1,
+                "flight": 1,
+                "idle": 10,
+                "walk": 1
+            }
+        },
+
+        "sound": {
+            "attack": "durotar/orcatk",
+            "defend": "durotar/orchit",
+            "killed": "durotar/orcdie",
+            "move": "OORCMOVE",
+            "wince": "durotar/orchit"
+        }
+    }
+}

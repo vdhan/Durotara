@@ -1,0 +1,66 @@
+{
+    "peon": {
+        "name": {
+            "singular": "Peon",
+            "plural": "Peons"
+        },
+        "faction": "durotar",
+        "special": false,
+        "level": 1,
+        "upgrades": ["foreman"],
+        "aiValue": 75,
+        "fightValue": 110,
+        "growth": 14,
+        "horde": 7,
+
+        "attack": 4,
+        "defense": 3,
+        "damage": {
+            "max": 3,
+            "min": 2
+        },
+        "hitPoints": 6,
+        "speed": 6,
+        "doubleWide": false,
+        "hasDoubleWeek": true,
+        "cost": {
+            "gold": 70
+        },
+
+        "abilities": {
+            "retaliation": {
+                "type": "ADDITIONAL_RETALIATION",
+                "val": 1
+            }
+        },
+
+        "stackExperience": [],
+
+        "advMapAmount": {
+            "max": 50,
+            "min": 20
+        },
+
+        "graphics": {
+            "animation": "durotar/battle/peon",
+            "map": "durotar/map/peonm",
+            "iconSmall": "durotar/iconSmall/peons",
+            "iconLarge": "durotar/iconLarge/peonl",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 1,
+                "walk": 1,
+                "flight": 1,
+                "idle": 10
+            }
+        },
+
+        "sound": {
+            "attack": "durotar/orcatk",
+            "defend": "durotar/orchit",
+            "killed": "durotar/orcdie",
+            "move": "OORCMOVE",
+            "wince": "durotar/orchit"
+        }
+    }
+}

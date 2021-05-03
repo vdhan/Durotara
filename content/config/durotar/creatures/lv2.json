@@ -1,0 +1,89 @@
+{
+    "troll1": {
+        "name": {
+            "singular": "Desert Troll",
+            "plural": "Desert Trolls"
+        },
+        "faction": "durotar",
+        "special": false,
+        "level": 2,
+        "upgrades": ["troll2"],
+        "aiValue": 293,
+        "fightValue": 260,
+        "growth": 7,
+        "horde": 5,
+
+        "attack": 5,
+        "defense": 7,
+        "damage": {
+            "max": 3,
+            "min": 2
+        },
+        "hitPoints": 12,
+        "speed": 7,
+        "shots": 24,
+        "doubleWide": false,
+        "hasDoubleWeek": true,
+        "cost": {
+            "gold": 130
+        },
+
+        "abilities": {
+            "shoot": {
+                "type": "SHOOTER"
+            }
+        },
+
+        "stackExperience": [
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED",
+                    "valueType": "BASE_NUMBER"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            }
+        ],
+
+        "advMapAmount": {
+            "max": 30,
+            "min": 25
+        },
+
+        "graphics": {
+            "animation": "durotar/battle/troll1",
+            "map": "durotar/map/troll1m",
+            "iconSmall": "durotar/iconSmall/troll1s",
+            "iconLarge": "durotar/iconLarge/troll1l",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 1,
+                "walk": 1,
+                "flight": 1,
+                "idle": 10
+            },
+
+            "missile": {
+                "projectile": "PORCHX",
+                "attackClimaxFrame": 8,
+                "offset": {
+                    "upperX": 41,
+                    "upperY": -92,
+                    "middleX": 58,
+                    "middleY": -79,
+                    "lowerX": 29,
+                    "lowerY": -14
+                },
+                "frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+            }
+        },
+
+        "sound": {
+            "attack": "durotar/trollatk",
+            "defend": "durotar/trollhit",
+            "killed": "durotar/trolldie",
+            "move": "OORCMOVE",
+            "wince": "durotar/trollhit",
+            "shoot": "OORCSHOT"
+        }
+    }
+}

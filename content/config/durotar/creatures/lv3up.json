@@ -1,0 +1,73 @@
+{
+    "worg2": {
+        "name": {
+            "singular": "Harness Worg",
+            "plural": "Harness Worgs"
+        },
+        "faction": "durotar",
+        "special": false,
+        "level": 3,
+        "upgrades": ["worg3"],
+        "aiValue": 303,
+        "fightValue": 301,
+        "growth": 9,
+        "horde": 6,
+
+        "attack": 6,
+        "defense": 9,
+        "damage": {
+            "max": 6,
+            "min": 3
+        },
+        "hitPoints": 22,
+        "speed": 8,
+        "doubleWide": true,
+        "hasDoubleWeek": true,
+        "cost": {
+            "gold": 240
+        },
+
+        "abilities": {
+            "robot": {
+                "type": "NON_LIVING"
+            }
+        },
+
+        "stackExperience": [
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED",
+                    "valueType": "BASE_NUMBER"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            }
+        ],
+
+        "advMapAmount": {
+             "max": 25,
+             "min": 12
+        },
+
+        "graphics": {
+            "animation": "durotar/battle/worg2",
+            "map": "durotar/map/worg2m",
+            "iconSmall": "durotar/iconSmall/worg2s",
+            "iconLarge": "durotar/iconLarge/worg2l",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 1,
+                "walk": 1,
+                "flight": 1,
+                "idle": 10
+            }
+        },
+
+        "sound": {
+            "attack": "durotar/worgatk",
+            "defend": "durotar/worgblk",
+            "killed": "durotar/worgdie",
+            "move": "HGWRMOVE",
+            "wince": "durotar/worgblk"
+        }
+    }
+}

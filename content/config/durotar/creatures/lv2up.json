@@ -1,0 +1,88 @@
+{
+    "troll2": {
+        "name": {
+            "singular": "Sandfury Troll",
+            "plural": "Sandfury Trolls"
+        },
+        "faction": "durotar",
+        "special": false,
+        "level": 2,
+        "aiValue": 234,
+        "fightValue": 316,
+        "growth": 7,
+        "horde": 5,
+
+        "attack": 5,
+        "defense": 8,
+        "damage": {
+            "max": 4,
+            "min": 2
+        },
+        "hitPoints": 18,
+        "speed": 7,
+        "shots": 24,
+        "doubleWide": false,
+        "hasDoubleWeek": true,
+        "cost": {
+            "gold": 200
+        },
+
+        "abilities": {
+             "shoot": {
+                "type": "SHOOTER"
+            }
+        },
+
+        "stackExperience": [
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED",
+                    "valueType": "BASE_NUMBER"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            }
+        ],
+
+        "advMapAmount": {
+            "max": 25,
+            "min": 16
+        },
+
+        "graphics": {
+            "animation": "durotar/battle/troll2",
+            "map": "durotar/map/troll2m",
+            "iconSmall": "durotar/iconSmall/troll2s",
+            "iconLarge": "durotar/iconLarge/troll2l",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 1,
+                "walk": 1,
+                "flight": 1,
+                "idle": 10
+            },
+
+            "missile": {
+                "projectile": "PORCHX",
+                "attackClimaxFrame": 8,
+                "offset": {
+                    "upperX": 41,
+                    "upperY": -92,
+                    "middleX": 58,
+                    "middleY": -79,
+                    "lowerX": 29,
+                    "lowerY": -14
+                },
+                "frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+            }
+        },
+
+        "sound": {
+            "attack": "durotar/trollatk",
+            "defend": "durotar/trollhit",
+            "killed": "durotar/trolldie",
+            "move": "OORCMOVE",
+            "wince": "durotar/trollhit",
+            "shoot": "OORCSHOT"
+        }
+    }
+}
