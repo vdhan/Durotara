@@ -1,0 +1,64 @@
+{
+    "drtMagic2": {
+        "class": "drtMagic",
+        "female": true,
+        "spellbook": ["disguise"],
+
+        "texts": {
+            "name": "Gadira",
+            "biography": "",
+            "specialty": {
+                "name": "Slow Immunity",
+                "description": "{Slow Immunity}\n\nAll creatures in hero's army are immune to slow.",
+                "tooltip": "Spell bonus: Slow Immunity"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "durotar/heroes/gadira/spec-small",
+            "specialtyLarge": "durotar/heroes/gadira/spec-large",
+            "large": "durotar/heroes/gadira/portrait-large",
+            "small": "durotar/heroes/gadira/portrait-small"
+        },
+
+        "army": [
+            {
+                "creature": "peon",
+                "max": 30,
+                "min": 20
+            },
+            {
+                "creature": "troll1",
+                "max": 10,
+                "min": 5
+            },
+            {
+                "creature": "troll1",
+                "max": 6,
+                "min": 4
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "wisdom"
+            },
+            {
+                "level": "basic",
+                "skill": "earthMagic"
+            }
+        ],
+
+        "specialty": {
+            "bonuses": {
+                "slow": {
+                    "type": "SPELL_IMMUNITY",
+                    "subtype": "spell.slow",
+                    "val": 0,
+                    "valueType": "BASE_NUMBER"
+                }
+            }
+        }
+    }
+}

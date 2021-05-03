@@ -1,9 +1,9 @@
 {
-    "dtShaman": {
+    "drtMagic": {
         "name": "Shaman",
         "faction": "durotar",
         "affinity": "magic",
-        "commander": "dtWarchief",
+        "commander": "drtCommand",
 
         "primarySkills": {
             "attack": 1,

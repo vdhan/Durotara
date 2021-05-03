@@ -1,0 +1,62 @@
+{
+    "drtMagic7": {
+        "class": "drtMagic",
+        "female": true,
+        "spellbook": ["disruptingRay"],
+
+        "texts": {
+            "name": "Roeda",
+            "biography": "",
+            "specialty": {
+                "name": "Disrupting Ray",
+                "description": "{Disrupting Ray}\n\nCasts Disrupting Ray with expert effects but not expert range.",
+                "tooltip": "Spell bonus: Disrupting Ray"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "durotar/heroes/roeda/spec-small",
+            "specialtyLarge": "durotar/heroes/roeda/spec-large",
+            "large": "durotar/heroes/roeda/portrait-large",
+            "small": "durotar/heroes/roeda/portrait-small"
+        },
+
+        "army": [
+            {
+                "creature": "peon",
+                "max": 30,
+                "min": 20
+            },
+            {
+                "creature": "troll1",
+                "max": 10,
+                "min": 5
+            },
+            {
+                "creature": "worg1",
+                "max": 4,
+                "min": 3
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "firstAid"
+            },
+            {
+                "level": "basic",
+                "skill": "wisdom"
+            }
+        ],
+
+        "specialty": {
+            "bonuses": {
+                "disruptingRay": {
+                    "subtype": "spell.disruptingRay",
+                    "type": "MAXED_SPELL"
+                }
+            }
+        }
+    }
+}

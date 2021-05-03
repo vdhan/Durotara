@@ -1,0 +1,64 @@
+{
+    "drtMagic8": {
+        "class": "drtMagic",
+        "female": false,
+        "spellbook": ["curse"],
+
+        "texts": {
+            "name": "Soragg",
+            "biography": "",
+            "specialty": {
+                "name": "Earth Wraith",
+                "description": "{Earth Wraith}\n\nHero can cast earth spell with 20% more damage.",
+                "tooltip": "Spell bonus: Earth Damage"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "durotar/heroes/soragg/spec-small",
+            "specialtyLarge": "durotar/heroes/soragg/spec-large",
+            "large": "durotar/heroes/soragg/portrait-large",
+            "small": "durotar/heroes/soragg/portrait-small"
+        },
+
+        "army": [
+            {
+                "creature": "peon",
+                "max": 30,
+                "min": 20
+            },
+            {
+                "creature": "troll1",
+                "max": 10,
+                "min": 5
+            },
+            {
+                "creature": "worg1",
+                "max": 4,
+                "min": 3
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "learning"
+            },
+            {
+                "level": "basic",
+                "skill": "sorcery"
+            }
+        ],
+
+        "specialty": {
+            "bonuses": {
+                "earthDamage": {
+                    "type": "EARTH_SPELL_DMG_PREMY",
+                    "valueType": "BASE_NUMBER",
+                    "val": 20,
+                    "propagator": "HERO"
+                }
+            }
+        }
+    }
+}

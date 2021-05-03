@@ -1,0 +1,56 @@
+{
+    "drtMight3": {
+        "class": "drtMight",
+        "female": true,
+
+        "texts": {
+            "name": "Fullika",
+            "biography": "",
+            "specialty": {
+                "description": "{Worgs, Harness Worgs and Martial Worgs}\n\nIncreases Speed of any Worgs or Harness Worgs or Martial Worgs by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
+                "name": "Worgs",
+                "tooltip": "Creature Bonus: Worgs"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "durotar/heroes/fullika/spec-small",
+            "specialtyLarge": "durotar/heroes/fullika/spec-large",
+            "large": "durotar/heroes/fullika/portrait-large",
+            "small": "durotar/heroes/fullika/portrait-small"
+        },
+
+        "army": [
+            {
+                "creature": "worg1",
+                "max": 5,
+                "min": 4
+            },
+            {
+                "creature": "troll1",
+                "max": 10,
+                "min": 5
+            },
+            {
+                "creature": "worg1",
+                "max": 4,
+                "min": 3
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "logistics"
+            },
+            {
+                "level": "basic",
+                "skill": "luck"
+            }
+        ],
+
+        "specialty": {
+            "creature": "worg1"
+        }
+    }
+}

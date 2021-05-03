@@ -1,0 +1,56 @@
+{
+    "drtMight4": {
+        "class": "drtMight",
+        "female": false,
+
+        "texts": {
+            "name": "Goranud",
+            "biography": "",
+            "specialty": {
+                "description": "{Peons and Foremen}\n\nIncreases Speed of any Peons or Foremen by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
+                "name": "Peons",
+                "tooltip": "Creature Bonus: Peons"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "durotar/heroes/goranud/spec-small",
+            "specialtyLarge": "durotar/heroes/goranud/spec-large",
+            "large": "durotar/heroes/goranud/portrait-large",
+            "small": "durotar/heroes/goranud/portrait-small"
+        },
+
+        "army": [
+            {
+                "creature": "peon",
+                "max": 30,
+                "min": 20
+            },
+            {
+                "creature": "peon",
+                "max": 20,
+                "min": 15
+            },
+            {
+                "creature": "peon",
+                "max": 10,
+                "min": 5
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "pathfinding"
+            },
+            {
+                "level": "basic",
+                "skill": "diplomacy"
+            }
+        ],
+
+        "specialty": {
+            "creature": "peon"
+        }
+    }
+}

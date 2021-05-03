@@ -8,6 +8,10 @@
     "licenseName": "Creative Commons Attribution-NonCommercial-ShareAlike",
     "licenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
 
+    "changelog": {
+        "1.0.0": ["Initial release."]
+    },
+
 	"factions": [
 		"config/durotar/town/building",
 		"config/durotar/town/faction",
@@ -23,22 +27,23 @@
 	],
 
 	"heroes": [
-		"config/durotar/heroes/boang",
-		"config/durotar/heroes/draas",
-		"config/durotar/heroes/forang",
-		"config/durotar/heroes/fullika",
-		"config/durotar/heroes/gadira",
-		"config/durotar/heroes/goranud",
-		"config/durotar/heroes/hurgor",
-		"config/durotar/heroes/jargura",
-		"config/durotar/heroes/kutala",
-		"config/durotar/heroes/makgum",
-		"config/durotar/heroes/ollathus",
-		"config/durotar/heroes/orloch",
-		"config/durotar/heroes/roeda",
-		"config/durotar/heroes/soragg",
-		"config/durotar/heroes/thurnokk",
-		"config/durotar/heroes/yreima"
+		"config/durotar/heroes/magic1",
+		"config/durotar/heroes/magic2",
+		"config/durotar/heroes/magic3",
+		"config/durotar/heroes/magic4",
+		"config/durotar/heroes/magic5",
+		"config/durotar/heroes/magic6",
+		"config/durotar/heroes/magic7",
+		"config/durotar/heroes/magic8",
+
+		"config/durotar/heroes/might1",
+		"config/durotar/heroes/might2",
+		"config/durotar/heroes/might3",
+		"config/durotar/heroes/might4",
+		"config/durotar/heroes/might5",
+		"config/durotar/heroes/might6",
+		"config/durotar/heroes/might7",
+		"config/durotar/heroes/might8"
 	],
 
 	"creatures": [

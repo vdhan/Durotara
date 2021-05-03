@@ -1,0 +1,62 @@
+{
+    "drtMagic4": {
+        "class": "drtMagic",
+        "female": true,
+        "spellbook": ["slayer"],
+
+        "texts": {
+            "name": "Jargura",
+            "biography": "",
+            "specialty": {
+                "name": "Slayer",
+                "description": "{Slayer}\n\nCasts Slayer with expert effects but not expert range.",
+                "tooltip": "Bonus spell: Slayer"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "durotar/heroes/jargura/spec-small",
+            "specialtyLarge": "durotar/heroes/jargura/spec-large",
+            "large": "durotar/heroes/jargura/portrait-large",
+            "small": "durotar/heroes/jargura/portrait-small"
+        },
+
+        "army": [
+            {
+                "creature": "peon",
+                "max": 30,
+                "min": 20
+            },
+            {
+                "creature": "troll1",
+                "max": 10,
+                "min": 5
+            },
+            {
+                "creature": "worg1",
+                "max": 4,
+                "min": 3
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "resistance"
+            },
+            {
+                "level": "basic",
+                "skill": "fireMagic"
+            }
+        ],
+
+        "specialty": {
+            "bonuses": {
+                "slayer": {
+                    "type": "MAXED_SPELL",
+                    "subtype": "spell.slayer"
+                }
+            }
+        }
+    }
+}

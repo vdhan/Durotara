@@ -1,9 +1,9 @@
 {
-    "dtChieftain": {
+    "drtMight": {
         "name": "Chieftain",
         "faction": "durotar",
         "affinity": "might",
-        "commander": "dtWarchief",
+        "commander": "drtCommand",
 
         "primarySkills": {
             "attack": 2,

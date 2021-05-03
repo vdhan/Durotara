@@ -1,0 +1,64 @@
+{
+    "drtMagic3": {
+        "class": "drtMagic",
+        "female": false,
+        "spellbook": ["protectEarth"],
+
+        "texts": {
+            "name": "Hurgor",
+            "biography": "",
+            "specialty": {
+                "name": "Protection from Earth",
+                "description": "{Protection from Earth}\n\nCasts Protection from Earth with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+                "tooltip": "Spell bonus: Protection from Earth"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "durotar/heroes/hurgor/spec-small",
+            "specialtyLarge": "durotar/heroes/hurgor/spec-large",
+            "large": "durotar/heroes/hurgor/portrait-large",
+            "small": "durotar/heroes/hurgor/portrait-small"
+        },
+
+        "army": [
+            {
+                "creature": "peon",
+                "max": 30,
+                "min": 20
+            },
+            {
+                "creature": "troll1",
+                "max": 10,
+                "min": 5
+            },
+            {
+                "creature": "worg1",
+                "max": 4,
+                "min": 3
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "intelligence"
+            },
+            {
+                "level": "basic",
+                "skill": "mysticism"
+            }
+        ],
+
+        "specialty": {
+            "bonuses": {
+                "protectEarth": {
+                    "subtype": "spell.protectEarth",
+                    "type": "SPECIAL_SPELL_LEV",
+                    "updater": "TIMES_HERO_LEVEL",
+                    "val": 4
+                }
+            }
+        }
+    }
+}

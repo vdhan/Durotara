@@ -1,0 +1,52 @@
+{
+    "drtMight6": {
+        "class": "drtMight",
+        "female": false,
+
+        "texts": {
+            "name": "Orloch",
+            "biography": "",
+            "specialty": {
+                "description": "{Desert Trolls and Sandfury Trolls}\n\nIncreases Speed of any Desert Trolls or Sandfury Trolls by 1 and their Attack and Defense skills by 5% for every two levels (rounded up).",
+                "name": "Desert Trolls",
+                "tooltip": "Creature Bonus: Desert Trolls"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "durotar/heroes/orloch/spec-small",
+            "specialtyLarge": "durotar/heroes/orloch/spec-large",
+            "large": "durotar/heroes/orloch/portrait-large",
+            "small": "durotar/heroes/orloch/portrait-small"
+        },
+
+        "army": [
+            {
+                "creature": "troll1",
+                "max": 12,
+                "min": 6
+            },
+            {
+                "creature": "troll1",
+                "max": 10,
+                "min": 5
+            },
+            {
+                "creature": "troll1",
+                "max": 8,
+                "min": 4
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "advanced",
+                "skill": "archery"
+            }
+        ],
+
+        "specialty": {
+            "creature": "troll1"
+        }
+    }
+}

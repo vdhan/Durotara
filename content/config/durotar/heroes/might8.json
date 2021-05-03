@@ -1,0 +1,56 @@
+{
+    "drtMight8": {
+        "class": "drtMight",
+        "female": true,
+
+        "texts": {
+            "name": "Yreima",
+            "biography": "",
+            "specialty": {
+                "description": "{Theurgists and Regal Theurgists}\n\nIncreases Speed of any Theurgists or Regal Theurgists by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
+                "name": "Theurgists",
+                "tooltip": "Creature Bonus: Theurgists"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "durotar/heroes/yreima/spec-small",
+            "specialtyLarge": "durotar/heroes/yreima/spec-large",
+            "large": "durotar/heroes/yreima/portrait-large",
+            "small": "durotar/heroes/yreima/portrait-small"
+        },
+
+        "army": [
+            {
+                "creature": "peon",
+                "max": 30,
+                "min": 20
+            },
+            {
+                "creature": "troll1",
+                "max": 10,
+                "min": 5
+            },
+            {
+                "creature": "worg1",
+                "max": 4,
+                "min": 3
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "wisdom"
+            },
+            {
+                "level": "basic",
+                "skill": "armorer"
+            }
+        ],
+
+        "specialty": {
+            "creature": "lock1"
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "drtMagic5": {
+        "class": "drtMagic",
+        "female": true,
+        "spellbook": ["summonBoat"],
+
+        "texts": {
+            "name": "Kutala",
+            "biography": "",
+            "specialty": {
+                "name": "Sulfur",
+                "description": "{Sulfur}\n\nIncreases kingdom's sulfur production by 1 per day.",
+                "tooltip": "Resource bonus: Sulfur"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "durotar/heroes/kutala/spec-small",
+            "specialtyLarge": "durotar/heroes/kutala/spec-large",
+            "large": "durotar/heroes/kutala/portrait-large",
+            "small": "durotar/heroes/kutala/portrait-small"
+        },
+
+        "army": [
+            {
+                "creature": "peon",
+                "max": 28,
+                "min": 18
+            },
+            {
+                "creature": "troll1",
+                "max": 12,
+                "min": 6
+            },
+            {
+                "creature": "worg1",
+                "max": 4,
+                "min": 3
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "logistics"
+            },
+            {
+                "level": "basic",
+                "skill": "navigation"
+            }
+        ],
+
+        "specialty": {
+            "bonuses": {
+                "sulfur": {
+                    "subtype": "resource.sulfur",
+                    "type": "GENERATE_RESOURCE",
+                    "val": 1
+                }
+            }
+        }
+    }
+}

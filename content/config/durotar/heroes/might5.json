@@ -1,0 +1,68 @@
+{
+    "drtMight5": {
+        "class": "drtMight",
+        "female": false,
+
+        "texts": {
+            "name": "Makgum",
+            "biography": "",
+            "specialty": {
+                "description": "{Wood & Ore}\n\nIncreases kingdom's wood and ore production by 1 per day.",
+                "tooltip": "?",
+                "name": "+1 Wood & Ore"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "durotar/heroes/makgum/spec-small",
+            "specialtyLarge": "durotar/heroes/makgum/spec-large",
+            "large": "durotar/heroes/makgum/portrait-large",
+            "small": "durotar/heroes/makgum/portrait-small"
+        },
+
+        "army": [
+            {
+                "creature": "peon",
+                "max": 26,
+                "min": 16
+            },
+            {
+                "creature": "troll1",
+                "max": 8,
+                "min": 5
+            },
+            {
+                "creature": "worg1",
+                "max": 4,
+                "min": 3
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "scouting"
+            },
+            {
+                "level": "basic",
+                "skill": "navigation"
+            }
+        ],
+
+        "specialty": {
+            "bonuses": {
+                "wood": {
+                    "subtype": "resource.wood",
+                    "type": "GENERATE_RESOURCE",
+                    "val": 1
+                },
+
+                "ore": {
+                    "subtype": "resource.ore",
+                    "type": "GENERATE_RESOURCE",
+                    "val": 1
+                }
+            }
+        }
+    }
+}

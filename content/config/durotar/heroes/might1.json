@@ -1,0 +1,64 @@
+{
+    "drtMight1": {
+        "class": "drtMight",
+        "female": false,
+
+        "texts": {
+            "name": "B'oang",
+            "biography": "",
+            "specialty": {
+                "description": "{Estates}\n\nReceives a 7% per level bonus to Estates skill(rounded up).",
+                "name": "Estates",
+                "tooltip": "Secondary Skill Bonus: Estates"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "durotar/heroes/boang/spec-small",
+            "specialtyLarge": "durotar/heroes/boang/spec-large",
+            "large": "durotar/heroes/boang/portrait-large",
+            "small": "durotar/heroes/boang/portrait-small"
+        },
+
+        "army": [
+            {
+                "creature": "peon",
+                "max": 30,
+                "min": 20
+            },
+            {
+                "creature": "troll1",
+                "max": 10,
+                "min": 5
+            },
+            {
+                "creature": "worg1",
+                "max": 4,
+                "min": 3
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "artillery"
+            },
+            {
+                "level": "basic",
+                "skill": "estates"
+            }
+        ],
+
+        "specialty": {
+            "bonuses": {
+                "estates": {
+                    "subtype": "skill.estates",
+                    "type": "SECONDARY_SKILL_PREMY",
+                    "updater": "TIMES_HERO_LEVEL",
+                    "val": 7,
+                    "valueType": "PERCENT_TO_BASE"
+                }
+            }
+        }
+    }
+}

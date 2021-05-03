@@ -1,0 +1,63 @@
+{
+    "drtMight7": {
+        "class": "drtMight",
+        "female": false,
+
+        "texts": {
+            "name": "Thurnokk",
+            "biography": "",
+            "specialty": {
+                "description": "{Decrease Luck}\n\nDecrease Luck on enemy creatures by 1.",
+                "name": "Decrease Luck",
+                "tooltip": "Spell Bonus: Decrease Luck"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "durotar/heroes/thurnokk/spec-small",
+            "specialtyLarge": "durotar/heroes/thurnokk/spec-large",
+            "large": "durotar/heroes/thurnokk/portrait-large",
+            "small": "durotar/heroes/thurnokk/portrait-small"
+        },
+
+        "army": [
+            {
+                "creature": "peon",
+                "max": 30,
+                "min": 20
+            },
+            {
+                "creature": "troll1",
+                "max": 10,
+                "min": 5
+            },
+            {
+                "creature": "worg1",
+                "max": 4,
+                "min": 3
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "ballistics"
+            },
+            {
+                "level": "basic",
+                "skill": "leadership"
+            }
+        ],
+
+        "specialty": {
+            "bonuses": {
+                "luck": {
+                    "type": "LUCK",
+                    "effectRange": "ONLY_ENEMY_ARMY",
+                    "val": -1,
+                    "propagator": "HERO"
+                }
+            }
+        }
+    }
+}
