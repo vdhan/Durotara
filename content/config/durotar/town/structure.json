@@ -176,6 +176,15 @@
                     "area": "durotar/town-screen/buildings-area/tguilda"
                 },
 
+                "special2": {
+                    "animation": "durotar/town-screen/buildings/tguild",
+                    "x": 0,
+                    "y": 0,
+                    "z": 4,
+                    "border": "durotar/town-screen/buildings-border/tguildb",
+                    "area": "durotar/town-screen/buildings-area/tguilda"
+                },
+
                 "special3": {
                     "animation": "durotar/town-screen/buildings/bridge",
                     "x": 0,
@@ -183,6 +192,15 @@
                     "z": 2,
                     "border": "durotar/town-screen/buildings-border/bridge",
                     "area": "durotar/town-screen/buildings-area/bridge"
+                },
+
+                "special4": {
+                    "animation": "durotar/town-screen/buildings/tavern",
+                    "x": 0,
+                    "y": 0,
+                    "z": 4,
+                    "border": "durotar/town-screen/buildings-border/tavern",
+                    "area": "durotar/town-screen/buildings-area/tavern"
                 },
 
                 "grail": {

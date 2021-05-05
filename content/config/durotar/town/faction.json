@@ -73,14 +73,14 @@
                 [
                     ["villageHall", "townHall", "cityHall", "capitol"],
                     ["fort", "citadel", "castle"],
-                    ["tavern"],
+                    ["tavern", "special4"],
                     ["blacksmith"]
                 ],
 
                 [
                     ["marketplace", "resourceSilo"],
                     ["mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5"],
-                    ["special1"]
+                    ["special1", "special2"]
                 ],
 
                 [
@@ -135,26 +135,26 @@
 
             "defaultTavern": 5,
             "tavern": {
-                "knight": 3,
-                "cleric": 3,
-                "ranger": 3,
-                "druid": 3,
-                "alchemist": 3,
-                "wizard": 3,
-                "demoniac": 3,
-                "heretic": 3,
-                "deathknight": 3,
-                "necromancer": 3,
-                "warlock": 3,
-                "overlord": 3,
-                "barbarian": 3,
-                "battlemage": 3,
-                "beastmaster": 3,
-                "witch": 3,
-                "planeswalker": 3,
-                "elementalist": 3,
-                "drtMight": 5,
-                "drtMagic": 5
+                "knight": 5,
+                "cleric": 5,
+                "ranger": 5,
+                "druid": 5,
+                "alchemist": 5,
+                "wizard": 5,
+                "demoniac": 5,
+                "heretic": 5,
+                "deathknight": 5,
+                "necromancer": 5,
+                "warlock": 5,
+                "overlord": 5,
+                "barbarian": 5,
+                "battlemage": 5,
+                "beastmaster": 5,
+                "witch": 5,
+                "planeswalker": 5,
+                "elementalist": 5,
+                "drtMight": 6,
+                "drtMagic": 6
             }
         }
     }

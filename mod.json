@@ -61,7 +61,7 @@
 		"config/durotar/creatures/lv6up",
 		"config/durotar/creatures/lv7",
 		"config/durotar/creatures/lv7up",
-		"config/durotar/commander/warchief"
+		"config/durotar/commander"
 	],
 
 	"objects": ["config/durotar/dwelling"]

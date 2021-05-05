@@ -1,7 +1,7 @@
 {
     "core:creatureGeneratorCommon": {
         "types": {
-            "laboryard": {
+            "drtDwelling1": {
                 "name": "Labor Yard",
                 "creatures": [["peon"]],
                 "templates": {
@@ -12,7 +12,7 @@
                 }
             },
 
-            "ofBarracks": {
+            "drtDwelling2": {
                 "name": "Troll Barracks",
                 "creatures": [["troll1"]],
                 "templates": {
@@ -23,7 +23,7 @@
                 }
             },
 
-            "worgpen": {
+            "drtDwelling3": {
                 "name": "Worg Pen",
                 "creatures": [["worg1"]],
                 "templates": {
@@ -34,7 +34,7 @@
                 }
             },
 
-            "ofAirstrip": {
+            "drtDwelling4": {
                 "name": "Airstrip",
                 "creatures": [["lock1"]],
                 "templates": {
@@ -45,7 +45,7 @@
                 }
             },
 
-            "ofStingersPost": {
+            "drtDwelling5": {
                 "name": "Stingers Post",
                 "creatures": [["drake1"]],
                 "guards": true,
@@ -57,7 +57,7 @@
                 }
             },
 
-            "ofAncientRefinery": {
+            "drtDwelling6": {
                 "name": "Shadow Council",
                 "creatures": [["ogre1"]],
                 "guards": true,
@@ -69,7 +69,7 @@
                 }
             },
 
-            "ofGarage": {
+            "drtDwelling7": {
                 "name": "Gronn Cave",
                 "creatures": [["gronn1"]],
                 "guards": true,

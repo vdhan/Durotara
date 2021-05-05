@@ -240,14 +240,24 @@
                     }
                 },
 
-                "horde1Upg":
-                {
+                "horde1Upg": {
                     "id": 19,
                     "name": "Wolf Cave",
                     "description": "Increases weekly growth of Frost Wolves.",
                     "upgrades": "dwellingUpLvl1",
                     "requires": ["horde1"],
                     "mode": "auto"
+                },
+
+                "special2": {
+                    "id": 21,
+                    "name": "Blood Obelisk",
+                    "description": "Provides +2 defense during sieges.",
+                    "upgrades": "special1",
+                    "type": "defenseGarrisonBonus",
+                    "cost": {
+                        "gold": 1000
+                    }
                 },
 
                 "special3": {
@@ -259,6 +269,19 @@
                     },
                     "produce": {
                         "gold": 2000
+                    }
+                },
+
+                "special4": {
+                    "id": 23,
+                    "name": "Escape Tunnel",
+                    "description": "Allows defending heroes to retreat during a siege, but not to surrender.",
+                    "requires": ["tavern"],
+                    "type": "escapeTunnel",
+                    "cost": {
+                        "gold": 2000,
+                        "wood": 5,
+                        "ore": 5
                     }
                 },
 
