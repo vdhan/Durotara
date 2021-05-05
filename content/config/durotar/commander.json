@@ -1,8 +1,8 @@
 {
     "drtCommand": {
         "name": {
-            "singular": "Warchief",
-            "plural": "Warchiefs"
+            "singular": "Chieftain",
+            "plural": "Chieftains"
         },
         "faction": "durotar",
         "special": true,
@@ -39,13 +39,31 @@
             "spellPower": {
                 "type": "CREATURE_SPELL_POWER",
                 "val": 100
+            },
+
+            "superiorAttack": {
+                "type": "PRIMARY_SKILL",
+                "subtype": "primSkill.attack",
+                "val": 4,
+                "valueType": "PERCENT_TO_BASE",
+                "updater": "TIMES_HERO_LEVEL",
+                "propagator": "HERO"
+            },
+
+            "superiorDefence": {
+                "type": "PRIMARY_SKILL",
+                "subtype": "primSkill.defence",
+                "val": 4,
+                "valueType": "PERCENT_TO_BASE",
+                "updater": "TIMES_HERO_LEVEL",
+                "propagator": "HERO"
             }
         },
 
         "graphics": {
-            "animation": "durotar/battle/kobold",
-            "iconSmall": "durotar/iconSmall/kobolds",
-            "iconLarge": "durotar/iconLarge/koboldl",
+            "animation": "durotar/battle/foreman",
+            "iconSmall": "durotar/iconSmall/foremans",
+            "iconLarge": "durotar/iconLarge/foremanl",
             "timeBetweenFidgets": 1,
             "animationTime": {
                 "attack": 1,
@@ -66,7 +84,6 @@
                     "upperY": -93
                 },
                 "frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-
             }
         },
 
