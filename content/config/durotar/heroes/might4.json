@@ -22,17 +22,17 @@
 
         "army": [
             {
-                "creature": "peon",
+                "creature": "drtLv1",
                 "max": 30,
                 "min": 20
             },
             {
-                "creature": "peon",
+                "creature": "drtLv1",
                 "max": 20,
                 "min": 15
             },
             {
-                "creature": "peon",
+                "creature": "drtLv1",
                 "max": 10,
                 "min": 5
             }
@@ -50,7 +50,7 @@
         ],
 
         "specialty": {
-            "creature": "peon"
+            "creature": "drtLv1"
         }
     }
 }

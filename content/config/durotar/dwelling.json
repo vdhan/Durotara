@@ -3,7 +3,7 @@
         "types": {
             "drtDwelling1": {
                 "name": "Labor Yard",
-                "creatures": [["peon"]],
+                "creatures": [["drtLv1"]],
                 "templates": {
                     "default": {
                         "animation": "durotar/adventure-map/dwelling-1",
@@ -14,7 +14,7 @@
 
             "drtDwelling2": {
                 "name": "Troll Barracks",
-                "creatures": [["troll1"]],
+                "creatures": [["drtLv2"]],
                 "templates": {
                     "default": {
                         "animation": "durotar/adventure-map/dwelling-2",
@@ -25,7 +25,7 @@
 
             "drtDwelling3": {
                 "name": "Worg Pen",
-                "creatures": [["worg1"]],
+                "creatures": [["drtLv3"]],
                 "templates": {
                     "default": {
                         "animation": "durotar/adventure-map/dwelling-3",
@@ -36,7 +36,7 @@
 
             "drtDwelling4": {
                 "name": "Airstrip",
-                "creatures": [["lock1"]],
+                "creatures": [["drtLv4"]],
                 "templates": {
                     "default": {
                         "animation": "durotar/adventure-map/dwelling-4",
@@ -47,7 +47,7 @@
 
             "drtDwelling5": {
                 "name": "Stingers Post",
-                "creatures": [["drake1"]],
+                "creatures": [["drtLv5"]],
                 "guards": true,
                 "templates": {
                     "default": {
@@ -59,7 +59,7 @@
 
             "drtDwelling6": {
                 "name": "Shadow Council",
-                "creatures": [["ogre1"]],
+                "creatures": [["drtLv6"]],
                 "guards": true,
                 "templates": {
                     "default": {
@@ -71,7 +71,7 @@
 
             "drtDwelling7": {
                 "name": "Gronn Cave",
-                "creatures": [["gronn1"]],
+                "creatures": [["drtLv7"]],
                 "guards": true,
                 "templates": {
                     "default": {

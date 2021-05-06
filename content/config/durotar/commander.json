@@ -7,8 +7,8 @@
         "faction": "durotar",
         "special": true,
         "level": 0,
-        "aiValue": 1070,
-        "fightValue": 961,
+        "aiValue": 974,
+        "fightValue": 874,
         "growth": 1,
 
         "attack": 5,

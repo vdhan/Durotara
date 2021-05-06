@@ -1,5 +1,5 @@
 {
-    "ogre1": {
+    "drtLv6": {
         "name": {
             "singular": "Goliath",
             "plural": "Goliaths"
@@ -7,7 +7,7 @@
         "faction": "durotar",
         "special": false,
         "level": 6,
-        "upgrades": ["ogre2"],
+        "upgrades": ["drtLv6up"],
         "aiValue": 1468,
         "fightValue": 1274,
         "growth": 2,

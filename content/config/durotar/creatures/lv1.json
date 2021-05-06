@@ -1,5 +1,5 @@
 {
-    "peon": {
+    "drtLv1": {
         "name": {
             "singular": "Peon",
             "plural": "Peons"
@@ -7,7 +7,7 @@
         "faction": "durotar",
         "special": false,
         "level": 1,
-        "upgrades": ["foreman"],
+        "upgrades": ["drtLv1up"],
         "aiValue": 75,
         "fightValue": 110,
         "growth": 14,

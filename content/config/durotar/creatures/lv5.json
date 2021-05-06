@@ -1,5 +1,5 @@
 {
-    "drake1": {
+    "drtLv5": {
         "name": {
             "singular": "Drake",
             "plural": "Drakes"
@@ -7,7 +7,7 @@
         "faction": "durotar",
         "special": false,
         "level": 5,
-        "upgrades": ["drake2"],
+        "upgrades": ["drtLv5up"],
         "aiValue": 802,
         "fightValue": 880,
         "growth": 3,

@@ -1,5 +1,5 @@
 {
-    "troll1": {
+    "drtLv2": {
         "name": {
             "singular": "Desert Troll",
             "plural": "Desert Trolls"
@@ -7,7 +7,7 @@
         "faction": "durotar",
         "special": false,
         "level": 2,
-        "upgrades": ["troll2"],
+        "upgrades": ["drtLv2up"],
         "aiValue": 293,
         "fightValue": 260,
         "growth": 7,

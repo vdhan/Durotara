@@ -1,5 +1,5 @@
 {
-    "worg1": {
+    "drtLv3": {
         "name": {
             "singular": "Worg",
             "plural": "Worgs"
@@ -7,7 +7,7 @@
         "faction": "durotar",
         "special": false,
         "level": 3,
-        "upgrades": ["worg2"],
+        "upgrades": ["drtLv3up"],
         "aiValue": 268,
         "fightValue": 269,
         "growth": 9,

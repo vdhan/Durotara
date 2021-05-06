@@ -1,5 +1,5 @@
 {
-    "gronn1": {
+    "drtLv7": {
         "name": {
             "singular": "Gronn",
             "plural": "Gronns"
@@ -7,7 +7,7 @@
         "faction": "durotar",
         "special": false,
         "level": 7,
-        "upgrades": ["gronn2"],
+        "upgrades": ["drtLv7up"],
         "aiValue": 5642,
         "fightValue": 4435,
         "growth": 1,

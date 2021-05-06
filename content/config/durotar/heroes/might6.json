@@ -22,17 +22,17 @@
 
         "army": [
             {
-                "creature": "troll1",
+                "creature": "drtLv2",
                 "max": 12,
                 "min": 6
             },
             {
-                "creature": "troll1",
+                "creature": "drtLv2",
                 "max": 10,
                 "min": 5
             },
             {
-                "creature": "troll1",
+                "creature": "drtLv2",
                 "max": 8,
                 "min": 4
             }
@@ -46,7 +46,7 @@
         ],
 
         "specialty": {
-            "creature": "troll1"
+            "creature": "drtLv2"
         }
     }
 }

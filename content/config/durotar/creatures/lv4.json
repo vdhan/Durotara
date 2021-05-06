@@ -1,5 +1,5 @@
 {
-    "lock1": {
+    "drtLv4": {
         "name": {
             "singular": "Theurgist",
             "plural": "Theurgists"
@@ -7,7 +7,7 @@
         "faction": "durotar",
         "special": false,
         "level": 4,
-        "upgrades": ["lock2"],
+        "upgrades": ["drtLv4up"],
         "aiValue": 662,
         "fightValue": 620,
         "growth": 4,

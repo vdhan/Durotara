@@ -22,17 +22,17 @@
 
         "army": [
             {
-                "creature": "peon",
+                "creature": "drtLv1",
                 "max": 26,
                 "min": 16
             },
             {
-                "creature": "troll1",
+                "creature": "drtLv2",
                 "max": 8,
                 "min": 5
             },
             {
-                "creature": "worg1",
+                "creature": "drtLv3",
                 "max": 4,
                 "min": 3
             }

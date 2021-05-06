@@ -103,13 +103,13 @@
             ],
 
             "creatures": [
-                ["peon", "foreman"],
-                ["troll1", "troll2"],
-                ["worg1", "worg2"],
-                ["lock1", "lock2"],
-                ["drake1", "drake2"],
-                ["ogre1", "ogre2"],
-                ["gronn1", "gronn2"]
+                ["drtLv1", "drtLv1up"],
+                ["drtLv2", "drtLv2up"],
+                ["drtLv3", "drtLv3up"],
+                ["drtLv4", "drtLv4up"],
+                ["drtLv5", "drtLv5up"],
+                ["drtLv6", "drtLv6up"],
+                ["drtLv7", "drtLv7up"]
             ],
 
             "names": [

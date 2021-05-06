@@ -23,17 +23,17 @@
 
         "army": [
             {
-                "creature": "worg1",
+                "creature": "drtLv3",
                 "max": 6,
                 "min": 5
             },
             {
-                "creature": "worg1",
+                "creature": "drtLv3",
                 "max": 5,
                 "min": 4
             },
             {
-                "creature": "worg1",
+                "creature": "drtLv3",
                 "max": 4,
                 "min": 3
             }
