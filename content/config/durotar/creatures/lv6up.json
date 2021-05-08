@@ -7,8 +7,8 @@
         "faction": "durotar",
         "special": false,
         "level": 6,
-        "aiValue": 1672,
-        "fightValue": 1435,
+        "aiValue": 2451,
+        "fightValue": 2075,
         "growth": 2,
         "horde": 1,
 
@@ -32,6 +32,10 @@
             },
             "fear": {
                 "type": "FEAR"
+            },
+            "duration": {
+                "type": "CREATURE_ENCHANT_POWER",
+                "val": 3
             }
         },
 
@@ -48,6 +52,21 @@
                     "valueType": "PERCENT_TO_BASE"
                 },
                 "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+            },
+
+            {
+                "bonus": {
+                    "type": "SPELL_BEFORE_ATTACK",
+                    "subtype": "spell.stoneSkin",
+                    "addInfo": [3, 0]
+                },
+                "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+            },
+            {
+                "bonus": {
+                    "type": "BLOCKS_RETALIATION"
+                },
+                "values": [false, false, false, false, false, true, true, true, true, true]
             }
         ],
 

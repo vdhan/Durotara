@@ -8,8 +8,8 @@
         "special": false,
         "level": 5,
         "upgrades": ["drtLv5up"],
-        "aiValue": 802,
-        "fightValue": 880,
+        "aiValue": 1047,
+        "fightValue": 949,
         "growth": 3,
         "horde": 2,
 
@@ -36,6 +36,10 @@
             },
             "breath": {
                 "type": "TWO_HEX_ATTACK_BREATH"
+            },
+            "duration": {
+                "type": "CREATURE_ENCHANT_POWER",
+                "val": 3
             }
         },
 
@@ -50,6 +54,23 @@
                 "bonus": {
                     "type": "STACK_HEALTH",
                     "valueType": "PERCENT_TO_BASE"
+                },
+                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+            },
+
+            {
+                "bonus": {
+                    "type": "SPELL_BEFORE_ATTACK",
+                    "subtype": "spell.mirth",
+                    "addInfo": [3, 0]
+                },
+                "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+            },
+            {
+                "bonus": {
+                    "type": "SPELL_AFTER_ATTACK",
+                    "subtype": "spell.earthquake",
+                    "addInfo": [1, 0]
                 },
                 "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
             }

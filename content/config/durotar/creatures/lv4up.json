@@ -7,8 +7,8 @@
         "faction": "durotar",
         "special": false,
         "level": 4,
-        "aiValue": 739,
-        "fightValue": 683,
+        "aiValue": 723,
+        "fightValue": 686,
         "growth": 4,
         "horde": 3,
 
@@ -31,11 +31,15 @@
             "shoot": {
                 "type": "SHOOTER"
             },
-            "freeShoot": {
-                "type": "FREE_SHOOTING"
+            "noObstacle": {
+                "type": "NO_WALL_PENALTY"
             },
-            "noDistance": {
-                "type": "NO_DISTANCE_PENALTY"
+            "noMelee": {
+                "type": "NO_MELEE_PENALTY"
+            },
+            "duration": {
+                "type": "CREATURE_ENCHANT_POWER",
+                "val": 3
             }
         },
 
@@ -52,6 +56,21 @@
                     "valueType": "PERCENT_TO_BASE"
                 },
                 "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+            },
+
+            {
+                "bonus": {
+                    "type": "SPELL_BEFORE_ATTACK",
+                    "subtype": "spell.haste",
+                    "addInfo": [3, 1]
+                },
+                "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+            },
+            {
+                "bonus": {
+                    "type": "NO_DISTANCE_PENALTY"
+                },
+                "values": [false, false, false, false, false, true, true, true, true, true]
             }
         ],
 

@@ -8,8 +8,8 @@
         "special": false,
         "level": 7,
         "upgrades": ["drtLv7up"],
-        "aiValue": 5642,
-        "fightValue": 4435,
+        "aiValue": 4500,
+        "fightValue": 4500,
         "growth": 1,
 
         "attack": 21,
@@ -27,11 +27,25 @@
         },
 
         "abilities": {
+            "king": {
+                "type": "KING1"
+            },
             "fly": {
                 "type": "FLYING"
             },
             "dragon": {
                 "type": "DRAGON_NATURE"
+            },
+            "targets": {
+                "type": "THREE_HEADED_ATTACK"
+            },
+            "resistance":{
+                "type": "SPELL_RESISTANCE_AURA",
+                "val": 20
+            },
+            "duration": {
+                "type": "CREATURE_ENCHANT_POWER",
+                "val": 3
             }
         },
 
@@ -48,6 +62,21 @@
                     "valueType": "PERCENT_TO_BASE"
                 },
                 "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+            },
+
+            {
+                "bonus": {
+                    "type": "SPELL_BEFORE_ATTACK",
+                    "subtype": "spell.prayer",
+                    "addInfo": [3, 0]
+                },
+                "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+            },
+            {
+                "bonus": {
+                    "type": "SPELL_RESISTANCE_AURA"
+                },
+                "values": [5, 5, 10, 10, 15, 15, 20, 20, 25, 25]
             }
         ],
 

@@ -8,8 +8,8 @@
         "special": false,
         "level": 1,
         "upgrades": ["drtLv1up"],
-        "aiValue": 75,
-        "fightValue": 110,
+        "aiValue": 112,
+        "fightValue": 124,
         "growth": 14,
         "horde": 7,
 
@@ -31,6 +31,16 @@
             "retaliation": {
                 "type": "ADDITIONAL_RETALIATION",
                 "val": 1
+            },
+            "earthquake": {
+                "type": "SPELL_AFTER_ATTACK",
+                "subtype": "spell.landMine",
+                "addInfo": [1, 0],
+                "val": 100
+            },
+            "duration": {
+                "type": "CREATURE_ENCHANT_POWER",
+                "val": 3
             }
         },
 
@@ -47,6 +57,15 @@
                     "valueType": "PERCENT_TO_BASE"
                 },
                 "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+            },
+
+            {
+                "bonus": {
+                    "type": "SPELL_BEFORE_ATTACK",
+                    "subtype": "spell.bloodlust",
+                    "addInfo": [3, 0]
+                },
+                "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
             },
             {
                 "bonus": {

@@ -7,8 +7,8 @@
         "faction": "durotar",
         "special": false,
         "level": 7,
-        "aiValue": 4000,
-        "fightValue": 4635,
+        "aiValue": 8000,
+        "fightValue": 8000,
         "growth": 1,
 
         "attack": 26,
@@ -27,11 +27,37 @@
         },
 
         "abilities": {
+            "king": {
+                "type": "KING1"
+            },
             "fly": {
                 "type": "FLYING"
             },
             "dragon": {
                 "type": "DRAGON_NATURE"
+            },
+            "targets": {
+                "type": "THREE_HEADED_ATTACK"
+            },
+            "resistance":{
+                "type": "SPELL_RESISTANCE_AURA",
+                "val": 50
+            },
+            "fearless": {
+                "type": "FEARLESS"
+            },
+            "earth": {
+                "type": "EARTH_IMMUNITY",
+                "subtype": 1
+            },
+            "thunderStrength": {
+                "type": "SPECIFIC_SPELL_POWER",
+                "subtype": "spell.thunderbolt",
+                "val": 10
+            },
+            "duration": {
+                "type": "CREATURE_ENCHANT_POWER",
+                "val": 3
             }
         },
 
@@ -46,6 +72,22 @@
                 "bonus": {
                     "type": "STACK_HEALTH",
                     "valueType": "PERCENT_TO_BASE"
+                },
+                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+            },
+
+            {
+                "bonus": {
+                    "type": "SPELL_BEFORE_ATTACK",
+                    "subtype": "spell.prayer",
+                    "addInfo": [3, 0]
+                },
+                "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+            },
+            {
+                "bonus": {
+                    "type": "SPELL_AFTER_ATTACK",
+                    "subtype": "spell.thunderbolt"
                 },
                 "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
             }

@@ -8,8 +8,8 @@
         "special": false,
         "level": 3,
         "upgrades": ["drtLv3up"],
-        "aiValue": 268,
-        "fightValue": 269,
+        "aiValue": 346,
+        "fightValue": 333,
         "growth": 7,
         "horde": 3,
 
@@ -31,6 +31,10 @@
             "ignoreDefence": {
                 "type": "ENEMY_DEFENCE_REDUCTION",
                 "val": 10
+            },
+            "duration": {
+                "type": "CREATURE_ENCHANT_POWER",
+                "val": 3
             }
         },
 
@@ -45,6 +49,21 @@
                 "bonus": {
                     "type": "STACK_HEALTH",
                     "valueType": "PERCENT_TO_BASE"
+                },
+                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+            },
+
+            {
+                "bonus": {
+                    "type": "SPELL_BEFORE_ATTACK",
+                    "subtype": "spell.fortune",
+                    "addInfo": [3, 0]
+                },
+                "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+            },
+            {
+                "bonus": {
+                    "type": "ENEMY_DEFENCE_REDUCTION"
                 },
                 "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
             }

@@ -8,8 +8,8 @@
         "special": false,
         "level": 4,
         "upgrades": ["drtLv4up"],
-        "aiValue": 662,
-        "fightValue": 620,
+        "aiValue": 570,
+        "fightValue": 549,
         "growth": 4,
         "horde": 3,
 
@@ -32,8 +32,12 @@
             "shoot": {
                 "type": "SHOOTER"
             },
-            "freeShoot": {
-                "type": "FREE_SHOOTING"
+            "noObstacle": {
+                "type": "NO_WALL_PENALTY"
+            },
+            "duration": {
+                "type": "CREATURE_ENCHANT_POWER",
+                "val": 3
             }
         },
 
@@ -50,6 +54,21 @@
                     "valueType": "PERCENT_TO_BASE"
                 },
                 "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+            },
+
+            {
+                "bonus": {
+                    "type": "SPELL_BEFORE_ATTACK",
+                    "subtype": "spell.haste",
+                    "addInfo": [3, 1]
+                },
+                "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+            },
+            {
+                "bonus": {
+                    "type": "NO_MELEE_PENALTY"
+                },
+                "values": [false, false, false, false, false, true, true, true, true, true]
             }
         ],
 

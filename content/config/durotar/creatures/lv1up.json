@@ -7,8 +7,8 @@
         "faction": "durotar",
         "special": false,
         "level": 1,
-        "aiValue": 115,
-        "fightValue": 130,
+        "aiValue": 178,
+        "fightValue": 191,
         "growth": 14,
         "horde": 7,
 
@@ -29,6 +29,10 @@
         "abilities": {
             "retaliation": {
                 "type": "UNLIMITED_RETALIATIONS"
+            },
+            "duration": {
+                "type": "CREATURE_ENCHANT_POWER",
+                "val": 3
             }
         },
 
@@ -45,6 +49,21 @@
                     "valueType": "PERCENT_TO_BASE"
                 },
                 "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+            },
+
+            {
+                "bonus": {
+                    "type": "SPELL_BEFORE_ATTACK",
+                    "subtype": "spell.bloodlust",
+                    "addInfo": [3, 0]
+                },
+                "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+            },
+            {
+                "bonus": {
+                    "type": "SELF_MORALE"
+                },
+                "values": [false, false, false, false, false, true, true, true, true, true]
             }
         ],
 
