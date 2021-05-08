@@ -2,59 +2,61 @@
     "drtMagic4": {
         "class": "drtMagic",
         "female": true,
-        "spellbook": ["slayer"],
+        "spellbook": ["meteorShower"],
 
         "texts": {
             "name": "Jargura",
             "biography": "",
             "specialty": {
-                "name": "Slayer",
-                "description": "{Slayer}\n\nCasts Slayer with expert effects but not expert range.",
-                "tooltip": "Bonus spell: Slayer"
+                "name": "Meteor Shower",
+                "description": "{Meteor Shower}\n\nCasts Meteor Shower with increased effect, based on hero level.",
+                "tooltip": "Spell Bonus: Meteor Shower"
             }
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/jargura/spec-small",
-            "specialtyLarge": "durotar/heroes/jargura/spec-large",
-            "large": "durotar/heroes/jargura/portrait-large",
-            "small": "durotar/heroes/jargura/portrait-small"
+            "specialtySmall": "durotar/heroes/jargura/specSmall",
+            "specialtyLarge": "durotar/heroes/jargura/specLarge",
+            "large": "durotar/heroes/jargura/portraitLarge",
+            "small": "durotar/heroes/jargura/portraitSmall"
         },
 
         "army": [
             {
                 "creature": "drtLv1",
-                "max": 30,
-                "min": 20
+                "min": 16,
+                "max": 24
             },
             {
                 "creature": "drtLv2",
-                "max": 10,
-                "min": 5
+                "min": 4,
+                "max": 7
             },
             {
                 "creature": "drtLv3",
-                "max": 4,
-                "min": 3
+                "min": 3,
+                "max": 4
             }
         ],
 
         "skills": [
             {
                 "level": "basic",
-                "skill": "resistance"
+                "skill": "wisdom"
             },
             {
                 "level": "basic",
-                "skill": "fireMagic"
+                "skill": "earthMagic"
             }
         ],
 
         "specialty": {
             "bonuses": {
-                "slayer": {
-                    "type": "MAXED_SPELL",
-                    "subtype": "spell.slayer"
+                "meteorShower": {
+                    "type": "SPECIAL_SPELL_LEV",
+                    "subtype": "spell.meteorShower",
+                    "val": 5,
+                    "updater": "TIMES_HERO_LEVEL"
                 }
             }
         }

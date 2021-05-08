@@ -2,15 +2,15 @@
     "drtMagic3": {
         "class": "drtMagic",
         "female": false,
-        "spellbook": ["protectEarth"],
+        "spellbook": ["resurrection"],
 
         "texts": {
             "name": "Hurgor",
             "biography": "",
             "specialty": {
-                "name": "Protection from Earth",
-                "description": "{Protection from Earth}\n\nCasts Protection from Earth with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
-                "tooltip": "Spell bonus: Protection from Earth"
+                "name": "Resurrection",
+                "description": "{Resurrection}\n\nCasts Resurrection with increased effect, based on hero level.",
+                "tooltip": "Spell Bonus: Resurrection"
             }
         },
 
@@ -24,39 +24,39 @@
         "army": [
             {
                 "creature": "drtLv1",
-                "max": 30,
-                "min": 20
+                "min": 16,
+                "max": 24
             },
             {
                 "creature": "drtLv2",
-                "max": 10,
-                "min": 5
+                "min": 4,
+                "max": 7
             },
             {
                 "creature": "drtLv3",
-                "max": 4,
-                "min": 3
+                "min": 3,
+                "max": 4
             }
         ],
 
         "skills": [
             {
                 "level": "basic",
-                "skill": "intelligence"
+                "skill": "wisdom"
             },
             {
                 "level": "basic",
-                "skill": "mysticism"
+                "skill": "earthMagic"
             }
         ],
 
         "specialty": {
             "bonuses": {
-                "protectEarth": {
-                    "subtype": "spell.protectEarth",
+                "resurrection": {
                     "type": "SPECIAL_SPELL_LEV",
-                    "updater": "TIMES_HERO_LEVEL",
-                    "val": 4
+                    "subtype": "spell.resurrection",
+                    "val": 5,
+                    "updater": "TIMES_HERO_LEVEL"
                 }
             }
         }

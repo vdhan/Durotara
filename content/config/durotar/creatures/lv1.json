@@ -32,12 +32,6 @@
                 "type": "ADDITIONAL_RETALIATION",
                 "val": 1
             },
-            "earthquake": {
-                "type": "SPELL_AFTER_ATTACK",
-                "subtype": "spell.landMine",
-                "addInfo": [1, 0],
-                "val": 100
-            },
             "duration": {
                 "type": "CREATURE_ENCHANT_POWER",
                 "val": 3

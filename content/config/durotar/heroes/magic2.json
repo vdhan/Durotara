@@ -2,40 +2,40 @@
     "drtMagic2": {
         "class": "drtMagic",
         "female": true,
-        "spellbook": ["disguise"],
+        "spellbook": ["haste"],
 
         "texts": {
             "name": "Gadira",
             "biography": "",
             "specialty": {
-                "name": "Slow Immunity",
-                "description": "{Slow Immunity}\n\nAll creatures in hero's army are immune to slow.",
-                "tooltip": "Spell bonus: Slow Immunity"
+                "name": "Sorcery",
+                "description": "{Sorcery}\n\nReceives a 5% per level bonus to Sorcery skill.",
+                "tooltip": "Skill Bonus: Sorcery"
             }
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/gadira/spec-small",
-            "specialtyLarge": "durotar/heroes/gadira/spec-large",
-            "large": "durotar/heroes/gadira/portrait-large",
-            "small": "durotar/heroes/gadira/portrait-small"
+            "specialtySmall": "durotar/heroes/gadira/specSmall",
+            "specialtyLarge": "durotar/heroes/gadira/specLarge",
+            "large": "durotar/heroes/gadira/portraitLarge",
+            "small": "durotar/heroes/gadira/portraitSmall"
         },
 
         "army": [
             {
                 "creature": "drtLv1",
-                "max": 30,
-                "min": 20
+                "min": 16,
+                "max": 24
             },
             {
                 "creature": "drtLv2",
-                "max": 10,
-                "min": 5
+                "min": 4,
+                "max": 7
             },
             {
-                "creature": "drtLv2",
-                "max": 6,
-                "min": 4
+                "creature": "drtLv3",
+                "min": 3,
+                "max": 4
             }
         ],
 
@@ -46,17 +46,18 @@
             },
             {
                 "level": "basic",
-                "skill": "earthMagic"
+                "skill": "sorcery"
             }
         ],
 
         "specialty": {
             "bonuses": {
-                "slow": {
-                    "type": "SPELL_IMMUNITY",
-                    "subtype": "spell.slow",
-                    "val": 0,
-                    "valueType": "BASE_NUMBER"
+                "sorcery": {
+                    "type": "SECONDARY_SKILL_PREMY",
+                    "subtype": "skill.sorcery",
+                    "val": 5,
+                    "valueType": "PERCENT_TO_BASE",
+                    "updater": "TIMES_HERO_LEVEL"
                 }
             }
         }

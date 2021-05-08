@@ -2,61 +2,62 @@
     "drtMagic1": {
         "class": "drtMagic",
         "female": false,
-        "spellbook": ["dispel"],
+        "spellbook": ["magicArrow"],
 
         "texts": {
             "name": "Forang",
             "biography": "",
             "specialty": {
-                "name": "Earth Dumper",
-                "description": "{Earth Dumper}\n\nIncrease cost of enemy's earth spells by 20%.",
-                "tooltip": "Spell Bonus: Earth Dumper"
+                "name": "Mysticism",
+                "description": "{Mysticism}\n\nReceives a 5% per level bonus to Mysticism skill.",
+                "tooltip": "Skill Bonus: Mysticism"
             }
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/forang/spec-small",
-            "specialtyLarge": "durotar/heroes/forang/spec-large",
-            "large": "durotar/heroes/forang/portrait-large",
-            "small": "durotar/heroes/forang/portrait-small"
+            "specialtySmall": "durotar/heroes/forang/specSmall",
+            "specialtyLarge": "durotar/heroes/forang/specLarge",
+            "large": "durotar/heroes/forang/portraitLarge",
+            "small": "durotar/heroes/forang/portraitSmall"
         },
 
         "army": [
             {
                 "creature": "drtLv1",
-                "max": 30,
-                "min": 20
+                "min": 16,
+                "max": 24
             },
             {
                 "creature": "drtLv2",
-                "max": 10,
-                "min": 5
+                "min": 4,
+                "max": 7
             },
             {
                 "creature": "drtLv3",
-                "max": 4,
-                "min": 3
+                "min": 3,
+                "max": 4
             }
         ],
 
         "skills": [
             {
                 "level": "basic",
-                "skill": "scholar"
+                "skill": "wisdom"
             },
             {
                 "level": "basic",
-                "skill": "airMagic"
+                "skill": "mysticism"
             }
         ],
 
         "specialty": {
             "bonuses": {
-                "earthMagic": {
-                    "type": "CHANGES_SPELL_COST_FOR_ENEMY",
-                    "subtype": "skill.earthMagic",
-                    "val": 20,
-                    "valueType": "PERCENT_TO_BASE"
+                "mysticism": {
+                	"type": "SECONDARY_SKILL_PREMY",
+                    "subtype": "skill.mysticism",
+                    "val": 5,
+                    "valueType" : "PERCENT_TO_BASE",
+                    "updater": "TIMES_HERO_LEVEL"
                 }
             }
         }

@@ -21,7 +21,7 @@
         },
         "hitPoints": 30,
         "speed": 6,
-        "shots": 24,
+        "shots": 12,
         "doubleWide": false,
         "hasDoubleWeek": true,
         "cost": {
