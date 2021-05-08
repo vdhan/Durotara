@@ -1,8 +1,8 @@
 {
     "drtLv7": {
         "name": {
-            "singular": "Gronn",
-            "plural": "Gronns"
+            "singular": "Green Dragon",
+            "plural": "Green Dragons"
         },
         "faction": "durotar",
         "special": false,
@@ -12,50 +12,55 @@
         "fightValue": 4435,
         "growth": 1,
 
-        "attack": 24,
+        "attack": 21,
         "defense": 19,
         "damage": {
-            "max": 55,
+            "max": 45,
             "min": 45
         },
-        "hitPoints": 210,
+        "hitPoints": 180,
         "speed": 11,
         "doubleWide": true,
         "hasDoubleWeek": false,
         "cost": {
-            "gold": 4000,
-            "ore": 1
+            "gold": 2500
         },
 
         "abilities": {
-            "nomorale": {
-                "type": "NO_MORALE"
+            "fly": {
+                "type": "FLYING"
             },
-            "fearless": {
-                "type": "FEARLESS"
+            "dragon": {
+                "type": "DRAGON_NATURE"
             }
         },
 
         "stackExperience": [
             {
                 "bonus": {
-                    "type": "STACKS_SPEED",
-                    "valueType": "BASE_NUMBER"
+                    "type": "STACKS_SPEED"
                 },
-                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+            },
+            {
+                "bonus": {
+                    "type": "STACK_HEALTH",
+                    "valueType": "PERCENT_TO_BASE"
+                },
+                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
             }
         ],
 
         "advMapAmount": {
             "max": 10,
-            "min": 4
+            "min": 5
         },
 
         "graphics": {
-            "animation": "durotar/battle/gronn1",
-            "map": "durotar/map/gronn1m",
-            "iconSmall": "durotar/iconSmall/gronn1s",
-            "iconLarge": "durotar/iconLarge/gronn1l",
+            "animation": "durotar/battle/dragon1",
+            "map": "durotar/map/dragon1m",
+            "iconSmall": "durotar/iconSmall/dragon1s",
+            "iconLarge": "durotar/iconLarge/dragon1l",
             "timeBetweenFidgets": 1,
             "animationTime": {
                 "attack": 1,
@@ -66,11 +71,11 @@
         },
 
         "sound": {
-            "attack": "durotar/gronnatk",
-            "defend": "durotar/gronnhit",
-            "killed": "durotar/gronndie",
-            "move": "durotar/gronnwlk",
-            "wince": "durotar/gronnhit"
+            "attack": "durotar/dragonAtk",
+            "defend": "durotar/dragonDef",
+            "killed": "durotar/dragonKill",
+            "move": "durotar/dragonMove",
+            "wince": "durotar/dragonWince"
         }
     }
 }

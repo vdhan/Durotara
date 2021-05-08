@@ -1,8 +1,8 @@
 {
     "drtLv6up": {
         "name": {
-            "singular": "Cerulean Goliath",
-            "plural": "Cerulean Goliaths"
+            "singular": "Bloodhoof Tauren",
+            "plural": "Bloodhoof Taurens"
         },
         "faction": "durotar",
         "special": false,
@@ -10,52 +10,57 @@
         "aiValue": 1672,
         "fightValue": 1435,
         "growth": 2,
+        "horde": 1,
 
-        "attack": 17,
-        "defense": 13,
+        "attack": 16,
+        "defense": 14,
         "damage": {
-            "max": 21,
-            "min": 17
+            "max": 20,
+            "min": 20
         },
-        "hitPoints": 95,
-        "speed": 8,
-        "doubleWide": false,
+        "hitPoints": 110,
+        "speed": 12,
+        "doubleWide": true,
         "hasDoubleWeek": true,
         "cost": {
-            "gold": 1050
+            "gold": 1100
         },
 
         "abilities": {
-            "spellimmunityslow": {
-                "type": "SPELL_IMMUNITY",
-                "subtype": "spell.slow"
+            "fearless": {
+                "type": "FEARLESS"
             },
-            "spellimmunityquick": {
-                "type": "SPELL_IMMUNITY",
-                "subtype": "spell.quicksand"
+            "fear": {
+                "type": "FEAR"
             }
         },
 
         "stackExperience": [
             {
                 "bonus": {
-                    "type": "STACKS_SPEED",
-                    "valueType": "BASE_NUMBER"
+                    "type": "STACKS_SPEED"
                 },
-                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+            },
+            {
+                "bonus": {
+                    "type": "STACK_HEALTH",
+                    "valueType": "PERCENT_TO_BASE"
+                },
+                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
             }
         ],
 
         "advMapAmount": {
-            "max": 12,
-            "min": 5
+            "max": 15,
+            "min": 8
         },
 
         "graphics": {
-            "animation": "durotar/battle/ogre2",
-            "map": "durotar/map/ogre2m",
-            "iconSmall": "durotar/iconSmall/ogre2s",
-            "iconLarge": "durotar/iconLarge/ogre2l",
+            "animation": "durotar/battle/gronn2",
+            "map": "durotar/map/gronn2m",
+            "iconSmall": "durotar/iconSmall/gronn2s",
+            "iconLarge": "durotar/iconLarge/gronn2l",
             "timeBetweenFidgets": 1,
             "animationTime": {
                 "attack": 1,
@@ -66,11 +71,11 @@
         },
 
         "sound": {
-            "attack": "durotar/ogreatk",
-            "defend": "durotar/ogreblk",
-            "killed": "durotar/ogredie",
-            "move": "OGREMOVE",
-            "wince": "durotar/ogrehit"
+            "attack": "durotar/gronnatk",
+            "defend": "durotar/gronnhit",
+            "killed": "durotar/gronndie",
+            "move": "durotar/gronnwlk",
+            "wince": "durotar/gronnhit"
         }
     }
 }

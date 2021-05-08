@@ -1,8 +1,8 @@
 {
     "drtLv1up": {
         "name": {
-            "singular": "Foreman",
-            "plural": "Foremen"
+            "singular": "Frost Wolf",
+            "plural": "Frost Wolves"
         },
         "faction": "durotar",
         "special": false,
@@ -13,45 +13,51 @@
         "horde": 7,
 
         "attack": 6,
-        "defense": 3,
+        "defense": 4,
         "damage": {
             "max": 3,
             "min": 3
         },
-        "hitPoints": 9,
-        "speed": 7,
-        "doubleWide": false,
+        "hitPoints": 10,
+        "speed": 11,
+        "doubleWide": true,
         "hasDoubleWeek": true,
         "cost": {
-            "gold": 80
+            "gold": 75
         },
 
         "abilities": {
-            "firstStrike": {
-                "type": "FIRST_STRIKE"
+            "retaliation": {
+                "type": "UNLIMITED_RETALIATIONS"
             }
         },
 
         "stackExperience": [
             {
                 "bonus": {
-                    "type": "STACKS_SPEED",
-                    "valueType": "BASE_NUMBER"
+                    "type": "STACKS_SPEED"
                 },
-                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+            },
+            {
+                "bonus": {
+                    "type": "STACK_HEALTH",
+                    "valueType": "PERCENT_TO_BASE"
+                },
+                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
             }
         ],
 
         "advMapAmount": {
-            "max": 30,
-            "min": 20
+            "max": 50,
+            "min": 25
         },
 
         "graphics": {
-            "animation": "durotar/battle/foreman",
-            "map": "durotar/map/foremanm",
-            "iconSmall": "durotar/iconSmall/foremans",
-            "iconLarge": "durotar/iconLarge/foremanl",
+            "animation": "durotar/battle/worg3",
+            "map": "durotar/map/worg3m",
+            "iconSmall": "durotar/iconSmall/worg3s",
+            "iconLarge": "durotar/iconLarge/worg3l",
             "timeBetweenFidgets": 1,
             "animationTime": {
                 "attack": 1,
@@ -62,11 +68,11 @@
         },
 
         "sound": {
-            "attack": "durotar/orcatk",
-            "defend": "durotar/orchit",
-            "killed": "durotar/orcdie",
-            "move": "OORCMOVE",
-            "wince": "durotar/orchit"
+            "attack": "durotar/worgatk",
+            "defend": "durotar/worgblk",
+            "killed": "durotar/worgdie",
+            "move": "HGWRMOVE",
+            "wince": "durotar/worgblk"
         }
     }
 }

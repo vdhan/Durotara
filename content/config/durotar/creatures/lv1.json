@@ -1,8 +1,8 @@
 {
     "drtLv1": {
         "name": {
-            "singular": "Peon",
-            "plural": "Peons"
+            "singular": "Wolf",
+            "plural": "Wolves"
         },
         "faction": "durotar",
         "special": false,
@@ -13,18 +13,18 @@
         "growth": 14,
         "horde": 7,
 
-        "attack": 4,
+        "attack": 5,
         "defense": 3,
         "damage": {
-            "max": 3,
+            "max": 2,
             "min": 2
         },
-        "hitPoints": 6,
-        "speed": 6,
-        "doubleWide": false,
+        "hitPoints": 8,
+        "speed": 7,
+        "doubleWide": true,
         "hasDoubleWeek": true,
         "cost": {
-            "gold": 70
+            "gold": 50
         },
 
         "abilities": {
@@ -34,18 +34,38 @@
             }
         },
 
-        "stackExperience": [],
+        "stackExperience": [
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+            },
+            {
+                "bonus": {
+                    "type": "STACK_HEALTH",
+                    "valueType": "PERCENT_TO_BASE"
+                },
+                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+            },
+            {
+                "bonus": {
+                    "type": "ADDITIONAL_RETALIATION"
+                },
+                "values": [1, 1, 1, 2, 2, 2, 3, 3, 3, 4]
+            }
+        ],
 
         "advMapAmount": {
             "max": 50,
-            "min": 20
+            "min": 25
         },
 
         "graphics": {
-            "animation": "durotar/battle/peon",
-            "map": "durotar/map/peonm",
-            "iconSmall": "durotar/iconSmall/peons",
-            "iconLarge": "durotar/iconLarge/peonl",
+            "animation": "durotar/battle/worg2",
+            "map": "durotar/map/worg2m",
+            "iconSmall": "durotar/iconSmall/worg2s",
+            "iconLarge": "durotar/iconLarge/worg2l",
             "timeBetweenFidgets": 1,
             "animationTime": {
                 "attack": 1,
@@ -56,11 +76,11 @@
         },
 
         "sound": {
-            "attack": "durotar/orcatk",
-            "defend": "durotar/orchit",
-            "killed": "durotar/orcdie",
-            "move": "OORCMOVE",
-            "wince": "durotar/orchit"
+            "attack": "durotar/worgatk",
+            "defend": "durotar/worgblk",
+            "killed": "durotar/worgdie",
+            "move": "HGWRMOVE",
+            "wince": "durotar/worgblk"
         }
     }
 }

@@ -233,7 +233,7 @@
                 "horde1": {
                     "id": 18,
                     "name": "Wolf Cave",
-                    "description": "Increases weekly growth of Wolves.",
+                    "description": "Increases weekly growth of 1st tier by 7.",
                     "upgrades": "dwellingLvl1",
                     "cost": {
                         "gold": 1000
@@ -243,7 +243,7 @@
                 "horde1Upg": {
                     "id": 19,
                     "name": "Wolf Cave",
-                    "description": "Increases weekly growth of Frost Wolves.",
+                    "description": "Increases weekly growth of upgraded 1st tier by 7.",
                     "upgrades": "dwellingUpLvl1",
                     "requires": ["horde1"],
                     "mode": "auto"
@@ -316,7 +316,7 @@
                 "dwellingLvl1": {
                     "id": 30,
                     "name": "Fold",
-                    "description": "The Fold allows to recruit Peons.",
+                    "description": "Allows to recruit Wolves.",
                     "requires": ["fort"],
                     "cost": {
                         "gold": 500,
@@ -327,7 +327,7 @@
                 "dwellingLvl2": {
                     "id": 31,
                     "name": "Casern",
-                    "description": "The Casern allow to recruit Desert Trolls.",
+                    "description": "Allows to recruit Desert Trolls.",
                     "requires": ["fort"],
                     "cost": {
                         "gold": 1000,
@@ -338,7 +338,7 @@
                 "dwellingLvl3": {
                     "id": 32,
                     "name": "Tannery",
-                    "description": "The Tannery allows to recruit Worgs.",
+                    "description": "Allows to recruit Goliaths.",
                     "requires": [
                         "allOf",
                         ["dwellingLvl1"],
@@ -354,7 +354,7 @@
                 "dwellingLvl4": {
                     "id": 33,
                     "name": "The Stormy Naos",
-                    "description": "The Stormy Naos allows to recruit Theurgists.",
+                    "description": "Allows to recruit Theurgists.",
                     "requires": ["dwellingLvl2"],
                     "cost": {
                         "gold": 2000,
@@ -367,7 +367,7 @@
                 "dwellingLvl5": {
                     "id": 34,
                     "name": "Wyrmrest Sanctum",
-                    "description": "The Wyrmrest Sanctum allows to recruit Drakes.",
+                    "description": "Allows to recruit Drakes.",
                     "requires": [
                         "allOf",
                         ["dwellingLvl3"],
@@ -386,7 +386,7 @@
                 "dwellingLvl6": {
                     "id": 35,
                     "name": "Boulder Abode",
-                    "description": "The Boulder Abode allows to recruit Goliaths.",
+                    "description": "Allows to recruit Taurens.",
                     "requires": ["dwellingLvl5"],
                     "cost": {
                         "gold": 3500,
@@ -398,7 +398,7 @@
                 "dwellingLvl7": {
                     "id": 36,
                     "name": "Ridge of the Damned",
-                    "description": "The Ridge of the Damned allows to recruit Gronns.",
+                    "description": "Allows to recruit Green Dragons.",
                     "requires": [
                         "allOf",
                         ["dwellingLvl6"],
@@ -415,7 +415,7 @@
                 "dwellingUpLvl1": {
                     "id": 37,
                     "name": "Upg. Fold",
-                    "description": "The Fold allow to recruit Foremen.",
+                    "description": "Allows to recruit Frost Wolves.",
                     "upgrades": "dwellingLvl1",
                     "cost": {
                         "gold": 1000,
@@ -426,7 +426,7 @@
                 "dwellingUpLvl2": {
                     "id": 38,
                     "name": "Upg. Casern",
-                    "description": "The Casern allow to recruit Sandfury Trolls.",
+                    "description": "Allow to recruit Sandfury Trolls.",
                     "upgrades": "dwellingLvl2",
                     "cost": {
                         "gold": 1000,
@@ -437,7 +437,7 @@
                 "dwellingUpLvl3": {
                     "id": 39,
                     "name": "Adv. Tannery",
-                    "description": "The Tannery allows to recruit Harness Worgs.",
+                    "description": "Allows to recruit Ogres.",
                     "upgrades": "dwellingLvl3",
                     "cost": {
                         "gold": 1500
@@ -447,7 +447,7 @@
                 "dwellingUpLvl4": {
                     "id": 40,
                     "name": "Upg. Stormy Naos",
-                    "description": "The Stormy Naos allows to recruit Regal Theurgists.",
+                    "description": "Allows to recruit Regal Theurgists.",
                     "upgrades": "dwellingLvl4",
                     "cost": {
                         "gold": 1500,
@@ -459,7 +459,7 @@
                 "dwellingUpLvl5": {
                     "id": 41,
                     "name": "Upg. Wyrmrest Sanctum",
-                    "description": "The Wyrmrest Sanctum allows to recruit Palatial Drakes.",
+                    "description": "Allows to recruit Palatial Drakes.",
                     "upgrades": "dwellingLvl5",
                     "cost": {
                         "gold": 2000,
@@ -474,7 +474,7 @@
                 "dwellingUpLvl6": {
                     "id": 42,
                     "name": "Adv. Boulder Abode",
-                    "description": "The Boulder Abode allows to recruit Cerulean Goliaths.",
+                    "description": "Allows to recruit Bloodhoof Taurens.",
                     "upgrades": "dwellingLvl6",
                     "cost": {
                         "gold": 3000,
@@ -486,7 +486,7 @@
                 "dwellingUpLvl7": {
                     "id": 43,
                     "name": "Upg. Ridge of the Damned",
-                    "description": "The Ridge of the Damned allows to recruit Elder Gronns.",
+                    "description": "Allows to recruit Red Dragons.",
                     "upgrades": "dwellingLvl7",
                     "cost": {
                         "gold": 15000,

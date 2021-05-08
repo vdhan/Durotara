@@ -1,8 +1,8 @@
 {
     "drtLv6": {
         "name": {
-            "singular": "Goliath",
-            "plural": "Goliaths"
+            "singular": "Tauren",
+            "plural": "Taurens"
         },
         "faction": "durotar",
         "special": false,
@@ -11,52 +11,54 @@
         "aiValue": 1468,
         "fightValue": 1274,
         "growth": 2,
+        "horde": 1,
 
-        "attack": 17,
-        "defense": 12,
+        "attack": 15,
+        "defense": 13,
         "damage": {
-             "max": 19,
-             "min": 15
+             "max": 20,
+             "min": 20
         },
-        "hitPoints": 85,
-        "speed": 7,
-        "doubleWide": false,
+        "hitPoints": 100,
+        "speed": 8,
+        "doubleWide": true,
         "hasDoubleWeek": true,
         "cost": {
-            "gold": 900
+            "gold": 850
         },
 
         "abilities": {
-            "spellimmunityslow": {
-                "type": "SPELL_IMMUNITY",
-                "subtype": "spell.slow"
-            },
-            "spellimmunityquick": {
-                "type": "SPELL_IMMUNITY",
-                "subtype": "spell.quicksand"
+            "fearless": {
+                "type": "FEARLESS"
             }
         },
 
         "stackExperience": [
             {
                 "bonus": {
-                    "type": "STACKS_SPEED",
-                    "valueType": "BASE_NUMBER"
+                    "type": "STACKS_SPEED"
                 },
-                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+            },
+            {
+                "bonus": {
+                    "type": "STACK_HEALTH",
+                    "valueType": "PERCENT_TO_BASE"
+                },
+                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
             }
         ],
 
         "advMapAmount": {
-            "max": 12,
-            "min": 5
+            "max": 15,
+            "min": 8
         },
 
         "graphics": {
-            "animation": "durotar/battle/ogre1",
-            "map": "durotar/map/ogre1m",
-            "iconSmall": "durotar/iconSmall/ogre1s",
-            "iconLarge": "durotar/iconLarge/ogre1l",
+            "animation": "durotar/battle/gronn1",
+            "map": "durotar/map/gronn1m",
+            "iconSmall": "durotar/iconSmall/gronn1s",
+            "iconLarge": "durotar/iconLarge/gronn1l",
             "timeBetweenFidgets": 1,
             "animationTime": {
                 "attack": 1,
@@ -67,11 +69,11 @@
         },
 
         "sound": {
-            "attack": "durotar/ogreatk",
-            "defend": "durotar/ogreblk",
-            "killed": "durotar/ogredie",
-            "move": "OGREMOVE",
-            "wince": "durotar/ogrehit"
+            "attack": "durotar/gronnatk",
+            "defend": "durotar/gronnhit",
+            "killed": "durotar/gronndie",
+            "move": "durotar/gronnwlk",
+            "wince": "durotar/gronnhit"
         }
     }
 }

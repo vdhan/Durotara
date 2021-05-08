@@ -13,39 +13,51 @@
         "growth": 3,
         "horde": 2,
 
-        "attack": 10,
-        "defense": 10,
+        "attack": 12,
+        "defense": 12,
         "damage": {
-            "max": 16,
-            "min": 13
+            "max": 12,
+            "min": 12
         },
         "hitPoints": 55,
-        "speed": 8,
+        "speed": 9,
         "doubleWide": true,
         "hasDoubleWeek": true,
         "cost": {
-            "gold": 475
+            "gold": 500
         },
 
         "abilities": {
             "fly": {
                 "type": "FLYING"
+            },
+            "dragon": {
+                "type": "DRAGON_NATURE"
+            },
+            "breath": {
+                "type": "TWO_HEX_ATTACK_BREATH"
             }
         },
 
         "stackExperience": [
             {
                 "bonus": {
-                    "type": "STACKS_SPEED",
-                    "valueType": "BASE_NUMBER"
+                    "type": "STACKS_SPEED"
                 },
-                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+            },
+            {
+                "bonus": {
+                    "type": "STACK_HEALTH",
+                    "valueType": "PERCENT_TO_BASE"
+                },
+                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
             }
         ],
 
         "advMapAmount": {
-            "max": 16,
-            "min": 8
+            "max": 20,
+            "min": 10
         },
 
         "graphics": {

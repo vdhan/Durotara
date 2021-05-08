@@ -12,40 +12,52 @@
         "growth": 4,
         "horde": 3,
 
-        "attack": 9,
-        "defense": 13,
+        "attack": 11,
+        "defense": 9,
         "damage": {
-            "max": 10,
-            "min": 7
+            "max": 8,
+            "min": 8
         },
-        "hitPoints": 45,
-        "speed": 10,
+        "hitPoints": 35,
+        "speed": 9,
         "shots": 24,
         "doubleWide": false,
         "hasDoubleWeek": true,
         "cost": {
-            "gold": 425
+            "gold": 400
         },
 
         "abilities":{
             "shoot": {
                 "type": "SHOOTER"
+            },
+            "freeShoot": {
+                "type": "FREE_SHOOTING"
+            },
+            "noDistance": {
+                "type": "NO_DISTANCE_PENALTY"
             }
         },
 
         "stackExperience": [
             {
                 "bonus": {
-                    "type": "STACKS_SPEED",
-                    "valueType": "BASE_NUMBER"
+                    "type": "STACKS_SPEED"
                 },
-                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+            },
+            {
+                "bonus": {
+                    "type": "STACK_HEALTH",
+                    "valueType": "PERCENT_TO_BASE"
+                },
+                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
             }
         ],
 
         "advMapAmount": {
-            "max": 20,
-            "min": 10
+            "max": 25,
+            "min": 12
         },
 
         "graphics": {

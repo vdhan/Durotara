@@ -1,8 +1,8 @@
 {
     "drtLv3": {
         "name": {
-            "singular": "Worg",
-            "plural": "Worgs"
+            "singular": "Goliath",
+            "plural": "Goliaths"
         },
         "faction": "durotar",
         "special": false,
@@ -10,49 +10,56 @@
         "upgrades": ["drtLv3up"],
         "aiValue": 268,
         "fightValue": 269,
-        "growth": 9,
-        "horde": 6,
+        "growth": 7,
+        "horde": 3,
 
-        "attack": 11,
-        "defense": 8,
+        "attack": 9,
+        "defense": 7,
         "damage": {
-            "max": 6,
-            "min": 2
+            "max": 4,
+            "min": 4
         },
-        "hitPoints": 20,
-        "speed": 8,
-        "doubleWide": true,
+        "hitPoints": 30,
+        "speed": 5,
+        "doubleWide": false,
         "hasDoubleWeek": true,
         "cost": {
-            "gold": 190
+            "gold": 200
         },
 
         "abilities": {
-            "robot": {
-                "type": "NON_LIVING"
+            "ignoreDefence": {
+                "type": "ENEMY_DEFENCE_REDUCTION",
+                "val": 10
             }
         },
 
         "stackExperience": [
             {
                 "bonus": {
-                    "type": "STACKS_SPEED",
-                    "valueType": "BASE_NUMBER"
+                    "type": "STACKS_SPEED"
                 },
-                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+            },
+            {
+                "bonus": {
+                    "type": "STACK_HEALTH",
+                    "valueType": "PERCENT_TO_BASE"
+                },
+                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
             }
         ],
 
         "advMapAmount": {
-            "max": 25,
-            "min": 12
+            "max": 30,
+            "min": 15
         },
 
         "graphics": {
-            "animation": "durotar/battle/worg1",
-            "map": "durotar/map/worg1m",
-            "iconSmall": "durotar/iconSmall/worg1s",
-            "iconLarge": "durotar/iconLarge/worg1l",
+            "animation": "durotar/battle/ogre3",
+            "map": "durotar/map/ogre3m",
+            "iconSmall": "durotar/iconSmall/ogre3s",
+            "iconLarge": "durotar/iconLarge/ogre3l",
             "timeBetweenFidgets": 1,
             "animationTime": {
                 "attack": 1,
@@ -63,11 +70,11 @@
         },
 
         "sound": {
-            "attack": "durotar/worgatk",
-            "defend": "durotar/worgblk",
-            "killed": "durotar/worgdie",
-            "move": "HGWRMOVE",
-            "wince": "durotar/worgblk"
+            "attack": "durotar/ogreatk",
+            "defend": "durotar/ogreblk",
+            "killed": "durotar/ogredie",
+            "move": "OGREMOVE",
+            "wince": "durotar/ogrehit"
         }
     }
 }

@@ -9,43 +9,52 @@
         "level": 2,
         "aiValue": 234,
         "fightValue": 316,
-        "growth": 7,
-        "horde": 5,
+        "growth": 8,
+        "horde": 4,
 
-        "attack": 5,
-        "defense": 8,
+        "attack": 8,
+        "defense": 6,
         "damage": {
             "max": 4,
-            "min": 2
+            "min": 4
         },
-        "hitPoints": 18,
-        "speed": 7,
+        "hitPoints": 15,
+        "speed": 5,
         "shots": 24,
         "doubleWide": false,
         "hasDoubleWeek": true,
         "cost": {
-            "gold": 200
+            "gold": 150
         },
 
         "abilities": {
              "shoot": {
                 "type": "SHOOTER"
+            },
+            "generation": {
+                "type": "FULL_HP_REGENERATION"
             }
         },
 
         "stackExperience": [
             {
                 "bonus": {
-                    "type": "STACKS_SPEED",
-                    "valueType": "BASE_NUMBER"
+                    "type": "STACKS_SPEED"
                 },
-                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+            },
+            {
+                "bonus": {
+                    "type": "STACK_HEALTH",
+                    "valueType": "PERCENT_TO_BASE"
+                },
+                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
             }
         ],
 
         "advMapAmount": {
-            "max": 25,
-            "min": 16
+            "max": 40,
+            "min": 20
         },
 
         "graphics": {
