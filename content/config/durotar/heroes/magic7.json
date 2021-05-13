@@ -2,15 +2,15 @@
     "drtMagic7": {
         "class": "drtMagic",
         "female": true,
-        "spellbook": ["disruptingRay"],
+        "spellbook": ["slow"],
 
         "texts": {
             "name": "Roeda",
             "biography": "",
             "specialty": {
-                "name": "Disrupting Ray",
-                "description": "{Disrupting Ray}\n\nCasts Disrupting Ray with expert effects but not expert range.",
-                "tooltip": "Spell bonus: Disrupting Ray"
+                "name": "Gem",
+                "description": "{Gem}\n\nIncreases kingdom's gem production by 1 per day for every 10 levels.",
+                "tooltip": "Produces gem every day"
             }
         },
 
@@ -24,37 +24,41 @@
         "army": [
             {
                 "creature": "drtLv1",
-                "max": 30,
-                "min": 20
+                "min": 16,
+                "max": 24
             },
             {
                 "creature": "drtLv2",
-                "max": 10,
-                "min": 5
+                "min": 4,
+                "max": 7
             },
             {
                 "creature": "drtLv3",
-                "max": 4,
-                "min": 3
+                "min": 3,
+                "max": 4
             }
         ],
 
         "skills": [
             {
                 "level": "basic",
-                "skill": "firstAid"
+                "skill": "wisdom"
             },
             {
                 "level": "basic",
-                "skill": "wisdom"
+                "skill": "estates"
             }
         ],
 
         "specialty": {
             "bonuses": {
-                "disruptingRay": {
-                    "subtype": "spell.disruptingRay",
-                    "type": "MAXED_SPELL"
+                "gem": {
+                    "type": "GENERATE_RESOURCE",
+                    "subtype": "resource.gems",
+                    "updater": {
+                        "parameters": [2],
+                        "type": "GROWS_WITH_LEVEL"
+                    }
                 }
             }
         }

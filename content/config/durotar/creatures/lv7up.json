@@ -50,11 +50,6 @@
                 "type": "EARTH_IMMUNITY",
                 "subtype": 1
             },
-            "thunderStrength": {
-                "type": "SPECIFIC_SPELL_POWER",
-                "subtype": "spell.thunderbolt",
-                "val": 10
-            },
             "duration": {
                 "type": "CREATURE_ENCHANT_POWER",
                 "val": 3
@@ -87,7 +82,8 @@
             {
                 "bonus": {
                     "type": "SPELL_AFTER_ATTACK",
-                    "subtype": "spell.thunderbolt"
+                    "subtype": "spell.slow",
+                    "addInfo": [3, 0]
                 },
                 "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
             }

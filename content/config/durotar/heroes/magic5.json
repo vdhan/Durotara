@@ -2,60 +2,61 @@
     "drtMagic5": {
         "class": "drtMagic",
         "female": true,
-        "spellbook": ["summonBoat"],
+        "spellbook": ["lightningBolt"],
 
         "texts": {
             "name": "Kutala",
             "biography": "",
             "specialty": {
-                "name": "Sulfur",
-                "description": "{Sulfur}\n\nIncreases kingdom's sulfur production by 1 per day.",
-                "tooltip": "Resource bonus: Sulfur"
+                "name": "Lightning Bolt",
+                "description": "{Lightning Bolt}\n\nCasts Meteor Shower with increased effect, based on hero level.",
+                "tooltip": "Spell Bonus: Lightning Bolt"
             }
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/kutala/spec-small",
-            "specialtyLarge": "durotar/heroes/kutala/spec-large",
-            "large": "durotar/heroes/kutala/portrait-large",
-            "small": "durotar/heroes/kutala/portrait-small"
+            "specialtySmall": "durotar/heroes/kutala/specSmall",
+            "specialtyLarge": "durotar/heroes/kutala/specLarge",
+            "large": "durotar/heroes/kutala/portraitLarge",
+            "small": "durotar/heroes/kutala/portraitSmall"
         },
 
         "army": [
             {
                 "creature": "drtLv1",
-                "max": 28,
-                "min": 18
+                "min": 16,
+                "max": 24
             },
             {
                 "creature": "drtLv2",
-                "max": 12,
-                "min": 6
+                "min": 4,
+                "max": 7
             },
             {
                 "creature": "drtLv3",
-                "max": 4,
-                "min": 3
+                "min": 3,
+                "max": 4
             }
         ],
 
         "skills": [
             {
                 "level": "basic",
-                "skill": "logistics"
+                "skill": "wisdom"
             },
             {
                 "level": "basic",
-                "skill": "navigation"
+                "skill": "airMagic"
             }
         ],
 
         "specialty": {
             "bonuses": {
-                "sulfur": {
-                    "subtype": "resource.sulfur",
-                    "type": "GENERATE_RESOURCE",
-                    "val": 1
+                "lightningBolt": {
+                    "type": "SPECIAL_SPELL_LEV",
+                    "subtype": "spell.lightningBolt",
+                    "val": 5,
+                    "updater": "TIMES_HERO_LEVEL"
                 }
             }
         }

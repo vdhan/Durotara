@@ -2,63 +2,56 @@
     "drtMight1": {
         "class": "drtMight",
         "female": false,
+        "spellbook": [],
 
         "texts": {
             "name": "B'oang",
             "biography": "",
             "specialty": {
-                "description": "{Estates}\n\nReceives a 7% per level bonus to Estates skill(rounded up).",
-                "name": "Estates",
-                "tooltip": "Secondary Skill Bonus: Estates"
+                "name": "Tier 1",
+                "description": "{Tier 1}\n\nIncreases Attack and Defense of any Tier 1 unit for each level attained after 1st level.",
+                "tooltip": "Creature Bonus: Tier 1"
             }
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/boang/spec-small",
-            "specialtyLarge": "durotar/heroes/boang/spec-large",
-            "large": "durotar/heroes/boang/portrait-large",
-            "small": "durotar/heroes/boang/portrait-small"
+            "specialtySmall": "durotar/heroes/boang/specSmall",
+            "specialtyLarge": "durotar/heroes/boang/specLarge",
+            "large": "durotar/heroes/boang/portraitLarge",
+            "small": "durotar/heroes/boang/portraitSmall"
         },
 
         "army": [
             {
                 "creature": "drtLv1",
-                "max": 30,
-                "min": 20
+                "min": 16,
+                "max": 24
             },
             {
-                "creature": "drtLv2",
-                "max": 10,
-                "min": 5
+                "creature": "drtLv1",
+                "min": 16,
+                "max": 24
             },
             {
-                "creature": "drtLv3",
-                "max": 4,
-                "min": 3
+                "creature": "drtLv1",
+                "min": 16,
+                "max": 24
             }
         ],
 
         "skills": [
             {
                 "level": "basic",
-                "skill": "artillery"
+                "skill": "tactics"
             },
             {
                 "level": "basic",
-                "skill": "estates"
+                "skill": "scouting"
             }
         ],
 
         "specialty": {
-            "bonuses": {
-                "estates": {
-                    "subtype": "skill.estates",
-                    "type": "SECONDARY_SKILL_PREMY",
-                    "updater": "TIMES_HERO_LEVEL",
-                    "val": 7,
-                    "valueType": "PERCENT_TO_BASE"
-                }
-            }
+            "creature": "drtLv1"
         }
     }
 }
