@@ -15,10 +15,10 @@
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/roeda/spec-small",
-            "specialtyLarge": "durotar/heroes/roeda/spec-large",
-            "large": "durotar/heroes/roeda/portrait-large",
-            "small": "durotar/heroes/roeda/portrait-small"
+            "large": "durotar/heroes/roeda/portraitLarge",
+            "small": "durotar/heroes/roeda/portraitSmall",
+            "specialtyLarge": "durotar/heroes/roeda/specLarge",
+            "specialtySmall": "durotar/heroes/roeda/specSmall"
         },
 
         "army": [

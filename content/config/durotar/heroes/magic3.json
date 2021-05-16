@@ -15,10 +15,10 @@
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/hurgor/spec-small",
-            "specialtyLarge": "durotar/heroes/hurgor/spec-large",
-            "large": "durotar/heroes/hurgor/portrait-large",
-            "small": "durotar/heroes/hurgor/portrait-small"
+            "large": "durotar/heroes/hurgor/portraitLarge",
+            "small": "durotar/heroes/hurgor/portraitSmall",
+            "specialtyLarge": "durotar/heroes/hurgor/specLarge",
+            "specialtySmall": "durotar/heroes/hurgor/specSmall"
         },
 
         "army": [

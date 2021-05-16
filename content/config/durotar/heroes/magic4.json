@@ -15,10 +15,10 @@
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/jargura/specSmall",
-            "specialtyLarge": "durotar/heroes/jargura/specLarge",
             "large": "durotar/heroes/jargura/portraitLarge",
-            "small": "durotar/heroes/jargura/portraitSmall"
+            "small": "durotar/heroes/jargura/portraitSmall",
+            "specialtyLarge": "durotar/heroes/jargura/specLarge",
+            "specialtySmall": "durotar/heroes/jargura/specSmall"
         },
 
         "army": [

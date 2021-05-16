@@ -2,51 +2,56 @@
     "drtMight6": {
         "class": "drtMight",
         "female": false,
+        "spellbook": [],
 
         "texts": {
             "name": "Orloch",
             "biography": "",
             "specialty": {
-                "description": "{Desert Trolls and Sandfury Trolls}\n\nIncreases Speed of any Desert Trolls or Sandfury Trolls by 1 and their Attack and Defense skills by 5% for every two levels (rounded up).",
-                "name": "Desert Trolls",
-                "tooltip": "Creature Bonus: Desert Trolls"
+                "name": "Tier 6",
+                "description": "{Tier 6}\n\nIncreases Attack and Defence of any Tier 6 unit for each level attained after 6th level.",
+                "tooltip": "Creature Bonus: Tier 6"
             }
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/orloch/spec-small",
-            "specialtyLarge": "durotar/heroes/orloch/spec-large",
-            "large": "durotar/heroes/orloch/portrait-large",
-            "small": "durotar/heroes/orloch/portrait-small"
+            "large": "durotar/heroes/orloch/portraitLarge",
+            "small": "durotar/heroes/orloch/portraitSmall",
+            "specialtyLarge": "durotar/heroes/orloch/specLarge",
+            "specialtySmall": "durotar/heroes/orloch/specSmall"
         },
 
         "army": [
             {
-                "creature": "drtLv2",
-                "max": 12,
-                "min": 6
+                "creature": "drtLv1",
+                "min": 16,
+                "max": 24
             },
             {
                 "creature": "drtLv2",
-                "max": 10,
-                "min": 5
+                "min": 4,
+                "max": 7
             },
             {
-                "creature": "drtLv2",
-                "max": 8,
-                "min": 4
+                "creature": "drtLv3",
+                "min": 3,
+                "max": 4
             }
         ],
 
         "skills": [
             {
-                "level": "advanced",
-                "skill": "archery"
+                "level": "basic",
+                "skill": "tactics"
+            },
+            {
+                "level": "basic",
+                "skill": "leadership"
             }
         ],
 
         "specialty": {
-            "creature": "drtLv2"
+            "creature": "drtLv6"
         }
     }
 }

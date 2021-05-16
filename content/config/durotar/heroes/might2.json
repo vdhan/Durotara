@@ -2,63 +2,56 @@
     "drtMight2": {
         "class": "drtMight",
         "female": false,
+        "spellbook": [],
 
         "texts": {
             "name": "Dra'as",
             "biography": "",
             "specialty": {
-                "description": "{Offence}\n\nReceives a 7% per level bonus to Offense skill(rounded up).",
-                "name": "Offence",
-                "tooltip": "Secondary Skill Bonus: Offence"
+                "name": "Tier 2",
+                "description": "{Tier 2}\n\nIncreases Attack and Defense of any Tier 2 unit for each level attained after 2nd level.",
+                "tooltip": "Creature Bonus: Tier 2"
             }
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/draas/spec-small",
-            "specialtyLarge": "durotar/heroes/draas/spec-large",
-            "large": "durotar/heroes/draas/portrait-large",
-            "small": "durotar/heroes/draas/portrait-small"
+            "large": "durotar/heroes/draas/portraitLarge",
+            "small": "durotar/heroes/draas/portraitSmall",
+            "specialtyLarge": "durotar/heroes/draas/specLarge",
+            "specialtySmall": "durotar/heroes/draas/specSmall"
         },
 
         "army": [
             {
-                "creature": "drtLv1",
-                "max": 30,
-                "min": 20
+                "creature": "drtLv2",
+                "min": 4,
+                "max": 7
             },
             {
                 "creature": "drtLv2",
-                "max": 10,
-                "min": 5
+                "min": 4,
+                "max": 7
             },
             {
-                "creature": "drtLv3",
-                "max": 4,
-                "min": 3
+                "creature": "drtLv2",
+                "min": 4,
+                "max": 7
             }
         ],
 
         "skills": [
             {
                 "level": "basic",
-                "skill": "offence"
+                "skill": "tactics"
             },
             {
                 "level": "basic",
-                "skill": "eagleEye"
+                "skill": "archery"
             }
         ],
 
         "specialty": {
-            "bonuses": {
-                "offence": {
-                    "subtype": "skill.offence",
-                    "type": "SECONDARY_SKILL_PREMY",
-                    "updater": "TIMES_HERO_LEVEL",
-                    "val": 7,
-                    "valueType": "PERCENT_TO_BASE"
-                }
-            }
+            "creature": "drtLv2"
         }
     }
 }

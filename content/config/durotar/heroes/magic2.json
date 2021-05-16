@@ -15,10 +15,10 @@
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/gadira/specSmall",
-            "specialtyLarge": "durotar/heroes/gadira/specLarge",
             "large": "durotar/heroes/gadira/portraitLarge",
-            "small": "durotar/heroes/gadira/portraitSmall"
+            "small": "durotar/heroes/gadira/portraitSmall",
+            "specialtyLarge": "durotar/heroes/gadira/specLarge",
+            "specialtySmall": "durotar/heroes/gadira/specSmall"
         },
 
         "army": [

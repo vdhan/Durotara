@@ -2,60 +2,61 @@
     "drtMight7": {
         "class": "drtMight",
         "female": false,
+        "spellbook": [],
 
         "texts": {
             "name": "Thurnokk",
             "biography": "",
             "specialty": {
-                "description": "{Decrease Luck}\n\nDecrease Luck on enemy creatures by 1.",
-                "name": "Decrease Luck",
-                "tooltip": "Spell Bonus: Decrease Luck"
+                "name": "Logistics",
+                "description": "{Logistics}\n\nReceives a 5% per level bonus to Logistics skill.",
+                "tooltip": "Skill Bonus: Logistics"
             }
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/thurnokk/spec-small",
-            "specialtyLarge": "durotar/heroes/thurnokk/spec-large",
-            "large": "durotar/heroes/thurnokk/portrait-large",
-            "small": "durotar/heroes/thurnokk/portrait-small"
+            "large": "durotar/heroes/thurnokk/portraitLarge",
+            "small": "durotar/heroes/thurnokk/portraitSmall",
+            "specialtyLarge": "durotar/heroes/thurnokk/specLarge",
+            "specialtySmall": "durotar/heroes/thurnokk/specSmall"
         },
 
         "army": [
             {
                 "creature": "drtLv1",
-                "max": 30,
-                "min": 20
+                "min": 16,
+                "max": 24
             },
             {
                 "creature": "drtLv2",
-                "max": 10,
-                "min": 5
+                "min": 4,
+                "max": 7
             },
             {
                 "creature": "drtLv3",
-                "max": 4,
-                "min": 3
+                "min": 3,
+                "max": 4
             }
         ],
 
         "skills": [
             {
                 "level": "basic",
-                "skill": "ballistics"
+                "skill": "tactics"
             },
             {
                 "level": "basic",
-                "skill": "leadership"
+                "skill": "logistics"
             }
         ],
 
         "specialty": {
             "bonuses": {
-                "luck": {
-                    "type": "LUCK",
-                    "effectRange": "ONLY_ENEMY_ARMY",
-                    "val": -1,
-                    "propagator": "HERO"
+                "logistics": {
+                    "type": "SECONDARY_SKILL_PREMY",
+                    "subtype": "skill.logistics",
+                    "val": 5,
+                    "updater": "TIMES_HERO_LEVEL"
                 }
             }
         }

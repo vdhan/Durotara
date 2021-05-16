@@ -15,10 +15,10 @@
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/forang/specSmall",
-            "specialtyLarge": "durotar/heroes/forang/specLarge",
             "large": "durotar/heroes/forang/portraitLarge",
-            "small": "durotar/heroes/forang/portraitSmall"
+            "small": "durotar/heroes/forang/portraitSmall",
+            "specialtyLarge": "durotar/heroes/forang/specLarge",
+            "specialtySmall": "durotar/heroes/forang/specSmall"
         },
 
         "army": [

@@ -15,10 +15,10 @@
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/boang/specSmall",
-            "specialtyLarge": "durotar/heroes/boang/specLarge",
             "large": "durotar/heroes/boang/portraitLarge",
-            "small": "durotar/heroes/boang/portraitSmall"
+            "small": "durotar/heroes/boang/portraitSmall",
+            "specialtyLarge": "durotar/heroes/boang/specLarge",
+            "specialtySmall": "durotar/heroes/boang/specSmall"
         },
 
         "army": [

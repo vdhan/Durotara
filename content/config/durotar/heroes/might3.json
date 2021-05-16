@@ -2,50 +2,51 @@
     "drtMight3": {
         "class": "drtMight",
         "female": true,
+        "spellbook": [],
 
         "texts": {
             "name": "Fullika",
             "biography": "",
             "specialty": {
-                "description": "{Worgs, Harness Worgs and Martial Worgs}\n\nIncreases Speed of any Worgs or Harness Worgs or Martial Worgs by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
-                "name": "Worgs",
-                "tooltip": "Creature Bonus: Worgs"
+                "name": "Tier 3",
+                "description": "{Tier 3}\n\nIncreases Attack and Defense of any Tier 3 unit for each level attained after 3rd level.",
+                "tooltip": "Creature Bonus: Tier 3"
             }
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/fullika/spec-small",
-            "specialtyLarge": "durotar/heroes/fullika/spec-large",
-            "large": "durotar/heroes/fullika/portrait-large",
-            "small": "durotar/heroes/fullika/portrait-small"
+            "large": "durotar/heroes/fullika/portraitLarge",
+            "small": "durotar/heroes/fullika/portraitSmall",
+            "specialtyLarge": "durotar/heroes/fullika/specLarge",
+            "specialtySmall": "durotar/heroes/fullika/specSmall"
         },
 
         "army": [
             {
                 "creature": "drtLv3",
-                "max": 5,
-                "min": 4
-            },
-            {
-                "creature": "drtLv2",
-                "max": 10,
-                "min": 5
+                "min": 3,
+                "max": 4
             },
             {
                 "creature": "drtLv3",
-                "max": 4,
-                "min": 3
+                "min": 3,
+                "max": 4
+            },
+            {
+                "creature": "drtLv3",
+                "min": 3,
+                "max": 4
             }
         ],
 
         "skills": [
             {
                 "level": "basic",
-                "skill": "logistics"
+                "skill": "tactics"
             },
             {
                 "level": "basic",
-                "skill": "luck"
+                "skill": "offence"
             }
         ],
 

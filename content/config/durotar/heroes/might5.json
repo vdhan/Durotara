@@ -2,67 +2,56 @@
     "drtMight5": {
         "class": "drtMight",
         "female": false,
+        "spellbook": [],
 
         "texts": {
             "name": "Makgum",
             "biography": "",
             "specialty": {
-                "description": "{Wood & Ore}\n\nIncreases kingdom's wood and ore production by 1 per day.",
-                "tooltip": "?",
-                "name": "+1 Wood & Ore"
+                "name": "Tier 5",
+                "description": "{Tier 5}\n\nIncreases Attack and Defense of any Tier 5 unit for each level attained after 5th level.",
+                "tooltip": "Creature Bonus: Tier 5"
             }
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/makgum/spec-small",
-            "specialtyLarge": "durotar/heroes/makgum/spec-large",
-            "large": "durotar/heroes/makgum/portrait-large",
-            "small": "durotar/heroes/makgum/portrait-small"
+            "large": "durotar/heroes/makgum/portraitLarge",
+            "small": "durotar/heroes/makgum/portraitSmall",
+            "specialtyLarge": "durotar/heroes/makgum/specLarge",
+            "specialtySmall": "durotar/heroes/makgum/specSmall"
         },
 
         "army": [
             {
                 "creature": "drtLv1",
-                "max": 26,
-                "min": 16
+                "min": 16,
+                "max": 24
             },
             {
                 "creature": "drtLv2",
-                "max": 8,
-                "min": 5
+                "min": 4,
+                "max": 7
             },
             {
                 "creature": "drtLv3",
-                "max": 4,
-                "min": 3
+                "min": 3,
+                "max": 4
             }
         ],
 
         "skills": [
             {
                 "level": "basic",
-                "skill": "scouting"
+                "skill": "tactics"
             },
             {
                 "level": "basic",
-                "skill": "navigation"
+                "skill": "luck"
             }
         ],
 
         "specialty": {
-            "bonuses": {
-                "wood": {
-                    "subtype": "resource.wood",
-                    "type": "GENERATE_RESOURCE",
-                    "val": 1
-                },
-
-                "ore": {
-                    "subtype": "resource.ore",
-                    "type": "GENERATE_RESOURCE",
-                    "val": 1
-                }
-            }
+            "creature": "drtLv5"
         }
     }
 }

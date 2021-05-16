@@ -15,10 +15,10 @@
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/ollathus/specSmall",
-            "specialtyLarge": "durotar/heroes/ollathus/specLarge",
             "large": "durotar/heroes/ollathus/portraitLarge",
-            "small": "durotar/heroes/ollathus/portraitSmall"
+            "small": "durotar/heroes/ollathus/portraitSmall",
+            "specialtyLarge": "durotar/heroes/ollathus/specLarge",
+            "specialtySmall": "durotar/heroes/ollathus/specSmall"
         },
 
         "army": [

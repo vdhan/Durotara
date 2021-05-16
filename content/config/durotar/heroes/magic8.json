@@ -15,10 +15,10 @@
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/soragg/specSmall",
-            "specialtyLarge": "durotar/heroes/soragg/specLarge",
             "large": "durotar/heroes/soragg/portraitLarge",
-            "small": "durotar/heroes/soragg/portraitSmall"
+            "small": "durotar/heroes/soragg/portraitSmall",
+            "specialtyLarge": "durotar/heroes/soragg/specLarge",
+            "specialtySmall": "durotar/heroes/soragg/specSmall"
         },
 
         "army": [

@@ -2,55 +2,56 @@
     "drtMight8": {
         "class": "drtMight",
         "female": true,
+        "spellbook": [],
 
         "texts": {
             "name": "Yreima",
             "biography": "",
             "specialty": {
-                "description": "{Theurgists and Regal Theurgists}\n\nIncreases Speed of any Theurgists or Regal Theurgists by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
-                "name": "Theurgists",
-                "tooltip": "Creature Bonus: Theurgists"
+                "name": "Ballista",
+                "description": "{Ballista}\n\nIncreases Attack and Defense of any Ballista by 5% for every 5 levels (rounded up).",
+                "tooltip": "Creature Bonus: Ballista"
             }
         },
 
         "images": {
-            "specialtySmall": "durotar/heroes/yreima/spec-small",
-            "specialtyLarge": "durotar/heroes/yreima/spec-large",
-            "large": "durotar/heroes/yreima/portrait-large",
-            "small": "durotar/heroes/yreima/portrait-small"
+            "large": "durotar/heroes/yreima/portraitLarge",
+            "small": "durotar/heroes/yreima/portraitSmall",
+            "specialtyLarge": "durotar/heroes/yreima/specLarge",
+            "specialtySmall": "durotar/heroes/yreima/specSmall"
         },
 
         "army": [
             {
                 "creature": "drtLv1",
-                "max": 30,
-                "min": 20
+                "min": 16,
+                "max": 24
+            },
+            {
+                "creature": "ballista",
+                "min": 1,
+                "max": 1
             },
             {
                 "creature": "drtLv2",
-                "max": 10,
-                "min": 5
-            },
-            {
-                "creature": "drtLv3",
-                "max": 4,
-                "min": 3
+                "min": 4,
+                "max": 7
             }
         ],
 
         "skills": [
             {
                 "level": "basic",
-                "skill": "wisdom"
+                "skill": "tactics"
             },
             {
                 "level": "basic",
-                "skill": "armorer"
+                "skill": "artillery"
             }
         ],
 
         "specialty": {
-            "creature": "drtLv4"
+            "creature": "ballista"
         }
     }
 }
