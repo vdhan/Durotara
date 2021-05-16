@@ -5,7 +5,7 @@
         "spellbook": [],
 
         "texts": {
-            "name": "Yreima",
+            "name": "Soragg",
             "biography": "",
             "specialty": {
                 "name": "Ballista",
@@ -15,10 +15,10 @@
         },
 
         "images": {
-            "large": "durotar/heroes/yreima/portraitLarge",
-            "small": "durotar/heroes/yreima/portraitSmall",
-            "specialtyLarge": "durotar/heroes/yreima/specLarge",
-            "specialtySmall": "durotar/heroes/yreima/specSmall"
+            "large": "durotar/heroes/soragg/portraitLarge",
+            "small": "durotar/heroes/soragg/portraitSmall",
+            "specialtyLarge": "durotar/heroes/soragg/specLarge",
+            "specialtySmall": "durotar/heroes/soragg/specSmall"
         },
 
         "army": [

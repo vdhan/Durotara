@@ -2,23 +2,23 @@
     "drtMagic1": {
         "class": "drtMagic",
         "female": false,
-        "spellbook": ["magicArrow"],
+        "spellbook": ["stoneSkin"],
 
         "texts": {
-            "name": "Forang",
+            "name": "Yreima",
             "biography": "",
             "specialty": {
-                "name": "Mysticism",
-                "description": "{Mysticism}\n\nReceives a 5% per level bonus to Mysticism skill.",
-                "tooltip": "Skill Bonus: Mysticism"
+                "name": "First Aid",
+                "description": "{First Aid}\n\nReceives a 5% per level bonus to First Aid skill.",
+                "tooltip": "Skill Bonus: First Aid"
             }
         },
 
         "images": {
-            "large": "durotar/heroes/forang/portraitLarge",
-            "small": "durotar/heroes/forang/portraitSmall",
-            "specialtyLarge": "durotar/heroes/forang/specLarge",
-            "specialtySmall": "durotar/heroes/forang/specSmall"
+            "large": "durotar/heroes/yreima/portraitLarge",
+            "small": "durotar/heroes/yreima/portraitSmall",
+            "specialtyLarge": "durotar/heroes/yreima/specLarge",
+            "specialtySmall": "durotar/heroes/yreima/specSmall"
         },
 
         "army": [
@@ -28,14 +28,14 @@
                 "max": 24
             },
             {
+                "creature": "firstAidTent",
+                "min": 1,
+                "max": 1
+            },
+            {
                 "creature": "drtLv2",
                 "min": 4,
                 "max": 7
-            },
-            {
-                "creature": "drtLv3",
-                "min": 3,
-                "max": 4
             }
         ],
 
@@ -46,17 +46,17 @@
             },
             {
                 "level": "basic",
-                "skill": "mysticism"
+                "skill": "firstAid"
             }
         ],
 
         "specialty": {
             "bonuses": {
-                "mysticism": {
-                	"type": "SECONDARY_SKILL_PREMY",
-                    "subtype": "skill.mysticism",
+                "firstAid": {
+                    "type": "SECONDARY_SKILL_PREMY",
+                    "subtype": "skill.firstAid",
                     "val": 5,
-                    "valueType" : "PERCENT_TO_BASE",
+                    "valueType": "PERCENT_TO_BASE",
                     "updater": "TIMES_HERO_LEVEL"
                 }
             }
