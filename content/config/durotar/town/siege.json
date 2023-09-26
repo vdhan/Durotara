@@ -1,53 +1,55 @@
 {
-    "durotar": {
-        "town": {
-            "siege": {
-                "shooter": "drtLv4",
-                "imagePrefix": "durotar/siege/sghd",
+  "durotar": {
+    "town": {
+      "siege": {
+        "shooter": "drtLv4",
+        "imagePrefix": "durotar/siege/sghd",
+        "towerIconSmall": "durotar/icons/tower-small",
+        "towerIconLarge": "durotar/icons/tower-large",
 
-                "towers": {
-                    "top": {
-                        "tower": {"x": 561, "y": 32},
-                        "battlement": {"x": 561, "y": 32},
-                        "creature": {"x": 339, "y": -195}
-                    },
+        "towers": {
+          "top": {
+            "tower": {"x": 561, "y": 32},
+            "battlement": {"x": 561, "y": 32},
+            "creature": {"x": 339, "y": -195}
+          },
 
-                    "keep": {
-                        "tower": {"x": 700, "y": -70},
-                        "battlement": {"x": 700, "y": -70},
-                        "creature": {"x": 530, "y": -160}
-                    },
+          "keep": {
+            "tower": {"x": 700, "y": -70},
+            "battlement": {"x": 700, "y": -70},
+            "creature": {"x": 530, "y": -160}
+          },
 
-                    "bottom": {
-                        "tower": {"x": 570, "y": 450},
-                        "battlement": {"x": 570, "y": 450},
-                        "creature": {"x": 360, "y": 260}
-                    }
-                },
+          "bottom": {
+            "tower": {"x": 570, "y": 450},
+            "battlement": {"x": 570, "y": 450},
+            "creature": {"x": 360, "y": 260}
+          }
+        },
 
-                "gate": {
-                    "gate": {"x": 340, "y": 230},
-                    "arch": {"x": 425, "y": 130}
-                },
+        "gate": {
+          "gate": {"x": 340, "y": 230},
+          "arch": {"x": 425, "y": 130}
+        },
 
-                "walls": {
-                    "upper": {"x": 490, "y": 22},
-                    "upperMid": {"x": 415, "y": 78},
-                    "bottomMid": {"x": 460, "y": 280},
-                    "bottom": {"x": 560, "y": 455}
-                },
+        "walls": {
+          "upper": {"x": 490, "y": 22},
+          "upperMid": {"x": 415, "y": 78},
+          "bottomMid": {"x": 460, "y": 280},
+          "bottom": {"x": 560, "y": 455}
+        },
 
-                "moat": {
-                    "bank": {"x": 406, "y": 77},
-                    "moat": {"x": 406, "y": 77}
-                },
+        "moat": {
+          "bank": {"x": 406, "y": 77},
+          "moat": {"x": 406, "y": 77}
+        },
 
-                "static": {
-                    "top": {"x": 504, "y": 97},
-                    "bottom": {"x": 490, "y": 285},
-                    "background": {"x": 604, "y": 58}
-                }
-            }
+        "static": {
+          "top": {"x": 504, "y": 97},
+          "bottom": {"x": 490, "y": 285},
+          "background": {"x": 604, "y": 58}
         }
+      }
     }
+  }
 }
