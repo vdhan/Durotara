@@ -221,8 +221,8 @@
         "special1": {
           "id": 17,
           "name": "Jerky Storehouse",
-          "description": "Gives every visiting hero 1000 experience points once.",
-          "type": "experienceVisitingBonus",
+          "description": "Gives every visiting hero 1 Attack once.",
+          "type": "attackVisitingBonus",
           "requires": [
             "allOf",
             ["fort"],
@@ -230,9 +230,7 @@
           ],
 
           "cost": {
-            "gold": 1000,
-            "wood": 5,
-            "ore": 5
+            "gold": 1000
           }
         },
 
@@ -257,19 +255,9 @@
 
         "special2": {
           "id": 21,
-          "name": "Blood Obelisk",
-          "description": "Provides +2 defense during sieges.",
-          "upgrades": "special1",
-          "type": "defenseGarrisonBonus",
-          "cost": {
-            "gold": 1000
-          }
-        },
-
-        "special3": {
-          "id": 22,
           "name": "Liana Bridge",
           "description": "Earns your kingdom 2000 gold per day.",
+          "requires": ["special1"],
           "cost": {
             "gold": 10000
           },
@@ -279,16 +267,25 @@
           }
         },
 
+        "special3": {
+          "id": 22,
+          "name": "Freelancer's Guild",
+          "description": "Allows to sell troops for resources.",
+          "requires": ["marketplace"],
+          "type": "freelancersGuild",
+          "cost": {
+            "gold": 1000
+          }
+        },
+
         "special4": {
           "id": 23,
-          "name": "Escape Tunnel",
-          "description": "Allows defending heroes to retreat during a siege, but not to surrender.",
+          "name": "Blood Obelisk",
+          "description": "Provides +2 defense during sieges.",
           "requires": ["tavern"],
-          "type": "escapeTunnel",
+          "type": "defenseGarrisonBonus",
           "cost": {
-            "gold": 2000,
-            "wood": 5,
-            "ore": 5
+            "gold": 1000
           }
         },
 
@@ -304,13 +301,13 @@
           "bonus": [
             {
               "type": "PRIMARY_SKILL",
-              "subtype": "primSkill.attack",
+              "subtype": "primarySkill.attack",
               "val": 10
             },
 
             {
               "type": "PRIMARY_SKILL",
-              "subtype": "primSkill.defence",
+              "subtype": "primarySkill.defence",
               "val": 10
             }
           ]

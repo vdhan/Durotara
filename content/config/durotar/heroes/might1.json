@@ -1,57 +1,60 @@
 {
-    "drtMight1": {
-        "class": "drtMight",
-        "female": false,
-        "spellbook": [],
+  "drtMight1": {
+    "class": "drtMight",
+    "female": false,
+    "spellbook": [],
 
-        "texts": {
-            "name": "B'oang",
-            "biography": "",
-            "specialty": {
-                "name": "Tier 1",
-                "description": "{Tier 1}\n\nIncreases Attack and Defense of any Tier 1 unit for each level attained after 1st level.",
-                "tooltip": "Creature Bonus: Tier 1"
-            }
-        },
+    "texts": {
+      "name": "B'oang",
+      "biography": "",
+      "specialty": {
+        "name": "Tier 1",
+        "description": "{Tier 1}\n\nIncreases Attack and Defense of any Tier 1 unit for each level attained after 1st level",
+        "tooltip": "Creature Bonus: Tier 1"
+      }
+    },
 
-        "images": {
-            "large": "durotar/heroes/boang/portraitLarge",
-            "small": "durotar/heroes/boang/portraitSmall",
-            "specialtyLarge": "durotar/heroes/boang/specLarge",
-            "specialtySmall": "durotar/heroes/boang/specSmall"
-        },
+    "images": {
+      "large": "durotar/heroes/boang/portraitLarge",
+      "small": "durotar/heroes/boang/portraitSmall",
+      "specialtyLarge": "durotar/heroes/boang/specLarge",
+      "specialtySmall": "durotar/heroes/boang/specSmall"
+    },
 
-        "army": [
-            {
-                "creature": "drtLv1",
-                "min": 16,
-                "max": 24
-            },
-            {
-                "creature": "drtLv1",
-                "min": 16,
-                "max": 24
-            },
-            {
-                "creature": "drtLv1",
-                "min": 16,
-                "max": 24
-            }
-        ],
+    "army": [
+      {
+        "creature": "drtLv1",
+        "min": 16,
+        "max": 24
+      },
 
-        "skills": [
-            {
-                "level": "basic",
-                "skill": "tactics"
-            },
-            {
-                "level": "basic",
-                "skill": "scouting"
-            }
-        ],
+      {
+        "creature": "drtLv1",
+        "min": 16,
+        "max": 24
+      },
 
-        "specialty": {
-            "creature": "drtLv1"
-        }
+      {
+        "creature": "drtLv1",
+        "min": 16,
+        "max": 24
+      }
+    ],
+
+    "skills": [
+      {
+        "level": "basic",
+        "skill": "tactics"
+      },
+
+      {
+        "level": "basic",
+        "skill": "scouting"
+      }
+    ],
+
+    "specialty": {
+      "creature": "drtLv1"
     }
+  }
 }

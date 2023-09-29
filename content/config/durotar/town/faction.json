@@ -2,10 +2,10 @@
   "durotar": {
     "name": "Durotar",
     "alignment": "neutral",
-    "nativeTerrain": "rough",
+    "nativeTerrain": "sand",
     "creatureBackground": {
-      "120px": "durotar/120px",
-      "130px": "durotar/130px"
+      "120px": "durotar/120px.png",
+      "130px": "durotar/130px.png"
     },
 
     "town": {
@@ -16,9 +16,9 @@
       "horde": [0, -1], // 0 - 1st horde building; 1 - 2nd horde building (-1 if not present)
 
       "townBackground": "durotar/town-screen/background.png",
-      "hallBackground": "TPTHBKCS.BMP",
+      "hallBackground": "durotar/town-screen/tpthbkcs.png",
       "guildBackground": "TPMAGE.bmp",
-      "guildWindow": "durotar/town-screen/mage-guild.png",
+      "guildWindow": "durotar/town-screen/guild-window.png",
       "buildingsIcons": "durotar/town-hall.def",
 
       "musicTheme": "music/durotar/theme.ogg",

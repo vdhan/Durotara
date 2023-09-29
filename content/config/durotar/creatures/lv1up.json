@@ -1,97 +1,104 @@
 {
-    "drtLv1up": {
-        "name": {
-            "singular": "Frost Wolf",
-            "plural": "Frost Wolves"
-        },
-        "faction": "durotar",
-        "special": false,
-        "level": 1,
-        "aiValue": 178,
-        "fightValue": 191,
-        "growth": 14,
-        "horde": 7,
+  "drtLv1up": {
+    "name": {
+      "singular": "Frost Wolf",
+      "plural": "Frost Wolves"
+    },
 
-        "attack": 6,
-        "defense": 4,
-        "damage": {
-            "max": 3,
-            "min": 3
-        },
-        "hitPoints": 10,
-        "speed": 11,
-        "doubleWide": true,
-        "hasDoubleWeek": true,
-        "cost": {
-            "gold": 75
-        },
+    "faction": "durotar",
+    "level": 1,
+    "aiValue": 178,
+    "fightValue": 191,
+    "growth": 14,
+    "doubleWide": true,
+    "hasDoubleWeek": true,
+    "horde": 7,
 
-        "abilities": {
-            "retaliation": {
-                "type": "UNLIMITED_RETALIATIONS"
-            },
-            "duration": {
-                "type": "CREATURE_ENCHANT_POWER",
-                "val": 3
-            }
-        },
+    "attack": 6,
+    "defense": 4,
+    "damage": {
+      "max": 2,
+      "min": 2
+    },
 
-        "stackExperience": [
-            {
-                "bonus": {
-                    "type": "STACKS_SPEED"
-                },
-                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
-            },
-            {
-                "bonus": {
-                    "type": "STACK_HEALTH",
-                    "valueType": "PERCENT_TO_BASE"
-                },
-                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
-            },
+    "hitPoints": 10,
+    "speed": 11,
+    "cost": {
+      "gold": 60
+    },
 
-            {
-                "bonus": {
-                    "type": "SPELL_BEFORE_ATTACK",
-                    "subtype": "spell.bloodlust",
-                    "addInfo": [3, 0]
-                },
-                "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
-            },
-            {
-                "bonus": {
-                    "type": "SELF_MORALE"
-                },
-                "values": [false, false, false, false, false, true, true, true, true, true]
-            }
-        ],
+    "abilities": {
+      "retaliation": {
+        "type": "UNLIMITED_RETALIATIONS"
+      },
 
-        "advMapAmount": {
-            "max": 50,
-            "min": 25
+      "duration": {
+        "type": "CREATURE_ENCHANT_POWER",
+        "val": 3
+      }
+    },
+
+    "stackExperience": [
+      {
+        "bonus": {
+          "type": "STACKS_SPEED"
         },
 
-        "graphics": {
-            "animation": "durotar/battle/worg3",
-            "map": "durotar/map/worg3m",
-            "iconSmall": "durotar/iconSmall/worg3s",
-            "iconLarge": "durotar/iconLarge/worg3l",
-            "timeBetweenFidgets": 1,
-            "animationTime": {
-                "attack": 1,
-                "flight": 1,
-                "idle": 10,
-                "walk": 1
-            }
+        "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+      },
+
+      {
+        "bonus": {
+          "type": "STACK_HEALTH",
+          "valueType": "PERCENT_TO_BASE"
         },
 
-        "sound": {
-            "attack": "durotar/worgatk",
-            "defend": "durotar/worgblk",
-            "killed": "durotar/worgdie",
-            "move": "HGWRMOVE",
-            "wince": "durotar/worgblk"
-        }
+        "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.bloodlust",
+          "addInfo": [3, 0]
+        },
+
+        "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+      },
+
+      {
+        "bonus": {
+          "type": "SELF_MORALE"
+        },
+
+        "values": [false, false, false, false, false, true, true, true, true, true]
+      }
+    ],
+
+    "advMapAmount": {
+      "max": 50,
+      "min": 25
+    },
+
+    "graphics": {
+      "animation": "durotar/battle/worg3.def",
+      "map": "durotar/map/worg3m.def",
+      "iconSmall": "durotar/iconSmall/worg3s.png",
+      "iconLarge": "durotar/iconLarge/worg3l.png",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "attack": 1,
+        "walk": 1,
+        "idle": 10
+      }
+    },
+
+    "sound": {
+      "attack": "durotar/worgatk.wav",
+      "defend": "durotar/worgblk.wav",
+      "killed": "durotar/worgdie.wav",
+      "move": "HGWRMOVE.wav",
+      "wince": "durotar/worgblk.wav"
     }
+  }
 }

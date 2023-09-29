@@ -1,57 +1,60 @@
 {
-    "drtMight3": {
-        "class": "drtMight",
-        "female": true,
-        "spellbook": [],
+  "drtMight3": {
+    "class": "drtMight",
+    "female": true,
+    "spellbook": [],
 
-        "texts": {
-            "name": "Fullika",
-            "biography": "",
-            "specialty": {
-                "name": "Tier 3",
-                "description": "{Tier 3}\n\nIncreases Attack and Defense of any Tier 3 unit for each level attained after 3rd level.",
-                "tooltip": "Creature Bonus: Tier 3"
-            }
-        },
+    "texts": {
+      "name": "Fullika",
+      "biography": "",
+      "specialty": {
+        "name": "Tier 3",
+        "description": "{Tier 3}\n\nIncreases Attack and Defense of any Tier 3 unit for each level attained after 3rd level",
+        "tooltip": "Creature Bonus: Tier 3"
+      }
+    },
 
-        "images": {
-            "large": "durotar/heroes/fullika/portraitLarge",
-            "small": "durotar/heroes/fullika/portraitSmall",
-            "specialtyLarge": "durotar/heroes/fullika/specLarge",
-            "specialtySmall": "durotar/heroes/fullika/specSmall"
-        },
+    "images": {
+      "large": "durotar/heroes/fullika/portraitLarge",
+      "small": "durotar/heroes/fullika/portraitSmall",
+      "specialtyLarge": "durotar/heroes/fullika/specLarge",
+      "specialtySmall": "durotar/heroes/fullika/specSmall"
+    },
 
-        "army": [
-            {
-                "creature": "drtLv3",
-                "min": 3,
-                "max": 4
-            },
-            {
-                "creature": "drtLv3",
-                "min": 3,
-                "max": 4
-            },
-            {
-                "creature": "drtLv3",
-                "min": 3,
-                "max": 4
-            }
-        ],
+    "army": [
+      {
+        "creature": "drtLv3",
+        "min": 3,
+        "max": 4
+      },
 
-        "skills": [
-            {
-                "level": "basic",
-                "skill": "tactics"
-            },
-            {
-                "level": "basic",
-                "skill": "offence"
-            }
-        ],
+      {
+        "creature": "drtLv3",
+        "min": 3,
+        "max": 4
+      },
 
-        "specialty": {
-            "creature": "drtLv3"
-        }
+      {
+        "creature": "drtLv3",
+        "min": 3,
+        "max": 4
+      }
+    ],
+
+    "skills": [
+      {
+        "level": "basic",
+        "skill": "tactics"
+      },
+
+      {
+        "level": "basic",
+        "skill": "offence"
+      }
+    ],
+
+    "specialty": {
+      "creature": "drtLv3"
     }
+  }
 }

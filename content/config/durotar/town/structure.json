@@ -180,7 +180,7 @@
           "animation": "durotar/town-screen/buildings/tguild",
           "x": 0,
           "y": 0,
-          "z": 4,
+          "z": 5,
           "border": "durotar/town-screen/buildings-border/tguildb",
           "area": "durotar/town-screen/buildings-area/tguilda"
         },
@@ -331,7 +331,7 @@
         },
 
         "extraCapitol": {
-          "animation": "durotar/town-screen/buildings/wfall",
+          "animation": "durotar/town-screen/buildings/wfall.def",
           "x": 0,
           "y": 0,
           "z": 1

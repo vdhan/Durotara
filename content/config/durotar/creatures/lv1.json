@@ -1,99 +1,106 @@
 {
-    "drtLv1": {
-        "name": {
-            "singular": "Wolf",
-            "plural": "Wolves"
-        },
-        "faction": "durotar",
-        "special": false,
-        "level": 1,
-        "upgrades": ["drtLv1up"],
-        "aiValue": 112,
-        "fightValue": 124,
-        "growth": 14,
-        "horde": 7,
+  "drtLv1": {
+    "name": {
+      "singular": "Wolf",
+      "plural": "Wolves"
+    },
 
-        "attack": 5,
-        "defense": 3,
-        "damage": {
-            "max": 2,
-            "min": 2
-        },
-        "hitPoints": 8,
-        "speed": 7,
-        "doubleWide": true,
-        "hasDoubleWeek": true,
-        "cost": {
-            "gold": 50
-        },
+    "faction": "durotar",
+    "level": 1,
+    "upgrades": ["drtLv1up"],
+    "aiValue": 112,
+    "fightValue": 124,
+    "growth": 14,
+    "doubleWide": true,
+    "hasDoubleWeek": true,
+    "horde": 7,
 
-        "abilities": {
-            "retaliation": {
-                "type": "ADDITIONAL_RETALIATION",
-                "val": 1
-            },
-            "duration": {
-                "type": "CREATURE_ENCHANT_POWER",
-                "val": 3
-            }
-        },
+    "attack": 5,
+    "defense": 3,
+    "damage": {
+      "max": 2,
+      "min": 2
+    },
 
-        "stackExperience": [
-            {
-                "bonus": {
-                    "type": "STACKS_SPEED"
-                },
-                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
-            },
-            {
-                "bonus": {
-                    "type": "STACK_HEALTH",
-                    "valueType": "PERCENT_TO_BASE"
-                },
-                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
-            },
+    "hitPoints": 8,
+    "speed": 7,
+    "cost": {
+      "gold": 40
+    },
 
-            {
-                "bonus": {
-                    "type": "SPELL_BEFORE_ATTACK",
-                    "subtype": "spell.bloodlust",
-                    "addInfo": [3, 0]
-                },
-                "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
-            },
-            {
-                "bonus": {
-                    "type": "ADDITIONAL_RETALIATION"
-                },
-                "values": [1, 1, 1, 2, 2, 2, 3, 3, 3, 4]
-            }
-        ],
+    "abilities": {
+      "retaliation": {
+        "type": "ADDITIONAL_RETALIATION",
+        "val": 1
+      },
 
-        "advMapAmount": {
-            "max": 50,
-            "min": 25
+      "duration": {
+        "type": "CREATURE_ENCHANT_POWER",
+        "val": 3
+      }
+    },
+
+    "stackExperience": [
+      {
+        "bonus": {
+          "type": "STACKS_SPEED"
         },
 
-        "graphics": {
-            "animation": "durotar/battle/worg2",
-            "map": "durotar/map/worg2m",
-            "iconSmall": "durotar/iconSmall/worg2s",
-            "iconLarge": "durotar/iconLarge/worg2l",
-            "timeBetweenFidgets": 1,
-            "animationTime": {
-                "attack": 1,
-                "walk": 1,
-                "flight": 1,
-                "idle": 10
-            }
+        "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+      },
+
+      {
+        "bonus": {
+          "type": "STACK_HEALTH",
+          "valueType": "PERCENT_TO_BASE"
         },
 
-        "sound": {
-            "attack": "durotar/worgatk",
-            "defend": "durotar/worgblk",
-            "killed": "durotar/worgdie",
-            "move": "HGWRMOVE",
-            "wince": "durotar/worgblk"
-        }
+        "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.bloodlust",
+          "addInfo": [3, 0]
+        },
+
+        "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+      },
+
+      {
+        "bonus": {
+          "type": "ADDITIONAL_RETALIATION"
+        },
+
+        "values": [1, 1, 1, 2, 2, 2, 3, 3, 3, 4]
+      }
+    ],
+
+    "advMapAmount": {
+      "max": 50,
+      "min": 25
+    },
+
+    "graphics": {
+      "animation": "durotar/battle/worg2.def",
+      "map": "durotar/map/worg2m.def",
+      "iconSmall": "durotar/iconSmall/worg2s.png",
+      "iconLarge": "durotar/iconLarge/worg2l.png",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "attack": 1,
+        "walk": 1,
+        "idle": 10
+      }
+    },
+
+    "sound": {
+      "attack": "durotar/worgatk.wav",
+      "defend": "durotar/worgblk.wav",
+      "killed": "durotar/worgdie.wav",
+      "move": "HGWRMOVE.wav",
+      "wince": "durotar/worgblk.wav"
     }
+  }
 }

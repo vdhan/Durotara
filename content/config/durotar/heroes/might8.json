@@ -1,57 +1,60 @@
 {
-    "drtMight8": {
-        "class": "drtMight",
-        "female": true,
-        "spellbook": [],
+  "drtMight8": {
+    "class": "drtMight",
+    "female": true,
+    "spellbook": [],
 
-        "texts": {
-            "name": "Soragg",
-            "biography": "",
-            "specialty": {
-                "name": "Ballista",
-                "description": "{Ballista}\n\nIncreases Attack and Defense of any Ballista by 5% for every 5 levels (rounded up).",
-                "tooltip": "Creature Bonus: Ballista"
-            }
-        },
+    "texts": {
+      "name": "Soragg",
+      "biography": "",
+      "specialty": {
+        "name": "Ballista",
+        "description": "{Ballista}\n\nIncreases Attack and Defense of any Ballista by 5% for every 5 levels (rounded up)",
+        "tooltip": "Creature Bonus: Ballista"
+      }
+    },
 
-        "images": {
-            "large": "durotar/heroes/soragg/portraitLarge",
-            "small": "durotar/heroes/soragg/portraitSmall",
-            "specialtyLarge": "durotar/heroes/soragg/specLarge",
-            "specialtySmall": "durotar/heroes/soragg/specSmall"
-        },
+    "images": {
+      "large": "durotar/heroes/soragg/portraitLarge",
+      "small": "durotar/heroes/soragg/portraitSmall",
+      "specialtyLarge": "durotar/heroes/soragg/specLarge",
+      "specialtySmall": "durotar/heroes/soragg/specSmall"
+    },
 
-        "army": [
-            {
-                "creature": "drtLv1",
-                "min": 16,
-                "max": 24
-            },
-            {
-                "creature": "ballista",
-                "min": 1,
-                "max": 1
-            },
-            {
-                "creature": "drtLv2",
-                "min": 4,
-                "max": 7
-            }
-        ],
+    "army": [
+      {
+        "creature": "drtLv1",
+        "min": 16,
+        "max": 24
+      },
 
-        "skills": [
-            {
-                "level": "basic",
-                "skill": "tactics"
-            },
-            {
-                "level": "basic",
-                "skill": "artillery"
-            }
-        ],
+      {
+        "creature": "ballista",
+        "min": 1,
+        "max": 1
+      },
 
-        "specialty": {
-            "creature": "ballista"
-        }
+      {
+        "creature": "drtLv2",
+        "min": 4,
+        "max": 7
+      }
+    ],
+
+    "skills": [
+      {
+        "level": "basic",
+        "skill": "tactics"
+      },
+
+      {
+        "level": "basic",
+        "skill": "artillery"
+      }
+    ],
+
+    "specialty": {
+      "creature": "ballista"
     }
+  }
 }

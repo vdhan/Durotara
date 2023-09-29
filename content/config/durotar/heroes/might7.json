@@ -1,64 +1,69 @@
 {
-    "drtMight7": {
-        "class": "drtMight",
-        "female": false,
-        "spellbook": [],
+  "drtMight7": {
+    "class": "drtMight",
+    "female": false,
+    "spellbook": [],
 
-        "texts": {
-            "name": "Thurnokk",
-            "biography": "",
-            "specialty": {
-                "name": "Logistics",
-                "description": "{Logistics}\n\nReceives a 5% per level bonus to Logistics skill.",
-                "tooltip": "Skill Bonus: Logistics"
-            }
-        },
+    "texts": {
+      "name": "Thurnokk",
+      "biography": "",
+      "specialty": {
+        "name": "Logistics",
+        "description": "{Logistics}\n\nReceives a 5% per level bonus to Logistics skill",
+        "tooltip": "Skill Bonus: Logistics"
+      }
+    },
 
-        "images": {
-            "large": "durotar/heroes/thurnokk/portraitLarge",
-            "small": "durotar/heroes/thurnokk/portraitSmall",
-            "specialtyLarge": "durotar/heroes/thurnokk/specLarge",
-            "specialtySmall": "durotar/heroes/thurnokk/specSmall"
-        },
+    "images": {
+      "large": "durotar/heroes/thurnokk/portraitLarge",
+      "small": "durotar/heroes/thurnokk/portraitSmall",
+      "specialtyLarge": "durotar/heroes/thurnokk/specLarge",
+      "specialtySmall": "durotar/heroes/thurnokk/specSmall"
+    },
 
-        "army": [
-            {
-                "creature": "drtLv1",
-                "min": 16,
-                "max": 24
-            },
-            {
-                "creature": "drtLv2",
-                "min": 4,
-                "max": 7
-            },
-            {
-                "creature": "drtLv3",
-                "min": 3,
-                "max": 4
-            }
-        ],
+    "army": [
+      {
+        "creature": "drtLv1",
+        "min": 16,
+        "max": 24
+      },
 
-        "skills": [
-            {
-                "level": "basic",
-                "skill": "tactics"
-            },
-            {
-                "level": "basic",
-                "skill": "logistics"
-            }
-        ],
+      {
+        "creature": "drtLv2",
+        "min": 4,
+        "max": 7
+      },
 
-        "specialty": {
-            "bonuses": {
-                "logistics": {
-                    "type": "SECONDARY_SKILL_PREMY",
-                    "subtype": "skill.logistics",
-                    "val": 5,
-                    "updater": "TIMES_HERO_LEVEL"
-                }
-            }
+      {
+        "creature": "drtLv3",
+        "min": 3,
+        "max": 4
+      }
+    ],
+
+    "skills": [
+      {
+        "level": "basic",
+        "skill": "tactics"
+      },
+
+      {
+        "level": "basic",
+        "skill": "logistics"
+      }
+    ],
+
+    "specialty": {
+      "bonuses": {
+        "logistics": {
+          "type": "MOVEMENT",
+          "subtype": 1,
+          "val": 5,
+          "valueType": "PERCENT_TO_TARGET_TYPE",
+          "updater": "TIMES_HERO_LEVEL",
+          "targetSourceType": "SECONDARY_SKILL"
         }
+      }
     }
+  }
 }

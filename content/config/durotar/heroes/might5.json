@@ -1,57 +1,60 @@
 {
-    "drtMight5": {
-        "class": "drtMight",
-        "female": false,
-        "spellbook": [],
+  "drtMight5": {
+    "class": "drtMight",
+    "female": false,
+    "spellbook": [],
 
-        "texts": {
-            "name": "Makgum",
-            "biography": "",
-            "specialty": {
-                "name": "Tier 5",
-                "description": "{Tier 5}\n\nIncreases Attack and Defense of any Tier 5 unit for each level attained after 5th level.",
-                "tooltip": "Creature Bonus: Tier 5"
-            }
-        },
+    "texts": {
+      "name": "Makgum",
+      "biography": "",
+      "specialty": {
+        "name": "Tier 5",
+        "description": "{Tier 5}\n\nIncreases Attack and Defense of any Tier 5 unit for each level attained after 5th level",
+        "tooltip": "Creature Bonus: Tier 5"
+      }
+    },
 
-        "images": {
-            "large": "durotar/heroes/makgum/portraitLarge",
-            "small": "durotar/heroes/makgum/portraitSmall",
-            "specialtyLarge": "durotar/heroes/makgum/specLarge",
-            "specialtySmall": "durotar/heroes/makgum/specSmall"
-        },
+    "images": {
+      "large": "durotar/heroes/makgum/portraitLarge",
+      "small": "durotar/heroes/makgum/portraitSmall",
+      "specialtyLarge": "durotar/heroes/makgum/specLarge",
+      "specialtySmall": "durotar/heroes/makgum/specSmall"
+    },
 
-        "army": [
-            {
-                "creature": "drtLv1",
-                "min": 16,
-                "max": 24
-            },
-            {
-                "creature": "drtLv2",
-                "min": 4,
-                "max": 7
-            },
-            {
-                "creature": "drtLv3",
-                "min": 3,
-                "max": 4
-            }
-        ],
+    "army": [
+      {
+        "creature": "drtLv1",
+        "min": 16,
+        "max": 24
+      },
 
-        "skills": [
-            {
-                "level": "basic",
-                "skill": "tactics"
-            },
-            {
-                "level": "basic",
-                "skill": "luck"
-            }
-        ],
+      {
+        "creature": "drtLv2",
+        "min": 4,
+        "max": 7
+      },
 
-        "specialty": {
-            "creature": "drtLv5"
-        }
+      {
+        "creature": "drtLv3",
+        "min": 3,
+        "max": 4
+      }
+    ],
+
+    "skills": [
+      {
+        "level": "basic",
+        "skill": "tactics"
+      },
+
+      {
+        "level": "basic",
+        "skill": "luck"
+      }
+    ],
+
+    "specialty": {
+      "creature": "drtLv5"
     }
+  }
 }

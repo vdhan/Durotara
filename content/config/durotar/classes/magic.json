@@ -1,87 +1,89 @@
 {
-    "drtMagic": {
-        "name": "Warlock",
-        "faction": "durotar",
-        "affinity": "magic",
-        "commander": "drtCommand",
+  "drtMagic": {
+    "name": "Warlock",
+    "faction": "durotar",
+    "affinity": "magic",
+    "commander": "drtCommand",
 
-        "primarySkills": {
-            "attack": 1,
-            "defence": 1,
-            "spellpower": 2,
-            "knowledge": 2
-        },
-        "lowLevelChance": {
-            "attack": 20,
-            "defence": 20,
-            "spellpower": 35,
-            "knowledge": 25
-        },
-        "highLevelChance": {
-            "attack": 25,
-            "defence": 25,
-            "spellpower": 30,
-            "knowledge": 20
-        },
+    "primarySkills": {
+      "attack": 1,
+      "defence": 1,
+      "spellpower": 2,
+      "knowledge": 2
+    },
 
-        "secondarySkills": {
-            "airMagic": 8,
-            "earthMagic": 8,
-            "fireMagic": 6,
-            "waterMagic": 6,
-            "archery": 1,
-            "armorer": 1,
-            "offence": 1,
-            "resistance": 1,
-            "tactics": 6,
-            "artillery": 6,
-            "ballistics": 1,
-            "firstAid": 6,
-            "diplomacy": 6,
-            "eagleEye": 6,
-            "estates": 1,
-            "learning": 1,
-            "intelligence": 6,
-            "mysticism": 8,
-            "scholar": 6,
-            "sorcery": 6,
-            "wisdom": 10,
-            "leadership": 1,
-            "luck": 1,
-            "logistics": 6,
-            "pathfinding": 1,
-            "navigation": 1,
-            "scouting": 1,
-            "necromancy": 0
-        },
+    "lowLevelChance": {
+      "attack": 20,
+      "defence": 20,
+      "spellpower": 30,
+      "knowledge": 30
+    },
 
-        "defaultTavern": 5,
-        "tavern": {
-            "castle": 4,
-            "rampart": 4,
-            "tower": 4,
-            "inferno": 4,
-            "necropolis": 4,
-            "dungeon": 4,
-            "stronghold": 4,
-            "fortress": 4,
-            "conflux": 4,
-            "durotar": 6
-        },
+    "highLevelChance": {
+      "attack": 25,
+      "defence": 25,
+      "spellpower": 25,
+      "knowledge": 25
+    },
 
-        "animation": {
-            "battle": {
-                "female": "durotar/magic",
-                "male": "durotar/magic"
-            }
-        },
+    "secondarySkills": {
+      "airMagic": 8,
+      "earthMagic": 8,
+      "fireMagic": 6,
+      "waterMagic": 8,
+      "archery": 1,
+      "armorer": 1,
+      "offence": 1,
+      "resistance": 1,
+      "tactics": 6,
+      "artillery": 6,
+      "ballistics": 1,
+      "firstAid": 1,
+      "diplomacy": 6,
+      "eagleEye": 1,
+      "estates": 1,
+      "learning": 1,
+      "intelligence": 8,
+      "mysticism": 6,
+      "scholar": 6,
+      "sorcery": 6,
+      "wisdom": 10,
+      "leadership": 1,
+      "luck": 1,
+      "logistics": 6,
+      "pathfinding": 1,
+      "navigation": 6,
+      "scouting": 1,
+      "necromancy": 0
+    },
 
-        "mapObject": {
-            "templates": {
-                "default": {
-                    "animation": "durotar/mapMagic"
-                }
-            }
+    "defaultTavern": 5,
+    "tavern": {
+      "castle": 4,
+      "rampart": 4,
+      "tower": 4,
+      "inferno": 4,
+      "necropolis": 4,
+      "dungeon": 4,
+      "stronghold": 4,
+      "fortress": 4,
+      "conflux": 4,
+      "durotar": 6
+    },
+
+    "animation": {
+      "battle": {
+        "female": "durotar/magic",
+        "male": "durotar/magic"
+      }
+    },
+
+    "mapObject": {
+      "templates": {
+        "default": {
+          "animation": "durotar/mapMagic"
         }
+      }
     }
+  }
 }

@@ -1,64 +1,67 @@
 {
-    "drtMagic3": {
-        "class": "drtMagic",
-        "female": false,
-        "spellbook": ["resurrection"],
+  "drtMagic3": {
+    "class": "drtMagic",
+    "female": false,
+    "spellbook": ["resurrection"],
 
-        "texts": {
-            "name": "Hurgor",
-            "biography": "",
-            "specialty": {
-                "name": "Resurrection",
-                "description": "{Resurrection}\n\nCasts Resurrection with increased effect, based on hero level.",
-                "tooltip": "Spell Bonus: Resurrection"
-            }
-        },
+    "texts": {
+      "name": "Hurgor",
+      "biography": "",
+      "specialty": {
+        "name": "Resurrection",
+        "description": "{Resurrection}\n\nCasts Resurrection with increased effect, based on hero level",
+        "tooltip": "Spell Bonus: Resurrection"
+      }
+    },
 
-        "images": {
-            "large": "durotar/heroes/hurgor/portraitLarge",
-            "small": "durotar/heroes/hurgor/portraitSmall",
-            "specialtyLarge": "durotar/heroes/hurgor/specLarge",
-            "specialtySmall": "durotar/heroes/hurgor/specSmall"
-        },
+    "images": {
+      "large": "durotar/heroes/hurgor/portraitLarge",
+      "small": "durotar/heroes/hurgor/portraitSmall",
+      "specialtyLarge": "durotar/heroes/hurgor/specLarge",
+      "specialtySmall": "durotar/heroes/hurgor/specSmall"
+    },
 
-        "army": [
-            {
-                "creature": "drtLv1",
-                "min": 16,
-                "max": 24
-            },
-            {
-                "creature": "drtLv2",
-                "min": 4,
-                "max": 7
-            },
-            {
-                "creature": "drtLv3",
-                "min": 3,
-                "max": 4
-            }
-        ],
+    "army": [
+      {
+        "creature": "drtLv1",
+        "min": 16,
+        "max": 24
+      },
 
-        "skills": [
-            {
-                "level": "basic",
-                "skill": "wisdom"
-            },
-            {
-                "level": "basic",
-                "skill": "earthMagic"
-            }
-        ],
+      {
+        "creature": "drtLv2",
+        "min": 4,
+        "max": 7
+      },
 
-        "specialty": {
-            "bonuses": {
-                "resurrection": {
-                    "type": "SPECIAL_SPELL_LEV",
-                    "subtype": "spell.resurrection",
-                    "val": 5,
-                    "updater": "TIMES_HERO_LEVEL"
-                }
-            }
+      {
+        "creature": "drtLv3",
+        "min": 3,
+        "max": 4
+      }
+    ],
+
+    "skills": [
+      {
+        "level": "basic",
+        "skill": "wisdom"
+      },
+
+      {
+        "level": "basic",
+        "skill": "earthMagic"
+      }
+    ],
+
+    "specialty": {
+      "bonuses": {
+        "bonusSpell": {
+          "type": "SPECIAL_SPELL_LEV",
+          "subtype": "spell.resurrection",
+          "val": 3,
+          "updater": "TIMES_HERO_LEVEL"
         }
+      }
     }
+  }
 }

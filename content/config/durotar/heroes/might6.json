@@ -1,57 +1,60 @@
 {
-    "drtMight6": {
-        "class": "drtMight",
-        "female": false,
-        "spellbook": [],
+  "drtMight6": {
+    "class": "drtMight",
+    "female": false,
+    "spellbook": [],
 
-        "texts": {
-            "name": "Orloch",
-            "biography": "",
-            "specialty": {
-                "name": "Tier 6",
-                "description": "{Tier 6}\n\nIncreases Attack and Defence of any Tier 6 unit for each level attained after 6th level.",
-                "tooltip": "Creature Bonus: Tier 6"
-            }
-        },
+    "texts": {
+      "name": "Orloch",
+      "biography": "",
+      "specialty": {
+        "name": "Tier 6",
+        "description": "{Tier 6}\n\nIncreases Attack and Defence of any Tier 6 unit for each level attained after 6th level",
+        "tooltip": "Creature Bonus: Tier 6"
+      }
+    },
 
-        "images": {
-            "large": "durotar/heroes/orloch/portraitLarge",
-            "small": "durotar/heroes/orloch/portraitSmall",
-            "specialtyLarge": "durotar/heroes/orloch/specLarge",
-            "specialtySmall": "durotar/heroes/orloch/specSmall"
-        },
+    "images": {
+      "large": "durotar/heroes/orloch/portraitLarge",
+      "small": "durotar/heroes/orloch/portraitSmall",
+      "specialtyLarge": "durotar/heroes/orloch/specLarge",
+      "specialtySmall": "durotar/heroes/orloch/specSmall"
+    },
 
-        "army": [
-            {
-                "creature": "drtLv1",
-                "min": 16,
-                "max": 24
-            },
-            {
-                "creature": "drtLv2",
-                "min": 4,
-                "max": 7
-            },
-            {
-                "creature": "drtLv3",
-                "min": 3,
-                "max": 4
-            }
-        ],
+    "army": [
+      {
+        "creature": "drtLv1",
+        "min": 16,
+        "max": 24
+      },
 
-        "skills": [
-            {
-                "level": "basic",
-                "skill": "tactics"
-            },
-            {
-                "level": "basic",
-                "skill": "leadership"
-            }
-        ],
+      {
+        "creature": "drtLv2",
+        "min": 4,
+        "max": 7
+      },
 
-        "specialty": {
-            "creature": "drtLv6"
-        }
+      {
+        "creature": "drtLv3",
+        "min": 3,
+        "max": 4
+      }
+    ],
+
+    "skills": [
+      {
+        "level": "basic",
+        "skill": "tactics"
+      },
+
+      {
+        "level": "basic",
+        "skill": "leadership"
+      }
+    ],
+
+    "specialty": {
+      "creature": "drtLv6"
     }
+  }
 }

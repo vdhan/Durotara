@@ -1,57 +1,60 @@
 {
-    "drtMight2": {
-        "class": "drtMight",
-        "female": false,
-        "spellbook": [],
+  "drtMight2": {
+    "class": "drtMight",
+    "female": false,
+    "spellbook": [],
 
-        "texts": {
-            "name": "Dra'as",
-            "biography": "",
-            "specialty": {
-                "name": "Tier 2",
-                "description": "{Tier 2}\n\nIncreases Attack and Defense of any Tier 2 unit for each level attained after 2nd level.",
-                "tooltip": "Creature Bonus: Tier 2"
-            }
-        },
+    "texts": {
+      "name": "Dra'as",
+      "biography": "",
+      "specialty": {
+        "name": "Tier 2",
+        "description": "{Tier 2}\n\nIncreases Attack and Defense of any Tier 2 unit for each level attained after 2nd level",
+        "tooltip": "Creature Bonus: Tier 2"
+      }
+    },
 
-        "images": {
-            "large": "durotar/heroes/draas/portraitLarge",
-            "small": "durotar/heroes/draas/portraitSmall",
-            "specialtyLarge": "durotar/heroes/draas/specLarge",
-            "specialtySmall": "durotar/heroes/draas/specSmall"
-        },
+    "images": {
+      "large": "durotar/heroes/draas/portraitLarge",
+      "small": "durotar/heroes/draas/portraitSmall",
+      "specialtyLarge": "durotar/heroes/draas/specLarge",
+      "specialtySmall": "durotar/heroes/draas/specSmall"
+    },
 
-        "army": [
-            {
-                "creature": "drtLv2",
-                "min": 4,
-                "max": 7
-            },
-            {
-                "creature": "drtLv2",
-                "min": 4,
-                "max": 7
-            },
-            {
-                "creature": "drtLv2",
-                "min": 4,
-                "max": 7
-            }
-        ],
+    "army": [
+      {
+        "creature": "drtLv2",
+        "min": 4,
+        "max": 7
+      },
 
-        "skills": [
-            {
-                "level": "basic",
-                "skill": "tactics"
-            },
-            {
-                "level": "basic",
-                "skill": "archery"
-            }
-        ],
+      {
+        "creature": "drtLv2",
+        "min": 4,
+        "max": 7
+      },
 
-        "specialty": {
-            "creature": "drtLv2"
-        }
+      {
+        "creature": "drtLv2",
+        "min": 4,
+        "max": 7
+      }
+    ],
+
+    "skills": [
+      {
+        "level": "basic",
+        "skill": "tactics"
+      },
+
+      {
+        "level": "basic",
+        "skill": "archery"
+      }
+    ],
+
+    "specialty": {
+      "creature": "drtLv2"
     }
+  }
 }

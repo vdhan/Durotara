@@ -1,99 +1,93 @@
 {
-    "drtCommand": {
-        "name": {
-            "singular": "Chieftain",
-            "plural": "Chieftains"
-        },
-        "faction": "durotar",
-        "special": true,
-        "level": 0,
-        "aiValue": 974,
-        "fightValue": 874,
-        "growth": 1,
+  "drtCommand": {
+    "name": {
+      "singular": "Chieftain",
+      "plural": "Chieftains"
+    },
 
-        "attack": 5,
-        "defense": 5,
-        "damage": {
-            "min": 7,
-             "max": 15
-        },
-        "hitPoints": 60,
-        "speed": 5,
-        "shots": 24,
-        "doubleWide": false,
+    "faction": "durotar",
+    "special": true,
+    "level": 0,
+    "aiValue": 974,
+    "fightValue": 874,
+    "growth": 1,
+    "doubleWide": false,
 
-        "abilities": {
-            "magicResistance": {
-                "type": "MAGIC_RESISTANCE",
-                "val": 5
-            },
-            "cast": {
-                "type": "SPELLCASTER",
-                "subtype": "spell.cure",
-                "val": 2
-            },
-            "castTimes": {
-                "type": "CASTS",
-                "val": 1
-            },
-            "spellPower": {
-                "type": "CREATURE_SPELL_POWER",
-                "val": 100
-            },
+    "attack": 5,
+    "defense": 5,
+    "damage": {
+      "min": 7,
+      "max": 15
+    },
 
-            "superiorAttack": {
-                "type": "PRIMARY_SKILL",
-                "subtype": "primSkill.attack",
-                "val": 4,
-                "valueType": "PERCENT_TO_BASE",
-                "updater": "TIMES_HERO_LEVEL",
-                "propagator": "HERO"
-            },
+    "hitPoints": 60,
+    "speed": 5,
+    "shots": 24,
 
-            "superiorDefence": {
-                "type": "PRIMARY_SKILL",
-                "subtype": "primSkill.defence",
-                "val": 4,
-                "valueType": "PERCENT_TO_BASE",
-                "updater": "TIMES_HERO_LEVEL",
-                "propagator": "HERO"
-            }
-        },
+    "abilities": {
+      "magicResistance": {
+        "type": "MAGIC_RESISTANCE",
+        "val": 5
+      },
 
-        "graphics": {
-            "animation": "durotar/battle/foreman",
-            "iconSmall": "durotar/iconSmall/foremans",
-            "iconLarge": "durotar/iconLarge/foremanl",
-            "timeBetweenFidgets": 1,
-            "animationTime": {
-                "attack": 1,
-                "walk": 1,
-                "flight": 1,
-                "idle": 10
-            },
+      "cast": {
+        "type": "SPELLCASTER",
+        "subtype": "spell.cure",
+        "val": 3
+      },
 
-            "missile": {
-                "projectile": "PORCHX",
-                "attackClimaxFrame": 6,
-                "offset": {
-                    "lowerX": 62,
-                    "lowerY": -93,
-                    "middleX": 62,
-                    "middleY": -93,
-                    "upperX": 62,
-                    "upperY": -93
-                },
-                "frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-            }
+      "castTimes": {
+        "type": "CASTS",
+        "val": 1
+      },
+
+      "spellPower": {
+        "type": "CREATURE_SPELL_POWER",
+        "val": 100
+      },
+
+      "earn": {
+        "type": "GENERATE_RESOURCE",
+        "subtype": "resource.gems",
+        "val": 1,
+        "propagator": "HERO"
+      }
+    },
+
+    "graphics": {
+      "animation": "durotar/battle/lock1.def",
+      "iconSmall": "durotar/iconSmall/lock1s",
+      "iconLarge": "durotar/iconLarge/lock1l",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "attack": 1,
+        "walk": 1,
+        "idle": 10
+      },
+
+      "missile": {
+        "projectile": "durotar/battle/projectile/plcbowx.def",
+        "attackClimaxFrame": 9,
+        "offset": {
+          "lowerX": 25,
+          "lowerY": -56,
+          "middleX": 49,
+          "middleY": -66,
+          "upperX": 39,
+          "upperY": -76
         },
 
-        "sound": {
-            "attack": "OORCATTK",
-            "defend": "OORCDFND",
-            "killed": "OORCKILL",
-            "move": "OORCMOVE",
-            "shoot": "OORCSHOT",
-            "wince": "OORCWNCE"
-        }
+        "frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+      }
+    },
+
+    "sound": {
+      "attack": "TRLLATTK.wav",
+      "defend": "TRLLDFND.wav",
+      "killed": "TRLLKILL.wav",
+      "move": "TRLLMOVE.wav",
+      "shoot": "TRLLSHOT.wav",
+      "wince": "TRLLWNCE.wav"
     }
+  }
 }

@@ -1,64 +1,67 @@
 {
-    "drtMagic4": {
-        "class": "drtMagic",
-        "female": true,
-        "spellbook": ["meteorShower"],
+  "drtMagic4": {
+    "class": "drtMagic",
+    "female": true,
+    "spellbook": ["iceBolt"],
 
-        "texts": {
-            "name": "Jargura",
-            "biography": "",
-            "specialty": {
-                "name": "Meteor Shower",
-                "description": "{Meteor Shower}\n\nCasts Meteor Shower with increased effect, based on hero level.",
-                "tooltip": "Spell Bonus: Meteor Shower"
-            }
-        },
+    "texts": {
+      "name": "Jargura",
+      "biography": "",
+      "specialty": {
+        "name": "Ice Bolt",
+        "description": "{Ice Bolt}\n\nCasts Ice Bolt with increased effect, based on hero level compared to the level of the target unit",
+        "tooltip": "Spell Bonus: Ice Bolt"
+      }
+    },
 
-        "images": {
-            "large": "durotar/heroes/jargura/portraitLarge",
-            "small": "durotar/heroes/jargura/portraitSmall",
-            "specialtyLarge": "durotar/heroes/jargura/specLarge",
-            "specialtySmall": "durotar/heroes/jargura/specSmall"
-        },
+    "images": {
+      "large": "durotar/heroes/jargura/portraitLarge",
+      "small": "durotar/heroes/jargura/portraitSmall",
+      "specialtyLarge": "durotar/heroes/jargura/specLarge",
+      "specialtySmall": "durotar/heroes/jargura/specSmall"
+    },
 
-        "army": [
-            {
-                "creature": "drtLv1",
-                "min": 16,
-                "max": 24
-            },
-            {
-                "creature": "drtLv2",
-                "min": 4,
-                "max": 7
-            },
-            {
-                "creature": "drtLv3",
-                "min": 3,
-                "max": 4
-            }
-        ],
+    "army": [
+      {
+        "creature": "drtLv1",
+        "min": 16,
+        "max": 24
+      },
 
-        "skills": [
-            {
-                "level": "basic",
-                "skill": "wisdom"
-            },
-            {
-                "level": "basic",
-                "skill": "earthMagic"
-            }
-        ],
+      {
+        "creature": "drtLv2",
+        "min": 4,
+        "max": 7
+      },
 
-        "specialty": {
-            "bonuses": {
-                "meteorShower": {
-                    "type": "SPECIAL_SPELL_LEV",
-                    "subtype": "spell.meteorShower",
-                    "val": 5,
-                    "updater": "TIMES_HERO_LEVEL"
-                }
-            }
+      {
+        "creature": "drtLv3",
+        "min": 3,
+        "max": 4
+      }
+    ],
+
+    "skills": [
+      {
+        "level": "basic",
+        "skill": "wisdom"
+      },
+
+      {
+        "level": "basic",
+        "skill": "waterMagic"
+      }
+    ],
+
+    "specialty": {
+      "bonuses": {
+        "bonusSpell": {
+          "type": "SPECIAL_SPELL_LEV",
+          "subtype": "spell.iceBolt",
+          "val": 3,
+          "updater": "TIMES_HERO_LEVEL"
         }
+      }
     }
+  }
 }

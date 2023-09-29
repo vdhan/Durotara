@@ -1,64 +1,67 @@
 {
-    "drtMagic5": {
-        "class": "drtMagic",
-        "female": true,
-        "spellbook": ["lightningBolt"],
+  "drtMagic5": {
+    "class": "drtMagic",
+    "female": true,
+    "spellbook": ["chainLightning"],
 
-        "texts": {
-            "name": "Kutala",
-            "biography": "",
-            "specialty": {
-                "name": "Lightning Bolt",
-                "description": "{Lightning Bolt}\n\nCasts Meteor Shower with increased effect, based on hero level.",
-                "tooltip": "Spell Bonus: Lightning Bolt"
-            }
-        },
+    "texts": {
+      "name": "Kutala",
+      "biography": "",
+      "specialty": {
+        "name": "Chain Lightning",
+        "description": "{Chain Lightning}\n\nCasts Chain Lightning with increased effect, based on hero level compared to the level of the target unit",
+        "tooltip": "Spell Bonus: Chain Lightning"
+      }
+    },
 
-        "images": {
-            "large": "durotar/heroes/kutala/portraitLarge",
-            "small": "durotar/heroes/kutala/portraitSmall",
-            "specialtyLarge": "durotar/heroes/kutala/specLarge",
-            "specialtySmall": "durotar/heroes/kutala/specSmall"
-        },
+    "images": {
+      "large": "durotar/heroes/kutala/portraitLarge",
+      "small": "durotar/heroes/kutala/portraitSmall",
+      "specialtyLarge": "durotar/heroes/kutala/specLarge",
+      "specialtySmall": "durotar/heroes/kutala/specSmall"
+    },
 
-        "army": [
-            {
-                "creature": "drtLv1",
-                "min": 16,
-                "max": 24
-            },
-            {
-                "creature": "drtLv2",
-                "min": 4,
-                "max": 7
-            },
-            {
-                "creature": "drtLv3",
-                "min": 3,
-                "max": 4
-            }
-        ],
+    "army": [
+      {
+        "creature": "drtLv1",
+        "min": 16,
+        "max": 24
+      },
 
-        "skills": [
-            {
-                "level": "basic",
-                "skill": "wisdom"
-            },
-            {
-                "level": "basic",
-                "skill": "airMagic"
-            }
-        ],
+      {
+        "creature": "drtLv2",
+        "min": 4,
+        "max": 7
+      },
 
-        "specialty": {
-            "bonuses": {
-                "lightningBolt": {
-                    "type": "SPECIAL_SPELL_LEV",
-                    "subtype": "spell.lightningBolt",
-                    "val": 5,
-                    "updater": "TIMES_HERO_LEVEL"
-                }
-            }
+      {
+        "creature": "drtLv3",
+        "min": 3,
+        "max": 4
+      }
+    ],
+
+    "skills": [
+      {
+        "level": "basic",
+        "skill": "wisdom"
+      },
+
+      {
+        "level": "basic",
+        "skill": "airMagic"
+      }
+    ],
+
+    "specialty": {
+      "bonuses": {
+        "bonusSpell": {
+          "type": "SPECIAL_SPELL_LEV",
+          "subtype": "spell.chainLightning",
+          "val": 3,
+          "updater": "TIMES_HERO_LEVEL"
         }
+      }
     }
+  }
 }
