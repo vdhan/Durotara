@@ -3,6 +3,7 @@
     "name": "Durotar",
     "alignment": "neutral",
     "nativeTerrain": "sand",
+    "boat": "boatFortress",
     "creatureBackground": {
       "120px": "durotar/120px.png",
       "130px": "durotar/130px.png"

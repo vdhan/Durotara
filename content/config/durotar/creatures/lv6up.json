@@ -1,100 +1,91 @@
 {
-    "drtLv6up": {
-        "name": {
-            "singular": "Bloodhoof Tauren",
-            "plural": "Bloodhoof Taurens"
-        },
-        "faction": "durotar",
-        "special": false,
-        "level": 6,
-        "aiValue": 2451,
-        "fightValue": 2075,
-        "growth": 2,
-        "horde": 1,
+  "drtLv6up": {
+    "name": {
+      "singular": "Bloodhoof Tauren",
+      "plural": "Bloodhoof Taurens"
+    },
 
-        "attack": 16,
-        "defense": 14,
-        "damage": {
-            "max": 20,
-            "min": 20
-        },
-        "hitPoints": 110,
-        "speed": 12,
-        "doubleWide": true,
-        "hasDoubleWeek": true,
-        "cost": {
-            "gold": 1100
-        },
+    "faction": "durotar",
+    "level": 6,
+    "aiValue": 2451,
+    "fightValue": 2075,
+    "doubleWide": true,
+    "hasDoubleWeek": true,
+    "growth": 2,
+    "horde": 1,
 
-        "abilities": {
-            "fearless": {
-                "type": "FEARLESS"
-            },
-            "fear": {
-                "type": "FEAR"
-            },
-            "duration": {
-                "type": "CREATURE_ENCHANT_POWER",
-                "val": 3
-            }
-        },
+    "attack": 16,
+    "defense": 14,
+    "damage": {
+      "max": 21,
+      "min": 21
+    },
 
-        "stackExperience": [
-            {
-                "bonus": {
-                    "type": "STACKS_SPEED"
-                },
-                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
-            },
-            {
-                "bonus": {
-                    "type": "STACK_HEALTH",
-                    "valueType": "PERCENT_TO_BASE"
-                },
-                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
-            },
+    "hitPoints": 100,
+    "speed": 12,
+    "cost": {
+      "gold": 1100
+    },
 
-            {
-                "bonus": {
-                    "type": "SPELL_BEFORE_ATTACK",
-                    "subtype": "spell.stoneSkin",
-                    "addInfo": [3, 0]
-                },
-                "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
-            },
-            {
-                "bonus": {
-                    "type": "BLOCKS_RETALIATION"
-                },
-                "values": [false, false, false, false, false, true, true, true, true, true]
-            }
-        ],
+    "abilities": {
+      "fearless": {
+        "type": "FEARLESS"
+      },
 
-        "advMapAmount": {
-            "max": 15,
-            "min": 8
+      "fear": {
+        "type": "FEAR"
+      },
+
+      "duration": {
+        "type": "CREATURE_ENCHANT_POWER",
+        "val": 3
+      }
+    },
+
+    "stackExperience": [
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.stoneSkin",
+          "addInfo": [3, 2]
         },
 
-        "graphics": {
-            "animation": "durotar/battle/gronn2",
-            "map": "durotar/map/gronn2m",
-            "iconSmall": "durotar/iconSmall/gronn2s",
-            "iconLarge": "durotar/iconLarge/gronn2l",
-            "timeBetweenFidgets": 1,
-            "animationTime": {
-                "attack": 1,
-                "walk": 1,
-                "flight": 1,
-                "idle": 10
-            }
+        "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+      },
+
+      {
+        "bonus": {
+          "type": "BLOCKS_RETALIATION"
         },
 
-        "sound": {
-            "attack": "durotar/gronnatk",
-            "defend": "durotar/gronnhit",
-            "killed": "durotar/gronndie",
-            "move": "durotar/gronnwlk",
-            "wince": "durotar/gronnhit"
-        }
+        "values": [false, false, false, false, false, true, true, true, true, true]
+      }
+    ],
+
+    "advMapAmount": {
+      "max": 15,
+      "min": 8
+    },
+
+    "graphics": {
+      "animation": "durotar/battle/gronn2.def",
+      "map": "durotar/map/gronn2m.def",
+      "iconSmall": "durotar/iconSmall/gronn2s.png",
+      "iconLarge": "durotar/iconLarge/gronn2l.png",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "attack": 1,
+        "walk": 1,
+        "idle": 10
+      }
+    },
+
+    "sound": {
+      "attack": "durotar/gronnatk.wav",
+      "defend": "durotar/gronnhit.wav",
+      "killed": "durotar/gronndie.wav",
+      "move": "durotar/gronnwlk.wav",
+      "wince": "durotar/gronnhit.wav"
     }
+  }
 }

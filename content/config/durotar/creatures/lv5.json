@@ -1,106 +1,98 @@
 {
-    "drtLv5": {
-        "name": {
-            "singular": "Drake",
-            "plural": "Drakes"
-        },
-        "faction": "durotar",
-        "special": false,
-        "level": 5,
-        "upgrades": ["drtLv5up"],
-        "aiValue": 1047,
-        "fightValue": 949,
-        "growth": 3,
-        "horde": 2,
+  "drtLv5": {
+    "name": {
+      "singular": "Drake",
+      "plural": "Drakes"
+    },
 
-        "attack": 12,
-        "defense": 12,
-        "damage": {
-            "max": 12,
-            "min": 12
-        },
-        "hitPoints": 55,
-        "speed": 9,
-        "doubleWide": true,
-        "hasDoubleWeek": true,
-        "cost": {
-            "gold": 500
-        },
+    "faction": "durotar",
+    "level": 5,
+    "upgrades": ["drtLv5up"],
+    "aiValue": 1047,
+    "fightValue": 949,
+    "doubleWide": true,
+    "hasDoubleWeek": true,
+    "growth": 3,
+    "horde": 2,
 
-        "abilities": {
-            "fly": {
-                "type": "FLYING"
-            },
-            "dragon": {
-                "type": "DRAGON_NATURE"
-            },
-            "breath": {
-                "type": "TWO_HEX_ATTACK_BREATH"
-            },
-            "duration": {
-                "type": "CREATURE_ENCHANT_POWER",
-                "val": 3
-            }
-        },
+    "attack": 13,
+    "defense": 11,
+    "damage": {
+      "max": 12,
+      "min": 12
+    },
 
-        "stackExperience": [
-            {
-                "bonus": {
-                    "type": "STACKS_SPEED"
-                },
-                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
-            },
-            {
-                "bonus": {
-                    "type": "STACK_HEALTH",
-                    "valueType": "PERCENT_TO_BASE"
-                },
-                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
-            },
+    "hitPoints": 50,
+    "speed": 9,
+    "cost": {
+      "gold": 500
+    },
 
-            {
-                "bonus": {
-                    "type": "SPELL_BEFORE_ATTACK",
-                    "subtype": "spell.mirth",
-                    "addInfo": [3, 0]
-                },
-                "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
-            },
-            {
-                "bonus": {
-                    "type": "SPELL_AFTER_ATTACK",
-                    "subtype": "spell.earthquake",
-                    "addInfo": [1, 0]
-                },
-                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
-            }
-        ],
+    "abilities": {
+      "fly": {
+        "type": "FLYING"
+      },
 
-        "advMapAmount": {
-            "max": 20,
-            "min": 10
+      "dragon": {
+        "type": "DRAGON_NATURE"
+      },
+
+      "breath": {
+        "type": "TWO_HEX_ATTACK_BREATH"
+      },
+
+      "duration": {
+        "type": "CREATURE_ENCHANT_POWER",
+        "val": 3
+      }
+    },
+
+    "stackExperience": [
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.mirth",
+          "addInfo": [3, 2]
         },
 
-        "graphics": {
-            "animation": "durotar/battle/drake1",
-            "map": "durotar/map/drake1m",
-            "iconSmall": "durotar/iconSmall/drake1s",
-            "iconLarge": "durotar/iconLarge/drake1l",
-            "timeBetweenFidgets": 1,
-            "animationTime": {
-                "attack": 1,
-                "walk": 1,
-                "flight": 1,
-                "idle": 10
-            }
+        "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_AFTER_ATTACK",
+          "subtype": "spell.earthquake",
+          "addInfo": [1, 2]
         },
 
-        "sound": {
-            "attack": "durotar/drakeatk",
-            "defend": "durotar/drakeblk",
-            "killed": "durotar/drakedie",
-            "move": "durotar/drakefly",
-            "wince": "durotar/drakehit"
-        }
+        "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      }
+    ],
+
+    "advMapAmount": {
+      "max": 20,
+      "min": 10
+    },
+
+    "graphics": {
+      "animation": "durotar/battle/drake1.def",
+      "map": "durotar/map/drake1m.def",
+      "iconSmall": "durotar/iconSmall/drake1s.png",
+      "iconLarge": "durotar/iconLarge/drake1l.png",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "attack": 1,
+        "walk": 1,
+        "idle": 10
+      }
+    },
+
+    "sound": {
+      "attack": "durotar/drakeatk.wav",
+      "defend": "durotar/drakehit.wav",
+      "killed": "durotar/drakedie.wav",
+      "move": "durotar/drakefly.wav",
+      "wince": "durotar/drakehit.wav"
     }
+  }
 }

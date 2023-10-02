@@ -7,7 +7,7 @@
         "templates": {
           "default": {
             "animation": "durotar/adventure-map/dwelling-1",
-            "mask": ["VVV", "VVV", "VVA"]
+            "mask": ["VVV", "VVV", "VAB"]
           }
         }
       },
@@ -18,7 +18,7 @@
         "templates": {
           "default": {
             "animation": "durotar/adventure-map/dwelling-2",
-            "mask": ["VVV", "VVV", "VAB"]
+            "mask": ["VVV", "VVV", "VVA"]
           }
         }
       },
@@ -64,19 +64,19 @@
         "templates": {
           "default": {
             "animation": "durotar/adventure-map/dwelling-6",
-            "mask": ["VVV", "VBV", "VAB"]
+            "mask": ["VVV", "BBV", "VBA"]
           }
         }
       },
 
       "drtDwelling7": {
-        "name": "Gronn Cave",
+        "name": "Dragon Cave",
         "creatures": [["drtLv7"]],
         "guards": true,
         "templates": {
           "default": {
             "animation": "durotar/adventure-map/dwelling-7",
-            "mask": ["VVV", "BBV", "VBA"]
+            "mask": ["VVV", "VBV", "VAB"]
           }
         }
       }

@@ -1,99 +1,89 @@
 {
-    "drtLv3": {
-        "name": {
-            "singular": "Goliath",
-            "plural": "Goliaths"
-        },
-        "faction": "durotar",
-        "special": false,
-        "level": 3,
-        "upgrades": ["drtLv3up"],
-        "aiValue": 346,
-        "fightValue": 333,
-        "growth": 7,
-        "horde": 3,
+  "drtLv3": {
+    "name": {
+      "singular": "Goliath",
+      "plural": "Goliaths"
+    },
 
-        "attack": 9,
-        "defense": 7,
-        "damage": {
-            "max": 4,
-            "min": 4
-        },
-        "hitPoints": 30,
-        "speed": 5,
-        "doubleWide": false,
-        "hasDoubleWeek": true,
-        "cost": {
-            "gold": 200
-        },
+    "faction": "durotar",
+    "level": 3,
+    "upgrades": ["drtLv3up"],
+    "aiValue": 346,
+    "fightValue": 333,
+    "doubleWide": false,
+    "hasDoubleWeek": true,
+    "growth": 7,
+    "horde": 4,
 
-        "abilities": {
-            "ignoreDefence": {
-                "type": "ENEMY_DEFENCE_REDUCTION",
-                "val": 10
-            },
-            "duration": {
-                "type": "CREATURE_ENCHANT_POWER",
-                "val": 3
-            }
-        },
+    "attack": 9,
+    "defense": 7,
+    "damage": {
+      "max": 4,
+      "min": 4
+    },
 
-        "stackExperience": [
-            {
-                "bonus": {
-                    "type": "STACKS_SPEED"
-                },
-                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
-            },
-            {
-                "bonus": {
-                    "type": "STACK_HEALTH",
-                    "valueType": "PERCENT_TO_BASE"
-                },
-                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
-            },
+    "hitPoints": 25,
+    "speed": 5,
+    "cost": {
+      "gold": 200
+    },
 
-            {
-                "bonus": {
-                    "type": "SPELL_BEFORE_ATTACK",
-                    "subtype": "spell.fortune",
-                    "addInfo": [3, 0]
-                },
-                "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
-            },
-            {
-                "bonus": {
-                    "type": "ENEMY_DEFENCE_REDUCTION"
-                },
-                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
-            }
-        ],
+    "abilities": {
+      "ignoreDefence": {
+        "type": "ENEMY_DEFENCE_REDUCTION",
+        "val": 10
+      },
 
-        "advMapAmount": {
-            "max": 30,
-            "min": 15
+      "duration": {
+        "type": "CREATURE_ENCHANT_POWER",
+        "val": 3
+      }
+    },
+
+    "stackExperience": [
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.fortune",
+          "addInfo": [3, 2]
         },
 
-        "graphics": {
-            "animation": "durotar/battle/ogre3",
-            "map": "durotar/map/ogre3m",
-            "iconSmall": "durotar/iconSmall/ogre3s",
-            "iconLarge": "durotar/iconLarge/ogre3l",
-            "timeBetweenFidgets": 1,
-            "animationTime": {
-                "attack": 1,
-                "walk": 1,
-                "flight": 1,
-                "idle": 10
-            }
+        "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+      },
+
+      {
+        "bonus": {
+          "type": "ENEMY_DEFENCE_REDUCTION"
         },
 
-        "sound": {
-            "attack": "durotar/ogreatk",
-            "defend": "durotar/ogreblk",
-            "killed": "durotar/ogredie",
-            "move": "OGREMOVE",
-            "wince": "durotar/ogrehit"
-        }
+        "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      }
+    ],
+
+    "advMapAmount": {
+      "max": 30,
+      "min": 15
+    },
+
+    "graphics": {
+      "animation": "durotar/battle/ogre3.def",
+      "map": "durotar/map/ogre3m.def",
+      "iconSmall": "durotar/iconSmall/ogre3s.png",
+      "iconLarge": "durotar/iconLarge/ogre3l.png",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "attack": 1,
+        "walk": 1,
+        "idle": 10
+      }
+    },
+
+    "sound": {
+      "attack": "durotar/ogreatk.wav",
+      "defend": "durotar/ogreblk.wav",
+      "killed": "durotar/ogredie.wav",
+      "move": "OGREMOVE.wav",
+      "wince": "durotar/ogrehit.wav"
     }
+  }
 }

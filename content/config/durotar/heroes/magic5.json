@@ -15,10 +15,10 @@
     },
 
     "images": {
-      "large": "durotar/heroes/kutala/portraitLarge",
-      "small": "durotar/heroes/kutala/portraitSmall",
-      "specialtyLarge": "durotar/heroes/kutala/specLarge",
-      "specialtySmall": "durotar/heroes/kutala/specSmall"
+      "large": "durotar/heroes/kutala/portraitLarge.png",
+      "small": "durotar/heroes/kutala/portraitSmall.png",
+      "specialtyLarge": "durotar/heroes/kutala/specLarge.png",
+      "specialtySmall": "durotar/heroes/kutala/specSmall.png"
     },
 
     "army": [
@@ -30,8 +30,8 @@
 
       {
         "creature": "drtLv2",
-        "min": 4,
-        "max": 7
+        "min": 5,
+        "max": 6
       },
 
       {

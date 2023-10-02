@@ -1,117 +1,134 @@
 {
-    "drtLv4": {
-        "name": {
-            "singular": "Theurgist",
-            "plural": "Theurgists"
-        },
-        "faction": "durotar",
-        "special": false,
-        "level": 4,
-        "upgrades": ["drtLv4up"],
-        "aiValue": 570,
-        "fightValue": 549,
-        "growth": 4,
-        "horde": 3,
+  "drtLv4": {
+    "name": {
+      "singular": "Theurgist",
+      "plural": "Theurgists"
+    },
 
-        "attack": 10,
-        "defense": 8,
-        "damage": {
-            "max": 7,
-            "min": 7
-        },
-        "hitPoints": 30,
-        "speed": 6,
-        "shots": 12,
-        "doubleWide": false,
-        "hasDoubleWeek": true,
-        "cost": {
-            "gold": 300
+    "faction": "durotar",
+    "level": 4,
+    "upgrades": ["drtLv4up"],
+    "aiValue": 570,
+    "fightValue": 549,
+    "doubleWide": false,
+    "hasDoubleWeek": true,
+    "growth": 4,
+    "horde": 3,
+
+    "attack": 11,
+    "defense": 9,
+    "damage": {
+      "max": 7,
+      "min": 7
+    },
+
+    "hitPoints": 30,
+    "speed": 6,
+    "shots": 12,
+    "cost": {
+      "gold": 300
+    },
+
+    "abilities": {
+      "shoot": {
+        "type": "SHOOTER"
+      },
+
+      "noObstacle": {
+        "type": "NO_WALL_PENALTY"
+      },
+
+      "duration": {
+        "type": "CREATURE_ENCHANT_POWER",
+        "val": 3
+      }
+    },
+
+    "stackExperience": [
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.haste",
+          "addInfo": [3, 1]
         },
 
-        "abilities": {
-            "shoot": {
-                "type": "SHOOTER"
-            },
-            "noObstacle": {
-                "type": "NO_WALL_PENALTY"
-            },
-            "duration": {
-                "type": "CREATURE_ENCHANT_POWER",
-                "val": 3
-            }
+        "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+      },
+
+      {
+        "bonus": {
+          "type": "NO_MELEE_PENALTY"
         },
 
-        "stackExperience": [
-            {
-                "bonus": {
-                    "type": "STACKS_SPEED"
-                },
-                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
-            },
-            {
-                "bonus": {
-                    "type": "STACK_HEALTH",
-                    "valueType": "PERCENT_TO_BASE"
-                },
-                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
-            },
+        "values": [false, false, false, false, false, true, true, true, true, true]
+      }
+    ],
 
-            {
-                "bonus": {
-                    "type": "SPELL_BEFORE_ATTACK",
-                    "subtype": "spell.haste",
-                    "addInfo": [3, 1]
-                },
-                "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
-            },
-            {
-                "bonus": {
-                    "type": "NO_MELEE_PENALTY"
-                },
-                "values": [false, false, false, false, false, true, true, true, true, true]
-            }
+    "advMapAmount": {
+      "max": 25,
+      "min": 12
+    },
+
+    "graphics": {
+      "animation": "durotar/battle/lock1.def",
+      "map": "durotar/map/lock1m.def",
+      "iconSmall": "durotar/iconSmall/lock1s.png",
+      "iconLarge": "durotar/iconLarge/lock1l.png",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "attack": 1,
+        "walk": 1,
+        "idle": 10
+      },
+
+      "missile": {
+        "ray": [
+          {
+            "start": [160, 0, 0, 255],
+            "end": [160, 0, 0, 64]
+          },
+
+          {
+            "start": [190, 0, 0, 255],
+            "end": [190, 0, 0, 128]
+          },
+
+          {
+            "start": [220, 0, 0, 255],
+            "end": [220, 0, 0, 255]
+          },
+
+          {
+            "start": [190, 0, 0, 255],
+            "end": [190, 0, 0, 128]
+          },
+
+          {
+            "start": [160, 0, 0, 255],
+            "end": [160, 0, 0, 64]
+          }
         ],
 
-        "advMapAmount": {
-            "max": 25,
-            "min": 12
-        },
-
-        "graphics": {
-            "animation": "durotar/battle/lock1",
-            "map": "durotar/map/lock1m",
-            "iconSmall": "durotar/iconSmall/lock1s",
-            "iconLarge": "durotar/iconLarge/lock1l",
-            "timeBetweenFidgets": 1,
-            "animationTime": {
-                "attack": 1,
-                "walk": 1,
-                "flight": 1,
-                "idle": 10
-            },
-
-            "missile": {
-                "projectile": "PLICH",
-                "attackClimaxFrame": 8,
-                "offset": {
-                    "upperX": 41,
-                    "upperY": -92,
-                    "middleX": 58,
-                    "middleY": -79,
-                    "lowerX": 29,
-                    "lowerY": -14
-                },
-                "frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-            }
-        },
-
-        "sound": {
-            "attack": "durotar/orcatk",
-            "defend": "durotar/orchit",
-            "killed": "durotar/orcdie",
-            "move": "OORCMOVE",
-            "wince": "durotar/orchit",
-            "shoot": "MONKSHOT"
+        "attackClimaxFrame": 5,
+        "frameAngles": [0, 0, 0, 0, 0],
+        "offset": {
+          "lowerX": 0,
+          "lowerY": 0,
+          "middleX": 0,
+          "middleY": 0,
+          "upperX": 0,
+          "upperY": 0
         }
+      }
+    },
+
+    "sound": {
+      "attack": "durotar/orcatk.wav",
+      "defend": "durotar/orchit.wav",
+      "killed": "durotar/orcdie.wav",
+      "move": "durotar/orcatk.wav",
+      "wince": "durotar/orchit.wav",
+      "shoot": "durotar/orcatk.wav"
     }
+  }
 }

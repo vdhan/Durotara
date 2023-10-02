@@ -15,10 +15,10 @@
     },
 
     "images": {
-      "large": "durotar/heroes/goranud/portraitLarge",
-      "small": "durotar/heroes/goranud/portraitSmall",
-      "specialtyLarge": "durotar/heroes/goranud/specLarge",
-      "specialtySmall": "durotar/heroes/goranud/specSmall"
+      "large": "durotar/heroes/goranud/portraitLarge.png",
+      "small": "durotar/heroes/goranud/portraitSmall.png",
+      "specialtyLarge": "durotar/heroes/goranud/specLarge.png",
+      "specialtySmall": "durotar/heroes/goranud/specSmall.png"
     },
 
     "army": [
@@ -44,7 +44,7 @@
     "skills": [
       {
         "level": "basic",
-        "skill": "tactics"
+        "skill": "archery"
       },
 
       {

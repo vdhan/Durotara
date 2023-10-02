@@ -1,8 +1,8 @@
 {
   "drtLv1": {
     "name": {
-      "singular": "Wolf",
-      "plural": "Wolves"
+      "singular": "Peon",
+      "plural": "Peons"
     },
 
     "faction": "durotar",
@@ -10,10 +10,10 @@
     "upgrades": ["drtLv1up"],
     "aiValue": 112,
     "fightValue": 124,
-    "growth": 14,
-    "doubleWide": true,
+    "doubleWide": false,
     "hasDoubleWeek": true,
-    "horde": 7,
+    "growth": 14,
+    "horde": 6,
 
     "attack": 5,
     "defense": 3,
@@ -23,17 +23,12 @@
     },
 
     "hitPoints": 8,
-    "speed": 7,
+    "speed": 5,
     "cost": {
       "gold": 40
     },
 
     "abilities": {
-      "retaliation": {
-        "type": "ADDITIONAL_RETALIATION",
-        "val": 1
-      },
-
       "duration": {
         "type": "CREATURE_ENCHANT_POWER",
         "val": 3
@@ -43,37 +38,30 @@
     "stackExperience": [
       {
         "bonus": {
-          "type": "STACKS_SPEED"
+          "type": "HATE",
+          "subtype": "creature.skeleton"
         },
 
-        "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+        "values": [0, 0, 0, 0, 5, 10, 15, 20, 25, 30]
       },
 
       {
         "bonus": {
-          "type": "STACK_HEALTH",
-          "valueType": "PERCENT_TO_BASE"
+          "type": "HATE",
+          "subtype": "creature.skeletonWarrior"
         },
 
-        "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+        "values": [0, 0, 0, 0, 5, 10, 15, 20, 25, 30]
       },
 
       {
         "bonus": {
           "type": "SPELL_BEFORE_ATTACK",
-          "subtype": "spell.bloodlust",
-          "addInfo": [3, 0]
+          "subtype": "spell.bless",
+          "addInfo": [3, 2]
         },
 
-        "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
-      },
-
-      {
-        "bonus": {
-          "type": "ADDITIONAL_RETALIATION"
-        },
-
-        "values": [1, 1, 1, 2, 2, 2, 3, 3, 3, 4]
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10]
       }
     ],
 
@@ -83,10 +71,10 @@
     },
 
     "graphics": {
-      "animation": "durotar/battle/worg2.def",
-      "map": "durotar/map/worg2m.def",
-      "iconSmall": "durotar/iconSmall/worg2s.png",
-      "iconLarge": "durotar/iconLarge/worg2l.png",
+      "animation": "durotar/battle/peon.def",
+      "map": "durotar/map/peonm.def",
+      "iconSmall": "durotar/iconSmall/peons.png",
+      "iconLarge": "durotar/iconLarge/peonl.png",
       "timeBetweenFidgets": 1,
       "animationTime": {
         "attack": 1,
@@ -96,11 +84,11 @@
     },
 
     "sound": {
-      "attack": "durotar/worgatk.wav",
-      "defend": "durotar/worgblk.wav",
-      "killed": "durotar/worgdie.wav",
-      "move": "HGWRMOVE.wav",
-      "wince": "durotar/worgblk.wav"
+      "attack": "durotar/orcatk.wav",
+      "defend": "durotar/orchit.wav",
+      "killed": "durotar/orcdie.wav",
+      "move": "durotar/orcatk.wav",
+      "wince": "durotar/orchit.wav"
     }
   }
 }

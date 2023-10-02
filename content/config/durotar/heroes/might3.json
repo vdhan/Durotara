@@ -15,10 +15,10 @@
     },
 
     "images": {
-      "large": "durotar/heroes/fullika/portraitLarge",
-      "small": "durotar/heroes/fullika/portraitSmall",
-      "specialtyLarge": "durotar/heroes/fullika/specLarge",
-      "specialtySmall": "durotar/heroes/fullika/specSmall"
+      "large": "durotar/heroes/fullika/portraitLarge.png",
+      "small": "durotar/heroes/fullika/portraitSmall.png",
+      "specialtyLarge": "durotar/heroes/fullika/specLarge.png",
+      "specialtySmall": "durotar/heroes/fullika/specSmall.png"
     },
 
     "army": [
@@ -44,12 +44,12 @@
     "skills": [
       {
         "level": "basic",
-        "skill": "tactics"
+        "skill": "armorer"
       },
 
       {
         "level": "basic",
-        "skill": "offence"
+        "skill": "estates"
       }
     ],
 

@@ -10,8 +10,8 @@
     "level": 0,
     "aiValue": 974,
     "fightValue": 874,
-    "growth": 1,
     "doubleWide": false,
+    "growth": 1,
 
     "attack": 5,
     "defense": 5,
@@ -32,7 +32,7 @@
 
       "cast": {
         "type": "SPELLCASTER",
-        "subtype": "spell.cure",
+        "subtype": "spell.disruptingRay",
         "val": 3
       },
 
@@ -46,6 +46,11 @@
         "val": 100
       },
 
+      "enchant": {
+        "type": "CREATURE_ENCHANT_POWER",
+        "val": 1
+      },
+
       "earn": {
         "type": "GENERATE_RESOURCE",
         "subtype": "resource.gems",
@@ -56,8 +61,8 @@
 
     "graphics": {
       "animation": "durotar/battle/lock1.def",
-      "iconSmall": "durotar/iconSmall/lock1s",
-      "iconLarge": "durotar/iconLarge/lock1l",
+      "iconSmall": "durotar/iconSmall/lock1s.png",
+      "iconLarge": "durotar/iconLarge/lock1l.png",
       "timeBetweenFidgets": 1,
       "animationTime": {
         "attack": 1,
@@ -67,6 +72,7 @@
 
       "missile": {
         "projectile": "durotar/battle/projectile/plcbowx.def",
+        "frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
         "attackClimaxFrame": 9,
         "offset": {
           "lowerX": 25,
@@ -75,19 +81,44 @@
           "middleY": -66,
           "upperX": 39,
           "upperY": -76
-        },
+        }
 
-        "frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+        // "ray": [
+        //   {
+        //     "start": [160, 0, 0, 255],
+        //     "end": [160, 0, 0, 64]
+        //   },
+
+        //   {
+        //     "start": [190, 0, 0, 255],
+        //     "end": [190, 0, 0, 128]
+        //   },
+
+        //   {
+        //     "start": [220, 0, 0, 255],
+        //     "end": [220, 0, 0, 255]
+        //   },
+
+        //   {
+        //     "start": [190, 0, 0, 255],
+        //     "end": [190, 0, 0, 128]
+        //   },
+
+        //   {
+        //     "start": [160, 0, 0, 255],
+        //     "end": [160, 0, 0, 64]
+        //   }
+        // ]
       }
     },
 
     "sound": {
-      "attack": "TRLLATTK.wav",
-      "defend": "TRLLDFND.wav",
-      "killed": "TRLLKILL.wav",
-      "move": "TRLLMOVE.wav",
-      "shoot": "TRLLSHOT.wav",
-      "wince": "TRLLWNCE.wav"
+      "attack": "durotar/orcatk.wav",
+      "defend": "durotar/orchit.wav",
+      "killed": "durotar/orcdie.wav",
+      "move": "durotar/orcatk.wav",
+      "wince": "durotar/orchit.wav",
+      "shoot": "durotar/orcatk.wav"
     }
   }
 }

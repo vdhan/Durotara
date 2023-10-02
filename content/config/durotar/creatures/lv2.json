@@ -1,118 +1,109 @@
 {
-    "drtLv2": {
-        "name": {
-            "singular": "Desert Troll",
-            "plural": "Desert Trolls"
-        },
-        "faction": "durotar",
-        "special": false,
-        "level": 2,
-        "upgrades": ["drtLv2up"],
-        "aiValue": 162,
-        "fightValue": 173,
-        "growth": 8,
-        "horde": 4,
+  "drtLv2": {
+    "name": {
+      "singular": "Desert Troll",
+      "plural": "Desert Trolls"
+    },
 
-        "attack": 7,
-        "defense": 5,
-        "damage": {
-            "max": 3,
-            "min": 3
-        },
-        "hitPoints": 10,
-        "speed": 4,
-        "shots": 12,
-        "doubleWide": false,
-        "hasDoubleWeek": true,
-        "cost": {
-            "gold": 100
-        },
+    "faction": "durotar",
+    "level": 2,
+    "upgrades": ["drtLv2up"],
+    "aiValue": 162,
+    "fightValue": 173,
+    "doubleWide": false,
+    "hasDoubleWeek": true,
+    "growth": 8,
+    "horde": 5,
 
-        "abilities": {
-            "shoot": {
-                "type": "SHOOTER"
-            },
-            "generation": {
-                "type": "HP_REGENERATION",
-                "val": 2
-            },
-            "duration": {
-                "type": "CREATURE_ENCHANT_POWER",
-                "val": 3
-            }
-        },
+    "attack": 7,
+    "defense": 5,
+    "damage": {
+      "max": 3,
+      "min": 3
+    },
 
-        "stackExperience": [
-            {
-                "bonus": {
-                    "type": "STACKS_SPEED"
-                },
-                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
-            },
-            {
-                "bonus": {
-                    "type": "STACK_HEALTH",
-                    "valueType": "PERCENT_TO_BASE"
-                },
-                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
-            },
+    "hitPoints": 10,
+    "speed": 5,
+    "shots": 12,
+    "cost": {
+      "gold": 120
+    },
 
-            {
-                "bonus": {
-                    "type": "SPELL_BEFORE_ATTACK",
-                    "subtype": "spell.precision",
-                    "addInfo": [3, 1]
-                },
-                "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
-            },
-            {
-                "bonus": {
-                    "type": "HP_REGENERATION"
-                },
-                "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-            }
-        ],
+    "abilities": {
+      "shoot": {
+        "type": "SHOOTER"
+      },
 
-        "advMapAmount": {
-            "max": 40,
-            "min": 20
+      "generation": {
+        "type": "HP_REGENERATION",
+        "val": 2
+      },
+
+      "duration": {
+        "type": "CREATURE_ENCHANT_POWER",
+        "val": 3
+      }
+    },
+
+    "stackExperience": [
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.precision",
+          "addInfo": [3, 1]
         },
 
-        "graphics": {
-            "animation": "durotar/battle/troll1",
-            "map": "durotar/map/troll1m",
-            "iconSmall": "durotar/iconSmall/troll1s",
-            "iconLarge": "durotar/iconLarge/troll1l",
-            "timeBetweenFidgets": 1,
-            "animationTime": {
-                "attack": 1,
-                "walk": 1,
-                "flight": 1,
-                "idle": 10
-            },
+        "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+      },
 
-            "missile": {
-                "projectile": "PORCHX",
-                "attackClimaxFrame": 8,
-                "offset": {
-                    "upperX": 41,
-                    "upperY": -92,
-                    "middleX": 58,
-                    "middleY": -79,
-                    "lowerX": 29,
-                    "lowerY": -14
-                },
-                "frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-            }
+      {
+        "bonus": {
+          "type": "HP_REGENERATION"
         },
 
-        "sound": {
-            "attack": "durotar/trollatk",
-            "defend": "durotar/trollhit",
-            "killed": "durotar/trolldie",
-            "move": "OORCMOVE",
-            "wince": "durotar/trollhit",
-            "shoot": "OORCSHOT"
+        "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+      }
+    ],
+
+    "advMapAmount": {
+      "max": 40,
+      "min": 20
+    },
+
+    "graphics": {
+      "animation": "durotar/battle/troll1.def",
+      "map": "durotar/map/troll1m.def",
+      "iconSmall": "durotar/iconSmall/troll1s.png",
+      "iconLarge": "durotar/iconLarge/troll1l.png",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "attack": 1,
+        "walk": 1,
+        "idle": 10
+      },
+
+      "missile": {
+        "projectile": "durotar/battle/projectile/porchx.def",
+        "attackClimaxFrame": 9,
+        "frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+        "offset": {
+          "upperX": 41,
+          "upperY": -92,
+          "middleX": 58,
+          "middleY": -79,
+          "lowerX": 29,
+          "lowerY": -14
         }
+      }
+    },
+
+    "sound": {
+      "attack": "durotar/trollatk.wav",
+      "defend": "durotar/trollhit.wav",
+      "killed": "durotar/trolldie.wav",
+      "move": "durotar/trollatk.wav",
+      "wince": "durotar/trollhit.wav",
+      "shoot": "durotar/trollatk.wav"
     }
+  }
 }

@@ -15,10 +15,10 @@
     },
 
     "images": {
-      "large": "durotar/heroes/thurnokk/portraitLarge",
-      "small": "durotar/heroes/thurnokk/portraitSmall",
-      "specialtyLarge": "durotar/heroes/thurnokk/specLarge",
-      "specialtySmall": "durotar/heroes/thurnokk/specSmall"
+      "large": "durotar/heroes/thurnokk/portraitLarge.png",
+      "small": "durotar/heroes/thurnokk/portraitSmall.png",
+      "specialtyLarge": "durotar/heroes/thurnokk/specLarge.png",
+      "specialtySmall": "durotar/heroes/thurnokk/specSmall.png"
     },
 
     "army": [
@@ -30,8 +30,8 @@
 
       {
         "creature": "drtLv2",
-        "min": 4,
-        "max": 7
+        "min": 5,
+        "max": 6
       },
 
       {
@@ -44,7 +44,7 @@
     "skills": [
       {
         "level": "basic",
-        "skill": "tactics"
+        "skill": "armorer"
       },
 
       {

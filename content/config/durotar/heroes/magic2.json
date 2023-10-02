@@ -1,24 +1,24 @@
 {
   "drtMagic2": {
     "class": "drtMagic",
-    "female": true,
+    "female": false,
     "spellbook": ["magicArrow"],
 
     "texts": {
-      "name": "Gadira",
+      "name": "Forang",
       "biography": "",
       "specialty": {
-        "name": "Sorcery",
-        "description": "{Sorcery}\n\nReceives a 5% per level bonus to Sorcery skill",
-        "tooltip": "Skill Bonus: Sorcery"
+        "name": "Intelligence",
+        "description": "{Intelligence}\n\nReceives a 5% per level bonus to Intelligence skill",
+        "tooltip": "Skill Bonus: Intelligence"
       }
     },
 
     "images": {
-      "large": "durotar/heroes/gadira/portraitLarge",
-      "small": "durotar/heroes/gadira/portraitSmall",
-      "specialtyLarge": "durotar/heroes/gadira/specLarge",
-      "specialtySmall": "durotar/heroes/gadira/specSmall"
+      "large": "durotar/heroes/forang/portraitLarge.png",
+      "small": "durotar/heroes/forang/portraitSmall.png",
+      "specialtyLarge": "durotar/heroes/forang/specLarge.png",
+      "specialtySmall": "durotar/heroes/forang/specSmall.png"
     },
 
     "army": [
@@ -30,8 +30,8 @@
 
       {
         "creature": "drtLv2",
-        "min": 4,
-        "max": 7
+        "min": 5,
+        "max": 6
       },
 
       {
@@ -49,17 +49,16 @@
 
       {
         "level": "basic",
-        "skill": "sorcery"
+        "skill": "intelligence"
       }
     ],
 
     "specialty": {
       "bonuses": {
         "bonusSkill": {
-          "type": "SPELL_DAMAGE",
-          "subtype": "spellSchool.any",
+          "type": "MANA_PER_KNOWLEDGE",
           "val": 5,
-          "valueType": "PERCENT_TO_TARGET_TYPE",
+          "valueType" : "PERCENT_TO_TARGET_TYPE",
           "updater": "TIMES_HERO_LEVEL",
           "targetSourceType": "SECONDARY_SKILL"
         }

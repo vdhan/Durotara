@@ -2,7 +2,7 @@
   "durotar": {
     "town": {
       "siege": {
-        "shooter": "drtLv4",
+        "shooter": "drtLv2",
         "imagePrefix": "durotar/siege/sghd",
         "towerIconSmall": "durotar/icons/tower-small",
         "towerIconLarge": "durotar/icons/tower-large",

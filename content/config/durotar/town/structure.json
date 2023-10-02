@@ -180,7 +180,7 @@
           "animation": "durotar/town-screen/buildings/tguild",
           "x": 0,
           "y": 0,
-          "z": 5,
+          "z": 3,
           "border": "durotar/town-screen/buildings-border/tguildb",
           "area": "durotar/town-screen/buildings-area/tguilda"
         },

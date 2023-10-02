@@ -15,10 +15,10 @@
     },
 
     "images": {
-      "large": "durotar/heroes/makgum/portraitLarge",
-      "small": "durotar/heroes/makgum/portraitSmall",
-      "specialtyLarge": "durotar/heroes/makgum/specLarge",
-      "specialtySmall": "durotar/heroes/makgum/specSmall"
+      "large": "durotar/heroes/makgum/portraitLarge.png",
+      "small": "durotar/heroes/makgum/portraitSmall.png",
+      "specialtyLarge": "durotar/heroes/makgum/specLarge.png",
+      "specialtySmall": "durotar/heroes/makgum/specSmall.png"
     },
 
     "army": [
@@ -30,8 +30,8 @@
 
       {
         "creature": "drtLv2",
-        "min": 4,
-        "max": 7
+        "min": 5,
+        "max": 6
       },
 
       {
@@ -44,12 +44,12 @@
     "skills": [
       {
         "level": "basic",
-        "skill": "tactics"
+        "skill": "armorer"
       },
 
       {
         "level": "basic",
-        "skill": "luck"
+        "skill": "scouting"
       }
     ],
 

@@ -15,10 +15,10 @@
     },
 
     "images": {
-      "large": "durotar/heroes/jargura/portraitLarge",
-      "small": "durotar/heroes/jargura/portraitSmall",
-      "specialtyLarge": "durotar/heroes/jargura/specLarge",
-      "specialtySmall": "durotar/heroes/jargura/specSmall"
+      "large": "durotar/heroes/jargura/portraitLarge.png",
+      "small": "durotar/heroes/jargura/portraitSmall.png",
+      "specialtyLarge": "durotar/heroes/jargura/specLarge.png",
+      "specialtySmall": "durotar/heroes/jargura/specSmall.png"
     },
 
     "army": [
@@ -30,8 +30,8 @@
 
       {
         "creature": "drtLv2",
-        "min": 4,
-        "max": 7
+        "min": 5,
+        "max": 6
       },
 
       {

@@ -71,7 +71,9 @@
     "config/durotar/creatures/lv6up",
     "config/durotar/creatures/lv7",
     "config/durotar/creatures/lv7up",
-    "config/durotar/commander"
+
+    "config/durotar/commander",
+    "config/durotar/stackExp"
   ],
 
   "spells": ["config/durotar/spells/moat"],

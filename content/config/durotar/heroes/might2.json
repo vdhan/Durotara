@@ -15,36 +15,36 @@
     },
 
     "images": {
-      "large": "durotar/heroes/draas/portraitLarge",
-      "small": "durotar/heroes/draas/portraitSmall",
-      "specialtyLarge": "durotar/heroes/draas/specLarge",
-      "specialtySmall": "durotar/heroes/draas/specSmall"
+      "large": "durotar/heroes/draas/portraitLarge.png",
+      "small": "durotar/heroes/draas/portraitSmall.png",
+      "specialtyLarge": "durotar/heroes/draas/specLarge.png",
+      "specialtySmall": "durotar/heroes/draas/specSmall.png"
     },
 
     "army": [
       {
         "creature": "drtLv2",
-        "min": 4,
-        "max": 7
+        "min": 5,
+        "max": 6
       },
 
       {
         "creature": "drtLv2",
-        "min": 4,
-        "max": 7
+        "min": 5,
+        "max": 6
       },
 
       {
         "creature": "drtLv2",
-        "min": 4,
-        "max": 7
+        "min": 5,
+        "max": 6
       }
     ],
 
     "skills": [
       {
         "level": "basic",
-        "skill": "tactics"
+        "skill": "armorer"
       },
 
       {

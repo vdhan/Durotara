@@ -15,10 +15,10 @@
     },
 
     "images": {
-      "large": "durotar/heroes/soragg/portraitLarge",
-      "small": "durotar/heroes/soragg/portraitSmall",
-      "specialtyLarge": "durotar/heroes/soragg/specLarge",
-      "specialtySmall": "durotar/heroes/soragg/specSmall"
+      "large": "durotar/heroes/soragg/portraitLarge.png",
+      "small": "durotar/heroes/soragg/portraitSmall.png",
+      "specialtyLarge": "durotar/heroes/soragg/specLarge.png",
+      "specialtySmall": "durotar/heroes/soragg/specSmall.png"
     },
 
     "army": [
@@ -36,15 +36,15 @@
 
       {
         "creature": "drtLv2",
-        "min": 4,
-        "max": 7
+        "min": 5,
+        "max": 6
       }
     ],
 
     "skills": [
       {
         "level": "basic",
-        "skill": "tactics"
+        "skill": "armorer"
       },
 
       {

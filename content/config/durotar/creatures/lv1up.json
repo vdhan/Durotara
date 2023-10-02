@@ -1,18 +1,18 @@
 {
   "drtLv1up": {
     "name": {
-      "singular": "Frost Wolf",
-      "plural": "Frost Wolves"
+      "singular": "Foreman",
+      "plural": "Foremans"
     },
 
     "faction": "durotar",
     "level": 1,
     "aiValue": 178,
     "fightValue": 191,
-    "growth": 14,
-    "doubleWide": true,
+    "doubleWide": false,
     "hasDoubleWeek": true,
-    "horde": 7,
+    "growth": 14,
+    "horde": 6,
 
     "attack": 6,
     "defense": 4,
@@ -22,56 +22,79 @@
     },
 
     "hitPoints": 10,
-    "speed": 11,
+    "speed": 7,
     "cost": {
       "gold": 60
     },
 
     "abilities": {
-      "retaliation": {
-        "type": "UNLIMITED_RETALIATIONS"
+      "power": {
+        "type": "CREATURE_SPELL_POWER",
+        "val": 20
       },
 
       "duration": {
         "type": "CREATURE_ENCHANT_POWER",
         "val": 3
+      },
+
+      "hate1": {
+        "type": "HATE",
+        "subtype": "creature.skeleton",
+        "val": 10
+      },
+
+      "hate2": {
+        "type": "HATE",
+        "subtype": "creature.skeletonWarrior",
+        "val": 10
+      },
+
+      "bless": {
+        "type": "SPELL_BEFORE_ATTACK",
+        "subtype": "spell.bless",
+        "addInfo": [3, 2],
+        "val": 5
       }
     },
 
     "stackExperience": [
       {
         "bonus": {
-          "type": "STACKS_SPEED"
+          "type": "HATE",
+          "subtype": "creature.skeleton"
         },
 
-        "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+        "values": [15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
       },
 
       {
         "bonus": {
-          "type": "STACK_HEALTH",
-          "valueType": "PERCENT_TO_BASE"
+          "type": "HATE",
+          "subtype": "creature.skeletonWarrior"
         },
 
-        "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+        "values": [15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
       },
 
       {
         "bonus": {
           "type": "SPELL_BEFORE_ATTACK",
-          "subtype": "spell.bloodlust",
-          "addInfo": [3, 0]
+          "subtype": "spell.bless",
+          "addInfo": [3, 2]
         },
 
-        "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+        "values": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55]
       },
 
       {
         "bonus": {
-          "type": "SELF_MORALE"
+          "type": "SPELL_AFTER_ATTACK",
+          "subtype": "spell.destroyUndead",
+          "addInfo": [3, 2]
         },
 
-        "values": [false, false, false, false, false, true, true, true, true, true]
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 0, 20]
       }
     ],
 
@@ -81,10 +104,10 @@
     },
 
     "graphics": {
-      "animation": "durotar/battle/worg3.def",
-      "map": "durotar/map/worg3m.def",
-      "iconSmall": "durotar/iconSmall/worg3s.png",
-      "iconLarge": "durotar/iconLarge/worg3l.png",
+      "animation": "durotar/battle/foreman.def",
+      "map": "durotar/map/foremanm.def",
+      "iconSmall": "durotar/iconSmall/foremans.png",
+      "iconLarge": "durotar/iconLarge/foremanl.png",
       "timeBetweenFidgets": 1,
       "animationTime": {
         "attack": 1,
@@ -94,11 +117,11 @@
     },
 
     "sound": {
-      "attack": "durotar/worgatk.wav",
-      "defend": "durotar/worgblk.wav",
-      "killed": "durotar/worgdie.wav",
-      "move": "HGWRMOVE.wav",
-      "wince": "durotar/worgblk.wav"
+      "attack": "durotar/orcatk.wav",
+      "defend": "durotar/orchit.wav",
+      "killed": "durotar/orcdie.wav",
+      "move": "durotar/orcatk.wav",
+      "wince": "durotar/orchit.wav"
     }
   }
 }

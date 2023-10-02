@@ -15,10 +15,10 @@
     },
 
     "images": {
-      "large": "durotar/heroes/orloch/portraitLarge",
-      "small": "durotar/heroes/orloch/portraitSmall",
-      "specialtyLarge": "durotar/heroes/orloch/specLarge",
-      "specialtySmall": "durotar/heroes/orloch/specSmall"
+      "large": "durotar/heroes/orloch/portraitLarge.png",
+      "small": "durotar/heroes/orloch/portraitSmall.png",
+      "specialtyLarge": "durotar/heroes/orloch/specLarge.png",
+      "specialtySmall": "durotar/heroes/orloch/specSmall.png"
     },
 
     "army": [
@@ -30,8 +30,8 @@
 
       {
         "creature": "drtLv2",
-        "min": 4,
-        "max": 7
+        "min": 5,
+        "max": 6
       },
 
       {
@@ -44,12 +44,12 @@
     "skills": [
       {
         "level": "basic",
-        "skill": "tactics"
+        "skill": "armorer"
       },
 
       {
         "level": "basic",
-        "skill": "leadership"
+        "skill": "offence"
       }
     ],
 

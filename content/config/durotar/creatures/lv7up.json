@@ -1,119 +1,133 @@
 {
-    "drtLv7up": {
-        "name": {
-            "singular": "Red Dragon",
-            "plural": "Red Dragons"
-        },
-        "faction": "durotar",
-        "special": false,
-        "level": 7,
-        "aiValue": 8000,
-        "fightValue": 8000,
-        "growth": 1,
+  "drtLv7up": {
+    "name": {
+      "singular": "Red Dragon",
+      "plural": "Red Dragons"
+    },
 
-        "attack": 26,
-        "defense": 24,
-        "damage": {
-            "max": 50,
-            "min": 50
-        },
-        "hitPoints": 300,
-        "speed": 18,
-        "doubleWide": true,
-        "hasDoubleWeek": false,
-        "cost": {
-            "gold": 5000,
-            "gems": 1
-        },
+    "faction": "durotar",
+    "level": 7,
+    "aiValue": 8000,
+    "fightValue": 8000,
+    "doubleWide": true,
+    "hasDoubleWeek": false,
+    "growth": 1,
+    "horde": 1,
 
-        "abilities": {
-            "king": {
-                "type": "KING1"
-            },
-            "fly": {
-                "type": "FLYING"
-            },
-            "dragon": {
-                "type": "DRAGON_NATURE"
-            },
-            "targets": {
-                "type": "THREE_HEADED_ATTACK"
-            },
-            "resistance":{
-                "type": "SPELL_RESISTANCE_AURA",
-                "val": 50
-            },
-            "fearless": {
-                "type": "FEARLESS"
-            },
-            "earth": {
-                "type": "EARTH_IMMUNITY",
-                "subtype": 1
-            },
-            "duration": {
-                "type": "CREATURE_ENCHANT_POWER",
-                "val": 3
-            }
-        },
+    "attack": 25,
+    "defense": 25,
+    "damage": {
+      "max": 45,
+      "min": 45
+    },
 
-        "stackExperience": [
-            {
-                "bonus": {
-                    "type": "STACKS_SPEED"
-                },
-                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
-            },
-            {
-                "bonus": {
-                    "type": "STACK_HEALTH",
-                    "valueType": "PERCENT_TO_BASE"
-                },
-                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
-            },
+    "hitPoints": 300,
+    "speed": 14,
+    "cost": {
+      "gold": 3500,
+      "gems": 2
+    },
 
-            {
-                "bonus": {
-                    "type": "SPELL_BEFORE_ATTACK",
-                    "subtype": "spell.prayer",
-                    "addInfo": [3, 0]
-                },
-                "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
-            },
-            {
-                "bonus": {
-                    "type": "SPELL_AFTER_ATTACK",
-                    "subtype": "spell.slow",
-                    "addInfo": [3, 0]
-                },
-                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
-            }
-        ],
+    "abilities": {
+      "king": {
+        "type": "KING",
+        "val": 2
+      },
 
-        "advMapAmount": {
-            "max": 10,
-            "min": 5
+      "dragon": {
+        "type": "DRAGON_NATURE"
+      },
+
+      "fly": {
+        "type": "FLYING"
+      },
+
+      "breath": {
+        "type": "TWO_HEX_ATTACK_BREATH"
+      },
+
+      "immunity": {
+        "type": "LEVEL_SPELL_IMMUNITY",
+        "val": 5
+      },
+
+      "duration": {
+        "type": "CREATURE_ENCHANT_POWER",
+        "val": 3
+      },
+
+      "fearless": {
+        "type": "FEARLESS"
+      },
+
+      "prayer": {
+        "type": "SPELL_BEFORE_ATTACK",
+        "subtype": "spell.prayer",
+        "addInfo": [3, 2],
+        "val": 5
+      }
+    },
+
+    "stackExperience": [
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.prayer",
+          "addInfo": [3, 2]
         },
 
-        "graphics": {
-            "animation": "durotar/battle/dragon2",
-            "map": "durotar/map/dragon2m",
-            "iconSmall": "durotar/iconSmall/dragon2s",
-            "iconLarge": "durotar/iconLarge/dragon2l",
-            "timeBetweenFidgets": 1,
-            "animationTime": {
-                "attack": 1,
-                "walk": 1,
-                "flight": 1,
-                "idle": 10
-            }
+        "values": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_RESISTANCE_AURA"
         },
 
-        "sound": {
-            "attack": "durotar/dragonAtk",
-            "defend": "durotar/dragonDef",
-            "killed": "durotar/dragonKill",
-            "move": "durotar/dragonMove",
-            "wince": "durotar/dragonWince"
-        }
+        "values": [0, 0, 0, 0, 5, 10, 15, 20, 25, 30]
+      },
+
+      {
+        "bonus": {
+          "type": "FEAR"
+        },
+
+        "values": [false, false, false, false, true, true, true, true, true, true]
+      },
+
+      {
+        "bonus": {
+          "type": "RECEPTIVE"
+        },
+
+        "values": [false, false, false, false, false, false, false, true, true, true]
+      }
+    ],
+
+    "advMapAmount": {
+      "max": 10,
+      "min": 5
+    },
+
+    "graphics": {
+      "animation": "durotar/battle/yellowDragon.def",
+      "map": "durotar/map/yellowDragon-m.def",
+      "iconSmall": "durotar/iconSmall/yellowDragon-s.png",
+      "iconLarge": "durotar/iconLarge/yellowDragon-l.png",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "attack": 1,
+        "walk": 1,
+        "idle": 10
+      }
+    },
+
+    "sound": {
+      "attack": "durotar/dragonAtk.wav",
+      "defend": "durotar/dragonDef.wav",
+      "killed": "durotar/dragonKill.wav",
+      "move": "durotar/dragonMove.wav",
+      "wince": "durotar/dragonWince.wav"
     }
+  }
 }

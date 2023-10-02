@@ -2,7 +2,7 @@
   "drtMagic7": {
     "class": "drtMagic",
     "female": true,
-    "spellbook": ["slow"],
+    "spellbook": ["magicArrow"],
 
     "texts": {
       "name": "Roeda",
@@ -15,10 +15,10 @@
     },
 
     "images": {
-      "large": "durotar/heroes/roeda/portraitLarge",
-      "small": "durotar/heroes/roeda/portraitSmall",
-      "specialtyLarge": "durotar/heroes/roeda/specLarge",
-      "specialtySmall": "durotar/heroes/roeda/specSmall"
+      "large": "durotar/heroes/roeda/portraitLarge.png",
+      "small": "durotar/heroes/roeda/portraitSmall.png",
+      "specialtyLarge": "durotar/heroes/roeda/specLarge.png",
+      "specialtySmall": "durotar/heroes/roeda/specSmall.png"
     },
 
     "army": [
@@ -30,8 +30,8 @@
 
       {
         "creature": "drtLv2",
-        "min": 4,
-        "max": 7
+        "min": 5,
+        "max": 6
       },
 
       {

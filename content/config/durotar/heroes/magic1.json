@@ -2,23 +2,23 @@
   "drtMagic1": {
     "class": "drtMagic",
     "female": false,
-    "spellbook": ["stoneSkin"],
+    "spellbook": ["magicArrow"],
 
     "texts": {
-      "name": "Yreima",
+      "name": "Ollathus",
       "biography": "",
       "specialty": {
-        "name": "First Aid",
-        "description": "{First Aid}\n\nReceives a 5% per level bonus to First Aid skill",
-        "tooltip": "Skill Bonus: First Aid"
+        "name": "Gold",
+        "description": "{Gold}\n\nIncreases kingdom's income by 300 gold per day, plus 50 gold for each level gained",
+        "tooltip": "Produces gold every day"
       }
     },
 
     "images": {
-      "large": "durotar/heroes/yreima/portraitLarge",
-      "small": "durotar/heroes/yreima/portraitSmall",
-      "specialtyLarge": "durotar/heroes/yreima/specLarge",
-      "specialtySmall": "durotar/heroes/yreima/specSmall"
+      "large": "durotar/heroes/ollathus/portraitLarge.png",
+      "small": "durotar/heroes/ollathus/portraitSmall.png",
+      "specialtyLarge": "durotar/heroes/ollathus/specLarge.png",
+      "specialtySmall": "durotar/heroes/ollathus/specSmall.png"
     },
 
     "army": [
@@ -29,15 +29,15 @@
       },
 
       {
-        "creature": "firstAidTent",
-        "min": 1,
-        "max": 1
+        "creature": "drtLv2",
+        "min": 5,
+        "max": 6
       },
 
       {
-        "creature": "drtLv2",
-        "min": 4,
-        "max": 7
+        "creature": "drtLv3",
+        "min": 3,
+        "max": 4
       }
     ],
 
@@ -49,19 +49,23 @@
 
       {
         "level": "basic",
-        "skill": "firstAid"
+        "skill": "logistics"
       }
     ],
 
     "specialty": {
       "bonuses": {
-        "bonusSkill": {
-          "type": "SPECIFIC_SPELL_POWER",
-          "subtype": "spell.firstAid",
-          "val": 5,
-          "valueType": "PERCENT_TO_TARGET_TYPE",
-          "updater": "TIMES_HERO_LEVEL",
-          "targetSourceType": "SECONDARY_SKILL"
+        "gold": {
+          "type": "GENERATE_RESOURCE",
+          "subtype": "resource.gold",
+          "val": 300
+        },
+
+        "more": {
+          "type": "GENERATE_RESOURCE",
+          "subtype": "resource.gold",
+          "val": 50,
+          "updater": "TIMES_HERO_LEVEL"
         }
       }
     }

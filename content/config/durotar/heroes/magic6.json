@@ -2,23 +2,23 @@
   "drtMagic6": {
     "class": "drtMagic",
     "female": false,
-    "spellbook": ["magicArrow"],
+    "spellbook": ["resurrection"],
 
     "texts": {
-      "name": "Ollathus",
+      "name": "Hurgor",
       "biography": "",
       "specialty": {
-        "name": "Gold",
-        "description": "{Gold}\n\nIncreases kingdom's income by 300 gold per day, plus 50 gold for each level gained",
-        "tooltip": "Produces gold every day"
+        "name": "Resurrection",
+        "description": "{Resurrection}\n\nCasts Resurrection with increased effect, based on hero level",
+        "tooltip": "Spell Bonus: Resurrection"
       }
     },
 
     "images": {
-      "large": "durotar/heroes/ollathus/portraitLarge",
-      "small": "durotar/heroes/ollathus/portraitSmall",
-      "specialtyLarge": "durotar/heroes/ollathus/specLarge",
-      "specialtySmall": "durotar/heroes/ollathus/specSmall"
+      "large": "durotar/heroes/hurgor/portraitLarge.png",
+      "small": "durotar/heroes/hurgor/portraitSmall.png",
+      "specialtyLarge": "durotar/heroes/hurgor/specLarge.png",
+      "specialtySmall": "durotar/heroes/hurgor/specSmall.png"
     },
 
     "army": [
@@ -30,8 +30,8 @@
 
       {
         "creature": "drtLv2",
-        "min": 4,
-        "max": 7
+        "min": 5,
+        "max": 6
       },
 
       {
@@ -49,21 +49,17 @@
 
       {
         "level": "basic",
-        "skill": "logistics"
+        "skill": "earthMagic"
       }
     ],
 
     "specialty": {
       "bonuses": {
-        "gold": {
-          "val": 300
-        },
-
-        "more": {
-          "type": "GENERATE_RESOURCE",
-          "subtype": "resource.gold",
-          "updater": "TIMES_HERO_LEVEL",
-          "val": 50
+        "bonusSpell": {
+          "type": "SPECIAL_SPELL_LEV",
+          "subtype": "spell.resurrection",
+          "val": 3,
+          "updater": "TIMES_HERO_LEVEL"
         }
       }
     }
