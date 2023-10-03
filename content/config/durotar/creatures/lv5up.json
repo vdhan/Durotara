@@ -22,7 +22,7 @@
     },
 
     "hitPoints": 60,
-    "speed": 15,
+    "speed": 12,
     "cost": {
       "gold": 600
     },
@@ -36,41 +36,43 @@
         "type": "DRAGON_NATURE"
       },
 
-      "breath": {
-        "type": "TWO_HEX_ATTACK_BREATH"
+      "strength": {
+        "type": "SPECIFIC_SPELL_POWER",
+        "subtype": "spell.thunderbolt",
+        "val": 10
       },
 
-      "earthquake": {
-        "type": "SPELL_AFTER_ATTACK",
-        "subtype": "spell.earthquake",
-        "addInfo": [1, 2],
-        "val": 50
-      },
-
-      "duration": {
-        "type": "CREATURE_ENCHANT_POWER",
-        "val": 3
+      "regenerate": {
+        "type": "HP_REGENERATION",
+        "val": 10
       }
     },
 
     "stackExperience": [
       {
         "bonus": {
-          "type": "SPELL_BEFORE_ATTACK",
-          "subtype": "spell.mirth",
-          "addInfo": [3, 2]
+          "type": "HP_REGENERATION"
         },
 
-        "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+        "values": [15, 20, 25, 30, 35, 40, 45, 50, 60, 70]
       },
 
       {
         "bonus": {
-          "type": "DEATH_STARE",
-          "subtype": 0
+          "type": "SPELL_AFTER_ATTACK",
+          "subtype": "spell.thunderbolt",
+          "addInfo": [3, 2]
         },
 
-        "values": [0, 0, 0, 0, 0, 10, 10, 10, 10, 10]
+        "values": [0, 0, 0, 10, 15, 20, 25, 30, 40, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "BLOCKS_RETALIATION"
+        },
+
+        "values": [false, false, false, false, false, false, false, false, true, true]
       }
     ],
 

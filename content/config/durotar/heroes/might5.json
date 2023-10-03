@@ -43,13 +43,13 @@
 
     "skills": [
       {
-        "level": "basic",
-        "skill": "armorer"
+        "skill": "armorer",
+        "level": "basic"
       },
 
       {
-        "level": "basic",
-        "skill": "scouting"
+        "skill": "scouting",
+        "level": "basic"
       }
     ],
 

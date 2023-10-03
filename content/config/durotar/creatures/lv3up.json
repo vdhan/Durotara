@@ -1,8 +1,8 @@
 {
   "drtLv3up": {
     "name": {
-      "singular": "Ogre",
-      "plural": "Ogres"
+      "singular": "Power Ogre",
+      "plural": "Power Ogres"
     },
 
     "faction": "durotar",
@@ -22,32 +22,49 @@
     },
 
     "hitPoints": 30,
-    "speed": 7,
+    "speed": 8,
     "cost": {
       "gold": 240
     },
 
     "abilities": {
-      "ignoreDefence": {
-        "type": "ENEMY_DEFENCE_REDUCTION",
-        "val": 70
+      "power": {
+        "type": "CREATURE_SPELL_POWER",
+        "val": 20
       },
 
       "duration": {
         "type": "CREATURE_ENCHANT_POWER",
         "val": 3
+      },
+
+      "cure": {
+        "type": "SPELL_AFTER_ATTACK",
+        "subtype": "spell.cure",
+        "addInfo": [3, 2],
+        "val": 5
       }
     },
 
     "stackExperience": [
       {
         "bonus": {
-          "type": "SPELL_BEFORE_ATTACK",
-          "subtype": "spell.fortune",
+          "type": "SPELL_AFTER_ATTACK",
+          "subtype": "spell.cure",
           "addInfo": [3, 2]
         },
 
-        "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+        "values": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.poison",
+          "addInfo": [3, 2]
+        },
+
+        "values": [0, 0, 0, 0, 10, 15, 20, 25, 30, 35]
       },
 
       {
@@ -55,7 +72,7 @@
           "type": "ADDITIONAL_ATTACK"
         },
 
-        "values": [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1]
       }
     ],
 

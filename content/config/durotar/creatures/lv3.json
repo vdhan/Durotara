@@ -1,8 +1,8 @@
 {
   "drtLv3": {
     "name": {
-      "singular": "Goliath",
-      "plural": "Goliaths"
+      "singular": "Ogre",
+      "plural": "Ogres"
     },
 
     "faction": "durotar",
@@ -23,15 +23,15 @@
     },
 
     "hitPoints": 25,
-    "speed": 5,
+    "speed": 6,
     "cost": {
       "gold": 200
     },
 
     "abilities": {
-      "ignoreDefence": {
-        "type": "ENEMY_DEFENCE_REDUCTION",
-        "val": 10
+      "power": {
+        "type": "CREATURE_SPELL_POWER",
+        "val": 20
       },
 
       "duration": {
@@ -43,20 +43,22 @@
     "stackExperience": [
       {
         "bonus": {
-          "type": "SPELL_BEFORE_ATTACK",
-          "subtype": "spell.fortune",
+          "type": "SPELL_AFTER_ATTACK",
+          "subtype": "spell.cure",
           "addInfo": [3, 2]
         },
 
-        "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+        "values": [0, 0, 0, 0, 10, 15, 20, 25, 30, 35]
       },
 
       {
         "bonus": {
-          "type": "ENEMY_DEFENCE_REDUCTION"
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.poison",
+          "addInfo": [3, 2]
         },
 
-        "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 10, 20]
       }
     ],
 

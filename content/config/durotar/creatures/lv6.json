@@ -23,39 +23,58 @@
     },
 
     "hitPoints": 80,
-    "speed": 8,
+    "speed": 9,
     "cost": {
       "gold": 800
     },
 
     "abilities": {
-      "fearless": {
-        "type": "FEARLESS"
+      "shield1": {
+        "type": "GENERAL_DAMAGE_REDUCTION",
+        "subtype": 0,
+        "val": 20
       },
 
-      "duration": {
-        "type": "CREATURE_ENCHANT_POWER",
-        "val": 3
+      "shield2": {
+        "type": "GENERAL_DAMAGE_REDUCTION",
+        "subtype": 1,
+        "val": 20
       }
     },
 
     "stackExperience": [
       {
         "bonus": {
-          "type": "SPELL_BEFORE_ATTACK",
-          "subtype": "spell.stoneSkin",
-          "addInfo": [3, 2]
+          "type": "GENERAL_DAMAGE_REDUCTION",
+          "subtype": 0
         },
 
-        "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+        "values": [5, 5, 10, 10, 15, 15, 20, 20, 25, 30]
       },
 
       {
         "bonus": {
-          "type": "FEAR"
+          "type": "GENERAL_DAMAGE_REDUCTION",
+          "subtype": 1
         },
 
-        "values": [false, false, false, false, false, true, true, true, true, true]
+        "values": [5, 5, 10, 10, 15, 15, 20, 20, 25, 30]
+      },
+
+      {
+        "bonus": {
+          "type": "FEARLESS"
+        },
+
+        "values": [false, false, false, true, true, true, true, true, true, true]
+      },
+
+      {
+        "bonus": {
+          "type": "ENEMY_DEFENCE_REDUCTION"
+        },
+
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 10, 20]
       }
     ],
 

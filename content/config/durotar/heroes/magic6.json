@@ -43,13 +43,13 @@
 
     "skills": [
       {
-        "level": "basic",
-        "skill": "wisdom"
+        "skill": "wisdom",
+        "level": "basic"
       },
 
       {
-        "level": "basic",
-        "skill": "earthMagic"
+        "skill": "earthMagic",
+        "level": "basic"
       }
     ],
 

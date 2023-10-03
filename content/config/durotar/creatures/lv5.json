@@ -23,7 +23,7 @@
     },
 
     "hitPoints": 50,
-    "speed": 9,
+    "speed": 10,
     "cost": {
       "gold": 500
     },
@@ -37,35 +37,30 @@
         "type": "DRAGON_NATURE"
       },
 
-      "breath": {
-        "type": "TWO_HEX_ATTACK_BREATH"
-      },
-
-      "duration": {
-        "type": "CREATURE_ENCHANT_POWER",
-        "val": 3
+      "strength": {
+        "type": "SPECIFIC_SPELL_POWER",
+        "subtype": "spell.thunderbolt",
+        "val": 10
       }
     },
 
     "stackExperience": [
       {
         "bonus": {
-          "type": "SPELL_BEFORE_ATTACK",
-          "subtype": "spell.mirth",
-          "addInfo": [3, 2]
+          "type": "HP_REGENERATION"
         },
 
-        "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+        "values": [0, 0, 0, 20, 25, 30, 35, 40, 50, 60]
       },
 
       {
         "bonus": {
           "type": "SPELL_AFTER_ATTACK",
-          "subtype": "spell.earthquake",
-          "addInfo": [1, 2]
+          "subtype": "spell.thunderbolt",
+          "addInfo": [3, 2]
         },
 
-        "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 20, 25]
       }
     ],
 

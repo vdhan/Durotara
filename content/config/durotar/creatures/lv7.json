@@ -23,7 +23,7 @@
     },
 
     "hitPoints": 180,
-    "speed": 11,
+    "speed": 12,
     "cost": {
       "gold": 2000,
       "gems": 1
@@ -64,7 +64,7 @@
           "type": "FEARLESS"
         },
 
-        "values": [false, false, false, false, true, true, true, true, true, true]
+        "values": [false, false, true, true, true, true, true, true, true, true]
       },
 
       {
@@ -74,7 +74,7 @@
           "addInfo": [3, 2]
         },
 
-        "values": [0, 0, 0, 0, 10, 10, 15, 20, 20, 25]
+        "values": [0, 0, 10, 10, 15, 15, 20, 20, 25, 25]
       },
 
       {

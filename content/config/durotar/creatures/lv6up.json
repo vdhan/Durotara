@@ -21,44 +21,72 @@
       "min": 21
     },
 
-    "hitPoints": 100,
-    "speed": 12,
+    "hitPoints": 90,
+    "speed": 11,
     "cost": {
       "gold": 1100
     },
 
     "abilities": {
+      "shield1": {
+        "type": "GENERAL_DAMAGE_REDUCTION",
+        "subtype": 0,
+        "val": 30
+      },
+
+      "shield2": {
+        "type": "GENERAL_DAMAGE_REDUCTION",
+        "subtype": 1,
+        "val": 30
+      },
+
       "fearless": {
         "type": "FEARLESS"
       },
 
-      "fear": {
-        "type": "FEAR"
-      },
-
-      "duration": {
-        "type": "CREATURE_ENCHANT_POWER",
-        "val": 3
+      "mirth": {
+        "type": "MORALE",
+        "valueType": "INDEPENDENT_MAX",
+        "val": 1,
+        "propagator": "HERO"
       }
     },
 
     "stackExperience": [
       {
         "bonus": {
-          "type": "SPELL_BEFORE_ATTACK",
-          "subtype": "spell.stoneSkin",
-          "addInfo": [3, 2]
+          "type": "GENERAL_DAMAGE_REDUCTION",
+          "subtype": 0
         },
 
-        "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+        "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
       },
 
       {
         "bonus": {
-          "type": "BLOCKS_RETALIATION"
+          "type": "GENERAL_DAMAGE_REDUCTION",
+          "subtype": 1
         },
 
-        "values": [false, false, false, false, false, true, true, true, true, true]
+        "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "ENEMY_DEFENCE_REDUCTION"
+        },
+
+        "values": [0, 0, 0, 10, 15, 20, 25, 30, 40, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "DESTRUCTION",
+          "subtype": 0,
+          "addInfo": 50
+        },
+
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 10, 20]
       }
     ],
 

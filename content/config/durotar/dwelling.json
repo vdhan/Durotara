@@ -13,7 +13,7 @@
       },
 
       "drtDwelling2": {
-        "name": "Troll Barracks",
+        "name": "Troll Hut",
         "creatures": [["drtLv2"]],
         "templates": {
           "default": {
@@ -24,7 +24,7 @@
       },
 
       "drtDwelling3": {
-        "name": "Worg Pen",
+        "name": "Ogres Barracks",
         "creatures": [["drtLv3"]],
         "templates": {
           "default": {
@@ -35,7 +35,7 @@
       },
 
       "drtDwelling4": {
-        "name": "Airstrip",
+        "name": "Mansion",
         "creatures": [["drtLv4"]],
         "templates": {
           "default": {
@@ -58,7 +58,7 @@
       },
 
       "drtDwelling6": {
-        "name": "Shadow Council",
+        "name": "Tauren Cave",
         "creatures": [["drtLv6"]],
         "guards": true,
         "templates": {

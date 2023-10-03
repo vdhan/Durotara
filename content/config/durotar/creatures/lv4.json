@@ -1,8 +1,8 @@
 {
   "drtLv4": {
     "name": {
-      "singular": "Theurgist",
-      "plural": "Theurgists"
+      "singular": "Shaman",
+      "plural": "Shamans"
     },
 
     "faction": "durotar",
@@ -23,7 +23,7 @@
     },
 
     "hitPoints": 30,
-    "speed": 6,
+    "speed": 7,
     "shots": 12,
     "cost": {
       "gold": 300
@@ -32,35 +32,26 @@
     "abilities": {
       "shoot": {
         "type": "SHOOTER"
-      },
-
-      "noObstacle": {
-        "type": "NO_WALL_PENALTY"
-      },
-
-      "duration": {
-        "type": "CREATURE_ENCHANT_POWER",
-        "val": 3
       }
     },
 
     "stackExperience": [
       {
         "bonus": {
-          "type": "SPELL_BEFORE_ATTACK",
-          "subtype": "spell.haste",
-          "addInfo": [3, 1]
+          "type": "NO_WALL_PENALTY"
         },
 
-        "values": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
+        "values": [false, false, false, false, true, true, true, true, true, true]
       },
 
       {
         "bonus": {
-          "type": "NO_MELEE_PENALTY"
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.earthquake",
+          "addInfo": [1, 1]
         },
 
-        "values": [false, false, false, false, false, true, true, true, true, true]
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 10, 20]
       }
     ],
 
