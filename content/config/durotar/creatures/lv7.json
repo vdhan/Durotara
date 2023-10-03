@@ -8,8 +8,8 @@
     "faction": "durotar",
     "level": 7,
     "upgrades": ["drtLv7up"],
-    "aiValue": 4500,
-    "fightValue": 4500,
+    "aiValue": 7600,
+    "fightValue": 6170,
     "doubleWide": true,
     "hasDoubleWeek": false,
     "growth": 1,
@@ -96,7 +96,7 @@
 
     "advMapAmount": {
       "max": 10,
-      "min": 5
+      "min": 4
     },
 
     "graphics": {

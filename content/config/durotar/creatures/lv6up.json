@@ -7,8 +7,8 @@
 
     "faction": "durotar",
     "level": 6,
-    "aiValue": 2451,
-    "fightValue": 2075,
+    "aiValue": 2300,
+    "fightValue": 2020,
     "doubleWide": true,
     "hasDoubleWeek": true,
     "growth": 2,
@@ -91,8 +91,8 @@
     ],
 
     "advMapAmount": {
-      "max": 15,
-      "min": 8
+      "max": 10,
+      "min": 5
     },
 
     "graphics": {
