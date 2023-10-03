@@ -35,25 +35,6 @@
       }
     },
 
-    "stackExperience": [
-      {
-        "bonus": {
-          "type": "NO_MELEE_PENALTY"
-        },
-
-        "values": [false, false, false, false, true, true, true, true, true, true]
-      },
-
-      {
-        "bonus": {
-          "type": "ADDITIONAL_ATTACK",
-          "effectRange": "ONLY_DISTANCE_FIGHT"
-        },
-
-        "values": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
-      }
-    ],
-
     "advMapAmount": {
       "max": 30,
       "min": 25

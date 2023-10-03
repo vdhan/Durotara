@@ -38,25 +38,6 @@
       }
     },
 
-    "stackExperience": [
-      {
-        "bonus": {
-          "type": "ADDITIONAL_ATTACK",
-          "effectRange": "ONLY_DISTANCE_FIGHT"
-        },
-
-        "values": [0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
-      },
-
-      {
-        "bonus": {
-          "type": "NO_DISTANCE_PENALTY"
-        },
-
-        "values": [false, false, false, false, false, false, false, false, false, true]
-      }
-    ],
-
     "advMapAmount": {
       "max": 25,
       "min": 16

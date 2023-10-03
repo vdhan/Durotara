@@ -40,28 +40,6 @@
       }
     },
 
-    "stackExperience": [
-      {
-        "bonus": {
-          "type": "SPELL_AFTER_ATTACK",
-          "subtype": "spell.cure",
-          "addInfo": [3, 2]
-        },
-
-        "values": [0, 0, 0, 0, 10, 15, 20, 25, 30, 35]
-      },
-
-      {
-        "bonus": {
-          "type": "SPELL_BEFORE_ATTACK",
-          "subtype": "spell.poison",
-          "addInfo": [3, 2]
-        },
-
-        "values": [0, 0, 0, 0, 0, 0, 0, 0, 10, 20]
-      }
-    ],
-
     "advMapAmount": {
       "max": 25,
       "min": 12

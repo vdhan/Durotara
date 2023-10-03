@@ -42,42 +42,6 @@
       }
     },
 
-    "stackExperience": [
-      {
-        "bonus": {
-          "type": "GENERAL_DAMAGE_REDUCTION",
-          "subtype": 0
-        },
-
-        "values": [5, 5, 10, 10, 15, 15, 20, 20, 25, 30]
-      },
-
-      {
-        "bonus": {
-          "type": "GENERAL_DAMAGE_REDUCTION",
-          "subtype": 1
-        },
-
-        "values": [5, 5, 10, 10, 15, 15, 20, 20, 25, 30]
-      },
-
-      {
-        "bonus": {
-          "type": "FEARLESS"
-        },
-
-        "values": [false, false, false, true, true, true, true, true, true, true]
-      },
-
-      {
-        "bonus": {
-          "type": "ENEMY_DEFENCE_REDUCTION"
-        },
-
-        "values": [0, 0, 0, 0, 0, 0, 0, 0, 10, 20]
-      }
-    ],
-
     "advMapAmount": {
       "max": 12,
       "min": 5

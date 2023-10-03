@@ -52,6 +52,34 @@
         },
 
         "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "HATE",
+          "subtype": "creature.skeleton"
+        },
+
+        "values": [0, 0, 0, 0, 5, 10, 15, 20, 25, 30]
+      },
+
+      {
+        "bonus": {
+          "type": "HATE",
+          "subtype": "creature.skeletonWarrior"
+        },
+
+        "values": [0, 0, 0, 0, 5, 10, 15, 20, 25, 30]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.bless",
+          "addInfo": [3, 2]
+        },
+
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10]
       }
     ]
   },
@@ -109,6 +137,44 @@
         },
 
         "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "HATE",
+          "subtype": "creature.skeleton"
+        },
+
+        "values": [15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
+      },
+
+      {
+        "bonus": {
+          "type": "HATE",
+          "subtype": "creature.skeletonWarrior"
+        },
+
+        "values": [15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.bless",
+          "addInfo": [3, 2]
+        },
+
+        "values": [0, 0, 0, 0, 10, 20, 30, 40, 50, 60]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_AFTER_ATTACK",
+          "subtype": "spell.destroyUndead",
+          "addInfo": [3, 2]
+        },
+
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 0, 20]
       }
     ]
   },
@@ -166,6 +232,23 @@
         },
 
         "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "NO_MELEE_PENALTY"
+        },
+
+        "values": [false, false, false, false, true, true, true, true, true, true]
+      },
+
+      {
+        "bonus": {
+          "type": "ADDITIONAL_ATTACK",
+          "effectRange": "ONLY_DISTANCE_FIGHT"
+        },
+
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
       }
     ]
   },
@@ -223,6 +306,23 @@
         },
 
         "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "ADDITIONAL_ATTACK",
+          "effectRange": "ONLY_DISTANCE_FIGHT"
+        },
+
+        "values": [0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+      },
+
+      {
+        "bonus": {
+          "type": "NO_DISTANCE_PENALTY"
+        },
+
+        "values": [false, false, false, false, false, false, false, false, false, true]
       }
     ]
   },
@@ -280,6 +380,26 @@
         },
 
         "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_AFTER_ATTACK",
+          "subtype": "spell.cure",
+          "addInfo": [3, 2]
+        },
+
+        "values": [0, 0, 0, 0, 10, 15, 20, 25, 30, 35]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.poison",
+          "addInfo": [3, 2]
+        },
+
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 10, 20]
       }
     ]
   },
@@ -337,6 +457,34 @@
         },
 
         "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_AFTER_ATTACK",
+          "subtype": "spell.cure",
+          "addInfo": [3, 2]
+        },
+
+        "values": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.poison",
+          "addInfo": [3, 2]
+        },
+
+        "values": [0, 0, 0, 0, 10, 15, 20, 25, 30, 35]
+      },
+
+      {
+        "bonus": {
+          "type": "ADDITIONAL_ATTACK"
+        },
+
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1]
       }
     ]
   },
@@ -394,6 +542,24 @@
         },
 
         "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "NO_WALL_PENALTY"
+        },
+
+        "values": [false, false, false, false, true, true, true, true, true, true]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.earthquake",
+          "addInfo": [1, 1]
+        },
+
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 10, 20]
       }
     ]
   },
@@ -451,6 +617,24 @@
         },
 
         "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.earthquake",
+          "addInfo": [1, 1]
+        },
+
+        "values": [0, 0, 0, 0, 10, 15, 20, 25, 30, 35]
+      },
+
+      {
+        "bonus": {
+          "type": "FREE_SHOOTING"
+        },
+
+        "values": [false, false, false, false, false, false, false, false, true, true]
       }
     ]
   },
@@ -508,6 +692,24 @@
         },
 
         "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "HP_REGENERATION"
+        },
+
+        "values": [0, 0, 0, 20, 25, 30, 35, 40, 50, 60]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_AFTER_ATTACK",
+          "subtype": "spell.thunderbolt",
+          "addInfo": [3, 2]
+        },
+
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 20, 25]
       }
     ]
   },
@@ -565,6 +767,32 @@
         },
 
         "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "HP_REGENERATION"
+        },
+
+        "values": [15, 20, 25, 30, 35, 40, 45, 50, 60, 70]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_AFTER_ATTACK",
+          "subtype": "spell.thunderbolt",
+          "addInfo": [3, 2]
+        },
+
+        "values": [0, 0, 0, 10, 15, 20, 25, 30, 40, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "BLOCKS_RETALIATION"
+        },
+
+        "values": [false, false, false, false, false, false, false, false, true, true]
       }
     ]
   },
@@ -622,6 +850,40 @@
         },
 
         "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "GENERAL_DAMAGE_REDUCTION",
+          "subtype": 0
+        },
+
+        "values": [5, 5, 10, 10, 15, 15, 20, 20, 25, 30]
+      },
+
+      {
+        "bonus": {
+          "type": "GENERAL_DAMAGE_REDUCTION",
+          "subtype": 1
+        },
+
+        "values": [5, 5, 10, 10, 15, 15, 20, 20, 25, 30]
+      },
+
+      {
+        "bonus": {
+          "type": "FEARLESS"
+        },
+
+        "values": [false, false, false, true, true, true, true, true, true, true]
+      },
+
+      {
+        "bonus": {
+          "type": "ENEMY_DEFENCE_REDUCTION"
+        },
+
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 10, 20]
       }
     ]
   },
@@ -679,6 +941,42 @@
         },
 
         "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "GENERAL_DAMAGE_REDUCTION",
+          "subtype": 0
+        },
+
+        "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "GENERAL_DAMAGE_REDUCTION",
+          "subtype": 1
+        },
+
+        "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "ENEMY_DEFENCE_REDUCTION"
+        },
+
+        "values": [0, 0, 0, 10, 15, 20, 25, 30, 40, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "DESTRUCTION",
+          "subtype": 0,
+          "addInfo": 50
+        },
+
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 10, 20]
       }
     ]
   },
@@ -736,6 +1034,40 @@
         },
 
         "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "FEARLESS"
+        },
+
+        "values": [false, false, true, true, true, true, true, true, true, true]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.prayer",
+          "addInfo": [3, 2]
+        },
+
+        "values": [0, 0, 10, 10, 15, 15, 20, 20, 25, 25]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_RESISTANCE_AURA"
+        },
+
+        "values": [0, 0, 0, 0, 0, 0, 0, 10, 15, 20]
+      },
+
+      {
+        "bonus": {
+          "type": "FEAR"
+        },
+
+        "values": [false, false, false, false, false, false, false, true, true, true]
       }
     ]
   },
@@ -793,6 +1125,40 @@
         },
 
         "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.prayer",
+          "addInfo": [3, 2]
+        },
+
+        "values": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_RESISTANCE_AURA"
+        },
+
+        "values": [0, 0, 10, 15, 20, 25, 30, 35, 40, 45]
+      },
+
+      {
+        "bonus": {
+          "type": "FEAR"
+        },
+
+        "values": [false, false, true, true, true, true, true, true, true, true]
+      },
+
+      {
+        "bonus": {
+          "type": "RECEPTIVE"
+        },
+
+        "values": [false, false, false, false, false, false, false, true, true, true]
       }
     ]
   }

@@ -46,36 +46,6 @@
       }
     },
 
-    "stackExperience": [
-      {
-        "bonus": {
-          "type": "SPELL_AFTER_ATTACK",
-          "subtype": "spell.cure",
-          "addInfo": [3, 2]
-        },
-
-        "values": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55]
-      },
-
-      {
-        "bonus": {
-          "type": "SPELL_BEFORE_ATTACK",
-          "subtype": "spell.poison",
-          "addInfo": [3, 2]
-        },
-
-        "values": [0, 0, 0, 0, 10, 15, 20, 25, 30, 35]
-      },
-
-      {
-        "bonus": {
-          "type": "ADDITIONAL_ATTACK"
-        },
-
-        "values": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1]
-      }
-    ],
-
     "advMapAmount": {
       "max": 20,
       "min": 12

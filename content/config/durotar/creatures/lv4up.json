@@ -38,26 +38,6 @@
       }
     },
 
-    "stackExperience": [
-      {
-        "bonus": {
-          "type": "SPELL_BEFORE_ATTACK",
-          "subtype": "spell.earthquake",
-          "addInfo": [1, 1]
-        },
-
-        "values": [0, 0, 0, 0, 10, 15, 20, 25, 30, 35]
-      },
-
-      {
-        "bonus": {
-          "type": "FREE_SHOOTING"
-        },
-
-        "values": [false, false, false, false, false, false, false, false, true, true]
-      }
-    ],
-
     "advMapAmount": {
       "max": 16,
       "min": 10
