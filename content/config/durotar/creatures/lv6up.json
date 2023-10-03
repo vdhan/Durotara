@@ -7,8 +7,8 @@
 
     "faction": "durotar",
     "level": 6,
-    "aiValue": 2300,
-    "fightValue": 2020,
+    "aiValue": 2100,
+    "fightValue": 1840,
     "doubleWide": true,
     "hasDoubleWeek": true,
     "growth": 2,
