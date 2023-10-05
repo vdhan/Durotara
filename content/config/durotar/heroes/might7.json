@@ -5,8 +5,8 @@
     "spellbook": [],
 
     "texts": {
-      "name": "Thurnokk",
-      "biography": "",
+      "name": "Thur'okk",
+      "biography": "Thur'okk The Chieftain",
       "specialty": {
         "name": "Logistics",
         "description": "{Logistics}\n\nReceives a 5% per level bonus to Logistics skill",

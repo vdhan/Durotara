@@ -6,7 +6,7 @@
 
     "texts": {
       "name": "Hurgor",
-      "biography": "",
+      "biography": "Hurgor The Shaman",
       "specialty": {
         "name": "Resurrection",
         "description": "{Resurrection}\n\nCasts Resurrection with increased effect, based on hero level",

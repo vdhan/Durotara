@@ -35,6 +35,89 @@
       }
     },
 
+    "stackExperience": [
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.attack"
+        },
+
+        "values": [0, 1, 1, 1, 1, 2, 2, 2, 2, 3]
+      },
+
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.defence"
+        },
+
+        "values": [1, 1, 1, 1, 2, 2, 2, 2, 3, 3]
+      },
+
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": 1
+        },
+
+        "values": [0, 0, 1, 1, 1, 1, 2, 2, 2, 2]
+      },
+
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": 2
+        },
+
+        "values": [0, 0, 1, 1, 1, 1, 2, 2, 2, 2]
+      },
+
+      {
+        "bonus": {
+          "type": "STACKS_SPEED"
+        },
+
+        "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+      },
+
+      {
+        "bonus": {
+          "type": "STACK_HEALTH",
+          "valueType": "PERCENT_TO_BASE"
+        },
+
+        "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "HATE",
+          "subtype": "creature.skeleton"
+        },
+
+        "values": [0, 0, 0, 10, 15, 20, 25, 30, 40, 40]
+      },
+
+      {
+        "bonus": {
+          "type": "HATE",
+          "subtype": "creature.skeletonWarrior"
+        },
+
+        "values": [0, 0, 0, 10, 15, 20, 25, 30, 40, 40]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.bless",
+          "addInfo": [3, 2]
+        },
+
+        "values": [0, 0, 0, 0, 0, 0, 0, 0, 10, 10]
+      }
+    ],
+
     "advMapAmount": {
       "max": 50,
       "min": 20

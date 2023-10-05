@@ -5,8 +5,8 @@
     "spellbook": [],
 
     "texts": {
-      "name": "Soragg",
-      "biography": "",
+      "name": "Sor'agg",
+      "biography": "Sor'agg The Chieftain",
       "specialty": {
         "name": "Ballista",
         "description": "{Ballista}\n\nIncreases Attack and Defense of any Ballista by 5% for every 5 levels (rounded up)",

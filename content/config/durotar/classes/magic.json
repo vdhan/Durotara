@@ -1,6 +1,6 @@
 {
   "drtMagic": {
-    "name": "Warlock",
+    "name": "Shaman",
     "faction": "durotar",
     "affinity": "magic",
     "commander": "drtCommand",
@@ -39,7 +39,7 @@
       "artillery": 8,
       "ballistics": 1,
       "firstAid": 1,
-      "diplomacy": 6,
+      "diplomacy": 3,
       "eagleEye": 1,
       "estates": 1,
       "learning": 1,

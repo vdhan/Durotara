@@ -19,7 +19,8 @@
 
   "vietnamese": {
     "name": "Durotar",
-    "description": "Thành tộc Durotar"
+    "description": "Thành tộc Durotar",
+    "translations": ["translation/durotar/vietnamese"]
   },
 
   "factions": [
@@ -72,8 +73,7 @@
     "config/durotar/creatures/lv7",
     "config/durotar/creatures/lv7up",
 
-    "config/durotar/commander",
-    "config/durotar/stackExp"
+    "config/durotar/commander"
   ],
 
   "spells": ["config/durotar/spells/moat"],

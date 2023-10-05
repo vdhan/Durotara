@@ -46,6 +46,89 @@
       }
     },
 
+    "stackExperience": [
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.attack"
+        },
+
+        "values": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5]
+      },
+
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.defence"
+        },
+
+        "values": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5]
+      },
+
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": 1
+        },
+
+        "values": [0, 1, 1, 2, 2, 3, 3, 4, 4, 5]
+      },
+
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": 2
+        },
+
+        "values": [0, 1, 1, 2, 2, 3, 3, 4, 4, 5]
+      },
+
+      {
+        "bonus": {
+          "type": "STACKS_SPEED"
+        },
+
+        "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+      },
+
+      {
+        "bonus": {
+          "type": "STACK_HEALTH",
+          "valueType": "PERCENT_TO_BASE"
+        },
+
+        "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_AFTER_ATTACK",
+          "subtype": "spell.cure",
+          "addInfo": [3, 2]
+        },
+
+        "values": [15, 20, 25, 30, 35, 40, 45, 55, 65, 65]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.poison",
+          "addInfo": [3, 2]
+        },
+
+        "values": [0, 0, 0, 10, 15, 20, 25, 35, 45, 45]
+      },
+
+      {
+        "bonus": {
+          "type": "ADDITIONAL_ATTACK"
+        },
+
+        "values": [0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
+      }
+    ],
+
     "advMapAmount": {
       "max": 20,
       "min": 12

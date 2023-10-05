@@ -38,6 +38,79 @@
       }
     },
 
+    "stackExperience": [
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.attack"
+        },
+
+        "values": [1, 2, 2, 3, 4, 5, 6, 6, 7, 8]
+      },
+
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.defence"
+        },
+
+        "values": [1, 2, 3, 3, 4, 4, 5, 6, 7, 8]
+      },
+
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": 1
+        },
+
+        "values": [0, 1, 1, 2, 2, 3, 3, 4, 4, 5]
+      },
+
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": 2
+        },
+
+        "values": [0, 1, 1, 2, 2, 3, 3, 4, 4, 5]
+      },
+
+      {
+        "bonus": {
+          "type": "STACKS_SPEED"
+        },
+
+        "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 3]
+      },
+
+      {
+        "bonus": {
+          "type": "STACK_HEALTH",
+          "valueType": "PERCENT_TO_BASE"
+        },
+
+        "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+      },
+
+      {
+        "bonus": {
+          "type": "SPELL_BEFORE_ATTACK",
+          "subtype": "spell.earthquake",
+          "addInfo": [3, 1]
+        },
+
+        "values": [0, 0, 0, 10, 15, 20, 25, 35, 45, 45]
+      },
+
+      {
+        "bonus": {
+          "type": "FREE_SHOOTING"
+        },
+
+        "values": [false, false, false, false, false, false, false, true, true, true]
+      }
+    ],
+
     "advMapAmount": {
       "max": 16,
       "min": 10

@@ -6,7 +6,7 @@
 
     "texts": {
       "name": "Roeda",
-      "biography": "",
+      "biography": "Roeda The Shaman",
       "specialty": {
         "name": "Crystal",
         "description": "{crystal}\n\nIncreases kingdom's crystal production by 1 per day for every 10 levels",

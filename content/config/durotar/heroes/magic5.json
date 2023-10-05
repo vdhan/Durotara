@@ -6,7 +6,7 @@
 
     "texts": {
       "name": "Kutala",
-      "biography": "",
+      "biography": "Kutala The Shaman",
       "specialty": {
         "name": "Chain Lightning",
         "description": "{Chain Lightning}\n\nCasts Chain Lightning with increased effect, based on hero level compared to the level of the target unit",

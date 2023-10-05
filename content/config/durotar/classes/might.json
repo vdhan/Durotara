@@ -1,6 +1,6 @@
 {
   "drtMight": {
-    "name": "Warchief",
+    "name": "Chieftain",
     "faction": "durotar",
     "affinity": "might",
     "commander": "drtCommand",
@@ -40,7 +40,7 @@
       "ballistics": 1,
       "firstAid": 1,
       "diplomacy": 1,
-      "eagleEye": 1,
+      "eagleEye": 0,
       "estates": 1,
       "learning": 1,
       "intelligence": 6,

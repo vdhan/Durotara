@@ -236,7 +236,7 @@
 
         "horde1": {
           "id": 18,
-          "name": "Wolf Cave",
+          "name": "Villages",
           "description": "Increases weekly growth of 1st tier by 7.",
           "upgrades": "dwellingLvl1",
           "cost": {
@@ -246,7 +246,7 @@
 
         "horde1Upg": {
           "id": 19,
-          "name": "Wolf Cave",
+          "name": "Villages",
           "description": "Increases weekly growth of upgraded 1st tier by 7.",
           "upgrades": "dwellingUpLvl1",
           "requires": ["horde1"],
@@ -337,8 +337,7 @@
           "description": "Allows to recruit Desert Trolls",
           "requires": ["fort"],
           "cost": {
-            "gold": 1000,
-            "wood": 5
+            "gold": 1000
           }
         },
 
@@ -346,10 +345,15 @@
           "id": 32,
           "name": "Tannery",
           "description": "Allows to recruit Ogres",
-          "requires": ["dwellingLvl1"],
+          "requires": [
+            "allOf",
+            ["fort"],
+            ["dwellingLvl1"]
+          ],
+
           "cost": {
             "gold": 1500,
-            "ore": 5
+            "wood": 5
           }
         },
 
@@ -360,7 +364,6 @@
           "requires": ["dwellingLvl3"],
           "cost": {
             "gold": 2000,
-            "wood": 5,
             "ore": 5
           }
         },
@@ -369,12 +372,16 @@
           "id": 34,
           "name": "Wyrmrest Sanctum",
           "description": "Allows to recruit Drakes",
-          "requires": ["dwellingLvl2"],
+          "requires": [
+            "allOf",
+            ["fort"],
+            ["dwellingLvl2"]
+          ],
+
           "cost": {
             "gold": 2500,
             "wood": 5,
-            "ore": 5,
-            "gems": 5
+            "ore": 5
           }
         },
 
@@ -390,11 +397,9 @@
 
           "cost": {
             "gold": 3000,
-            "wood": 10,
-            "ore": 10,
-            "mercury": 5,
-            "sulfur": 5,
-            "crystal": 5
+            "wood": 5,
+            "ore": 5,
+            "gems": 5
           }
         },
 
@@ -457,8 +462,9 @@
           "upgrades": "dwellingLvl4",
           "cost": {
             "gold": 2000,
-            "wood": 10,
-            "ore": 10
+            "wood": 5,
+            "ore": 5,
+            "crystal": 5
           }
         },
 
@@ -472,8 +478,7 @@
             "wood": 5,
             "ore": 5,
             "mercury": 5,
-            "sulfur": 5,
-            "crystal": 5
+            "sulfur": 5
           }
         },
 
@@ -484,9 +489,8 @@
           "upgrades": "dwellingLvl6",
           "cost": {
             "gold": 3000,
-            "wood": 5,
-            "ore": 5,
-            "crystal": 5
+            "wood": 10,
+            "ore": 10
           }
         },
 

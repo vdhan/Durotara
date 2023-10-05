@@ -6,7 +6,7 @@
 
     "texts": {
       "name": "Jargura",
-      "biography": "",
+      "biography": "Jargura The Shaman",
       "specialty": {
         "name": "Ice Bolt",
         "description": "{Ice Bolt}\n\nCasts Ice Bolt with increased effect, based on hero level compared to the level of the target unit",

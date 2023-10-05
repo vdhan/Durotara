@@ -6,7 +6,7 @@
 
     "texts": {
       "name": "Forang",
-      "biography": "",
+      "biography": "Forang The Shaman",
       "specialty": {
         "name": "Intelligence",
         "description": "{Intelligence}\n\nReceives a 5% per level bonus to Intelligence skill",

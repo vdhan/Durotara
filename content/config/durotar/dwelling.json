@@ -7,7 +7,7 @@
         "templates": {
           "default": {
             "animation": "durotar/adventure-map/dwelling-1",
-            "mask": ["VVV", "VVV", "VAB"]
+            "mask": ["VVV", "VVV", "VAV"]
           }
         }
       },
@@ -18,7 +18,7 @@
         "templates": {
           "default": {
             "animation": "durotar/adventure-map/dwelling-2",
-            "mask": ["VVV", "VVV", "VVA"]
+            "mask": ["VVV", "VVV", "VAV"]
           }
         }
       },
@@ -29,7 +29,7 @@
         "templates": {
           "default": {
             "animation": "durotar/adventure-map/dwelling-3",
-            "mask": ["VVV", "VVV", "VBA"]
+            "mask": ["VVV", "VVV", "VAV"]
           }
         }
       },
@@ -40,7 +40,7 @@
         "templates": {
           "default": {
             "animation": "durotar/adventure-map/dwelling-4",
-            "mask": ["VVV", "VBB", "BAV"]
+            "mask": ["VVV", "VBB", "VAV"]
           }
         }
       },
@@ -52,7 +52,7 @@
         "templates": {
           "default": {
             "animation": "durotar/adventure-map/dwelling-5",
-            "mask": ["VVV", "VBB", "BBA"]
+            "mask": ["VVV", "VBB", "VAV"]
           }
         }
       },
@@ -64,7 +64,7 @@
         "templates": {
           "default": {
             "animation": "durotar/adventure-map/dwelling-6",
-            "mask": ["VVV", "BBV", "VBA"]
+            "mask": ["VVV", "BBV", "VAV"]
           }
         }
       },
@@ -76,7 +76,7 @@
         "templates": {
           "default": {
             "animation": "durotar/adventure-map/dwelling-7",
-            "mask": ["VVV", "VBV", "VAB"]
+            "mask": ["VVV", "VBV", "VAV"]
           }
         }
       }
