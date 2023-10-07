@@ -1,5 +1,7 @@
 {
   "spell.durotar.durotarMoatTrigger.name": "Hào",
 
-  "hero.durotar.drtMight8.name": "Sor'agg"
+  "hero.durotar.drtMight8.name": "Sor'agg",
+  "hero.durotar.drtMight8.specialty.description": "{Pháo}\n\nTăng 5% Công và Thủ của xe pháo mỗi 5 cấp (làm tròn lên)",
+  "hero.durotar.drtMight8.specialty.tooltip": "Chuyên môn: Pháo"
 }

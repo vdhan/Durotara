@@ -1,8 +1,8 @@
 {
   "drtCommand": {
     "name": {
-      "singular": "Chieftain",
-      "plural": "Chieftains"
+      "singular": "Chief",
+      "plural": "Chiefs"
     },
 
     "faction": "durotar",

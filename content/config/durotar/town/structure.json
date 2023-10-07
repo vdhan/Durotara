@@ -177,7 +177,7 @@
         },
 
         "special2": {
-          "animation": "durotar/town-screen/buildings/tguild",
+          "animation": "durotar/town-screen/buildings/tguild2",
           "x": 0,
           "y": 0,
           "z": 3,
@@ -195,7 +195,7 @@
         },
 
         "special4": {
-          "animation": "durotar/town-screen/buildings/tavern",
+          "animation": "durotar/town-screen/buildings/tavern2",
           "x": 0,
           "y": 0,
           "z": 4,
