@@ -134,7 +134,8 @@
 
       {
         "bonus": {
-          "type": "SPELL_RESISTANCE_AURA"
+          "type": "MAGIC_RESISTANCE",
+          "propagator": "HERO"
         },
 
         "values": [0, 10, 15, 20, 25, 30, 40, 50, 60, 60]

@@ -28,16 +28,6 @@
     },
 
     "abilities": {
-      "power": {
-        "type": "CREATURE_SPELL_POWER",
-        "val": 20
-      },
-
-      "duration": {
-        "type": "CREATURE_ENCHANT_POWER",
-        "val": 3
-      },
-
       "hate1": {
         "type": "HATE",
         "subtype": "creature.skeleton",
@@ -125,19 +115,17 @@
 
       {
         "bonus": {
-          "type": "SPELL_BEFORE_ATTACK",
-          "subtype": "spell.bless",
+          "type": "SPELL_AFTER_ATTACK",
+          "subtype": "spell.disruptingRay",
           "addInfo": [3, 2]
         },
 
-        "values": [0, 0, 0, 10, 20, 30, 40, 50, 70, 70]
+        "values": [0, 0, 0, 10, 15, 20, 25, 30, 40, 40]
       },
 
       {
         "bonus": {
-          "type": "SPELL_AFTER_ATTACK",
-          "subtype": "spell.destroyUndead",
-          "addInfo": [3, 2]
+          "type": "DOUBLE_DAMAGE_CHANCE"
         },
 
         "values": [0, 0, 0, 0, 0, 0, 0, 0, 20, 20]

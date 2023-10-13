@@ -28,21 +28,11 @@
     },
 
     "abilities": {
-      "power": {
-        "type": "CREATURE_SPELL_POWER",
-        "val": 20
-      },
-
-      "duration": {
-        "type": "CREATURE_ENCHANT_POWER",
-        "val": 3
-      },
-
-      "cure": {
-        "type": "SPELL_AFTER_ATTACK",
-        "subtype": "spell.cure",
-        "addInfo": [3, 2],
-        "val": 5
+      "luck": {
+        "type": "LUCK",
+        "val": 1,
+        "valueType": "INDEPENDENT_MAX",
+        "propagator": "HERO"
       }
     },
 
@@ -102,19 +92,8 @@
 
       {
         "bonus": {
-          "type": "SPELL_AFTER_ATTACK",
-          "subtype": "spell.cure",
-          "addInfo": [3, 2]
-        },
-
-        "values": [15, 20, 25, 30, 35, 40, 45, 55, 65, 65]
-      },
-
-      {
-        "bonus": {
           "type": "SPELL_BEFORE_ATTACK",
-          "subtype": "spell.poison",
-          "addInfo": [3, 2]
+          "subtype": "spell.poison"
         },
 
         "values": [0, 0, 0, 10, 15, 20, 25, 35, 45, 45]

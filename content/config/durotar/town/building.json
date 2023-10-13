@@ -397,9 +397,8 @@
 
           "cost": {
             "gold": 3000,
-            "wood": 5,
-            "ore": 5,
-            "gems": 5
+            "wood": 10,
+            "ore": 10
           }
         },
 
@@ -427,8 +426,7 @@
           "description": "Allows to recruit Foremans",
           "upgrades": "dwellingLvl1",
           "cost": {
-            "gold": 1000,
-            "ore": 5
+            "gold": 1000
           }
         },
 
@@ -439,7 +437,7 @@
           "upgrades": "dwellingLvl2",
           "cost": {
             "gold": 1000,
-            "wood": 5
+            "ore": 5
           }
         },
 
@@ -450,8 +448,7 @@
           "upgrades": "dwellingLvl3",
           "cost": {
             "gold": 1500,
-            "wood": 5,
-            "ore": 5
+            "wood": 5
           }
         },
 
@@ -463,8 +460,7 @@
           "cost": {
             "gold": 2000,
             "wood": 5,
-            "ore": 5,
-            "crystal": 5
+            "ore": 5
           }
         },
 
@@ -477,8 +473,7 @@
             "gold": 2500,
             "wood": 5,
             "ore": 5,
-            "mercury": 5,
-            "sulfur": 5
+            "crystal": 5
           }
         },
 
@@ -502,9 +497,9 @@
           "requires": ["mageGuild3"],
           "cost": {
             "gold": 15000,
-            "wood": 20,
-            "ore": 20,
-            "gems": 15
+            "wood": 15,
+            "ore": 15,
+            "gems": 20
           }
         }
       }

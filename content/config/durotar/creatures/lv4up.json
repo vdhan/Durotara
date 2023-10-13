@@ -94,9 +94,7 @@
 
       {
         "bonus": {
-          "type": "SPELL_BEFORE_ATTACK",
-          "subtype": "spell.earthquake",
-          "addInfo": [3, 1]
+          "type": "ENEMY_DEFENCE_REDUCTION"
         },
 
         "values": [0, 0, 0, 10, 15, 20, 25, 35, 45, 45]
