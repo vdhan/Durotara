@@ -2,7 +2,7 @@
   "drtMagic3": {
     "class": "drtMagic",
     "female": false,
-    "spellbook": ["bless"],
+    "spellbook": ["magicArrow"],
 
     "texts": {
       "name": "Yreima",
